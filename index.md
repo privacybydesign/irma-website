@@ -29,10 +29,6 @@ page_sections:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'Get IRMA for iOS'
-  cta:
-    enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'Get IRMA for Android'
   image:
     image: "/uploads/2019/07/30/screenshot.png"
     alt_text: Product Shot
