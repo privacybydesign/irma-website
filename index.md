@@ -31,7 +31,7 @@ page_sections:
   image:
     image: "/uploads/2019/07/30/screenshot.png"
     alt_text: Product Shot
-  background_image: "/uploads/2019/07/30/irma-2-bg.png"
+  background_image: "/uploads/2018/06/21/hero-2-bg.png"
 - template: content-feature
   block: feature-1
   media_alignment: Left
