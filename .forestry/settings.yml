@@ -5,8 +5,13 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: nl
+  label: NL Pages
+  create: all
+  match: "**/*"
+- type: directory
   path: en
-  label: Pages EN
+  label: EN Pages
   create: all
   match: "**/*"
 - type: document
