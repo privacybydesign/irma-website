@@ -5,3 +5,7 @@
 .block-header-2 {
     padding: 0.5rem 2rem;
 }
+
+.block-hero-2 {
+    --bg: #FFBB58;
+}
