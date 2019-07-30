@@ -14,16 +14,17 @@ page_sections:
   - link: "#"
     link_text: Features
   - link: "#"
-    link_text: Pricing
+    link_text: Getting started
   - link: "#"
-    link_text: Team
+    link_text: FAQ
   cta:
     url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
     button_text: Download
 - template: hero-banner-w-image
   block: hero-2
   headline: IRMA <br><strong>Your data in your wallet.</strong>
-  content: The authentication app that protects your privacy<br> and puts you in control of your information.
+  content: The authentication app that protects your privacy<br> and puts you in control
+    of your information.
   cta:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
@@ -79,4 +80,3 @@ page_sections:
 published: false
 
 ---
-    
