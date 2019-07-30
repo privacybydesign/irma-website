@@ -9,7 +9,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  new_doc_ext: ''
+  new_doc_ext: '20190729233921'
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
