@@ -10,7 +10,7 @@
     --bg: #004C92;
 }
 
-block-header-2 .nav-item.active a {
+.block-header-2 .nav-item.active a {
     color: #004C92;
 }
 
