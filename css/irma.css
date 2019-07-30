@@ -2,7 +2,6 @@
     max-height: 4.0rem;
 }
 
-.block block-header-2 {
-	padding-top: 8px;
-	padding-bottom: 8px;
+.block-header-2 {
+    padding: 0.5rem 2rem;
 }
