@@ -22,8 +22,8 @@ page_sections:
     button_text: Download
 - template: hero-banner-w-image
   block: hero-2
-  headline: IRMA <br><strong>your data in your wallet</strong>
-  content: The authentication app that protects your privacy,<br> and puts you in control of your data.
+  headline: IRMA <br><strong>Your data in your wallet.</strong>
+  content: The authentication app that protects your privacy<br> and puts you in control of your information.
   cta:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
