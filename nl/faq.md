@@ -1,6 +1,8 @@
 ---
 layout: blocks
 title: FAQ
+lang: nl
+lang-ref: faq
 date: 
 page_sections:
 - template: navigation-header
