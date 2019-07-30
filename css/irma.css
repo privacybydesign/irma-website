@@ -18,3 +18,13 @@ block-header-2 .nav-item.active a {
     background-color: #004C92;
     color: #fff;
 }
+
+media screen and (min-width: 700px)
+.block-hero-2 .column.media img {
+    width: 25vw;
+    max-width: 520px;
+}
+
+::-moz-selection{background:#004C92;color:#fff}
+::-webkit-selection{background:#004C92;color:#fff}
+::selection{background:#004C92;color:#fff}
