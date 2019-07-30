@@ -8,7 +8,7 @@ sections:
   path: ''
   label: Pages
   create: all
-  match: "**/*"
+  match: "*.md"
   new_doc_ext: '20190729233921'
 - type: document
   path: FORESTRY-README.md
