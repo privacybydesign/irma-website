@@ -5,15 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: nl
-  label: NL Pages
+  path: ''
+  label: Pages
   create: all
   match: "**/*"
-- type: directory
-  path: en
-  label: EN Pages
-  create: all
-  match: "**/*"
+  new_doc_ext: ".md"
 - type: document
   path: FORESTRY-README.md
   label: Welcome - First Steps
