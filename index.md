@@ -42,7 +42,6 @@ page_sections:
 - template: faqs
   block: faq-1
   headline: <span class="light">Fequently asked questions and their <strong>answers</strong><span>
-    class="light">the Blocks to create sites quickly</span>
   faq_items:
   - question: How do I
     answer: Home
