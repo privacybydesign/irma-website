@@ -2,14 +2,12 @@
   <div class="container">
     <div class="columns">
       <div class="column">
-        <div class="center">
-          {% for faq_item in section.faq_items %}
-          <button class="collapsible">{{ faq_item.question }}</button>
-          <div class="content faq-item">
-            <p>{{ faq_item.answer }}</p>
-          </div>
-          {% endfor %}
+        {% for faq_item in section.faq_items %}
+        <button class="collapsible">{{ faq_item.question }}</button>
+        <div class="content faq-item">
+          <p>{{ faq_item.answer }}</p>
         </div>
+        {% endfor %}
       </div>
     </div>
   </div>
