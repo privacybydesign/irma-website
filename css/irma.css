@@ -12,6 +12,9 @@ header {
     border-bottom: 1px solid #000;
 }
 
+.block-header-1--logo {
+	padding-right: 30px;
+}
 /* Double call to action */
 
 .button.primary.inverted {
