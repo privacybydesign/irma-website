@@ -115,7 +115,8 @@ column.text p {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 60%;
+  margin: auto;
   border: none;
   text-align: left;
   outline: none;
@@ -136,9 +137,8 @@ column.text p {
   transition: max-height 0.2s ease-out;
 }
 
-
 .collapsible:after {
-  content: '\003F'; /* Unicode character for "questionmark" sign (?) */
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
   float: right;
