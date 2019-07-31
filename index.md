@@ -39,6 +39,15 @@ page_sections:
     image: "/uploads/2019/07/30/screenshot.png"
     alt_text: Product Shot
   background_image: "/uploads/2019/07/30/irma-2-bg.png"
+- template: faqs
+  block: faq-1
+  faq_items:
+  - question: "/"
+    answer: Home
+  - question: "/"
+    answer: Hello
+  - question: "/"
+    answer: World
 - template: content-feature
   block: feature-1
   media_alignment: Left
@@ -49,15 +58,6 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
-- template: faqs
-  block: faq-1
-  faq_items:
-  - question: "/"
-    answer: Home
-  - question: "/"
-    answer: Hello
-  - question: "/"
-    answer: World
 - template: content-feature
   block: feature-1
   media_alignment: Right
