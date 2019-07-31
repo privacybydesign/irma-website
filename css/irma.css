@@ -151,3 +151,7 @@ column.text p {
 .open:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
+
+.column .center {
+	justify-content: center;
+}
