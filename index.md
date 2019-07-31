@@ -24,7 +24,7 @@ page_sections:
   - link: "#"
     link_text: FAQ
 - template: hero-banner
-  block: hero-2
+  block: irma-2
   headline: Get IRMA. <br><strong>The digital passport that protects your privacy.</strong>
   content: IRMA stores your credentials on your phone<br> and keeps <em>your</em> data in <em>your</em> pocket. 
   ctaiOS:
