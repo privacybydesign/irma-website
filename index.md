@@ -23,7 +23,7 @@ page_sections:
     link_text: Resources
   - link: "#"
     link_text: FAQ
-- template: hero-banner-w-image
+- template: hero-banner
   block: hero-2
   headline: Get IRMA. <br><strong>The digital passport that protects your privacy.</strong>
   content: IRMA stores your credentials on your phone<br> and keeps <em>your</em> data in <em>your</em> pocket. 
@@ -34,7 +34,7 @@ page_sections:
   ctaAndroid:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
-    button_text: 'Get IRMA for iOS'
+    button_text: Get IRMA for iOS
   image:
     image: "/uploads/2019/07/30/screenshot.png"
     alt_text: Product Shot
