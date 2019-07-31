@@ -25,6 +25,10 @@ media screen and (min-width: 700px)
     max-width: 520px;
 }
 
+.header {
+    border-bottom: 1px solid #fff;
+}
+
 ::-moz-selection{background:#004C92;color:#fff}
 ::-webkit-selection{background:#004C92;color:#fff}
 ::selection{background:#004C92;color:#fff}
