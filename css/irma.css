@@ -64,10 +64,10 @@ header {
 
 /* Adjusting the size of elements */
 
-@media screen and (min-width: 700px)
-.block-hero-2 .column.media img {
-    width: 25vw;
-    max-width: 320px
+@media screen and (min-width:700px) {
+ .block-hero-2 .column.media img {
+  width:25vw;
+  max-width:320px
+ }
 }
-
 
