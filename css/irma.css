@@ -117,7 +117,7 @@ column.text p {
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
+  border-bottom: 1px solid #fff;
   text-align: left;
   outline: none;
   font-size: 15px;
