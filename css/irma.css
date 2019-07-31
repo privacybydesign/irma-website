@@ -103,7 +103,7 @@ header {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .block-header-1--nav li:not(:first-child) {
+  .block-header-1--nav li:not(.hamburger) {
   	display: none
   }
   .block-header-1--nav a.hamburger {
