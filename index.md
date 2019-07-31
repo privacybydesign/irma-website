@@ -43,12 +43,12 @@ page_sections:
   block: faq-1
   headline: <span class="light">Fequently asked questions and their <strong>answers</strong><span>
   faq_items:
-  - question: How do I
-    answer: Home
-  - question: Can you
-    answer: Hello
+  - question: How do I do something?
+    answer: Click somewhere
+  - question: Can you do this?
+    answer: Yes
   - question: Why is the PIN only 5 digits long? 
-    answer: World
+    answer: Life is too short for 7 digit PINS
 - template: content-feature
   block: feature-1
   media_alignment: Left
