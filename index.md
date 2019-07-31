@@ -5,8 +5,8 @@ lang: en
 lang-ref: index
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
-- template: navigation-header-w-button
-  block: header-2
+- template: navigation-header
+  block: header-1
   logo: "/uploads/2019/07/30/irma_logo@1x.png"
   navigation:
   - link: "/"
@@ -23,9 +23,6 @@ page_sections:
     link_text: Resources
   - link: "#"
     link_text: FAQ
-  cta:
-    url: https://github.com/forestryio/ubuild-jekyll/archive/master.zip
-    button_text: Download
 - template: hero-banner-w-image
   block: hero-2
   headline: Get IRMA. <br><strong>The digital passport that protects your privacy.</strong>
