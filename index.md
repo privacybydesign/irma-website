@@ -42,11 +42,11 @@ page_sections:
 - template: faqs
   block: faq-1
   faq_items:
-  - question: "/"
+  - question: How do I
     answer: Home
-  - question: "/"
+  - question: Can you
     answer: Hello
-  - question: "/"
+  - question: Why is the PIN only 5 digits long? 
     answer: World
 - template: content-feature
   block: feature-1

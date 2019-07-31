@@ -3,7 +3,10 @@
     <div class="columns">
       <div class="column">
         {% for faq_item in section.faq_items %}
-        <li class="faq-item">{{ faq_item.answer }}</li>
+        <button class="collapsible">{{ faq_item.question }}</button>
+          <div class="content faq-item">
+            <p>{{ faq_item.answer }}</p>
+          </div>
         {% endfor %}
       </div>        
     </div>
