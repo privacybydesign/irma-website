@@ -12,6 +12,12 @@ header {
     border-bottom: 1px solid #000;
 }
 
+/* Double call to action */
+
+.button.primary.inverted {
+    padding-right: 10px
+}
+
 /* Overwriting colors */
 
 
@@ -97,7 +103,7 @@ header {
   .block-header-1--nav li:not(:first-child) {
   	display: none
   }
-  .block-header-1--nav a.icon {
+  .block-header-1--nav a.border-menu {
     float: right;
     display: block
   }
