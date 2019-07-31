@@ -103,10 +103,10 @@ header {
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .block-header-1--nav li:not(:first-child) {
+  .block-header-1--nav li {
   	display: none
   }
-  .block-header-1--nav a.border-menu {
+  .block-header-1--nav a.hamburger {
     float: right;
     display: block
   }
@@ -117,7 +117,7 @@ header {
   .block-header-1--nav.responsive {
   	position: relative
   }
-  .block-header-1--nav.responsive a.border-menu {
+  .block-header-1--nav.responsive a.hamburger {
     position: absolute;
     right: 0;
     top: 0
@@ -129,19 +129,4 @@ header {
   }
 }
 
-/* From: http://www.alwaystwisted.com/post.php?s=2012-05-12-create-a-pure-css-menu-button*/ ;
-
-.border-menu {
-  padding-left: 1.25em;
-}
-.border-menu:before {
-  content: "";
-  position: absolute;
-  top: 0.25em;
-  left: 0;
-  width: 1em;
-  height: 0.125em;
-  border-top: 0.375em double #000;
-  border-bottom: 0.125em solid #000;
-}
 
