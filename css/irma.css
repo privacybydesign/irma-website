@@ -76,6 +76,11 @@ header {
   width:25vw;
   max-width:320px
  }
+header { 
+  position: fixed;
+  top: 0;
+  width: 100%
+ }
 }
 
 
