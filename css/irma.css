@@ -96,6 +96,7 @@ header {
 header { 
   background-color: #fff;
   position: sticky;
+  position: -webkit-sticky;
   top: 0;
   width: 100%
  }
@@ -117,7 +118,6 @@ column.text p {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
   border: none;
   border-bottom: 1px solid #fff;
   text-align: left;
@@ -152,6 +152,6 @@ column.text p {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-.column .center {
+.center {
 	justify-content: center;
 }
