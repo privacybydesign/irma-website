@@ -99,6 +99,11 @@ header {
   top: 0;
   width: 100%
  }
+ .spacer
+	{
+	    width: 100%;
+	    height: 95px;
+	}
 }
 
 /* Increase font sizes */
