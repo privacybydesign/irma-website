@@ -96,7 +96,7 @@ header {
 /* Make menu look good on small screens , based on: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 
 /* Hide the link that should open and close the topnav on small screens */
- .block-header-1--nav .hamburger {
+ .block-header-1--nav li a.hamburger {
   display: none;
 }
 
@@ -106,7 +106,7 @@ header {
   .block-header-1--nav li:not(.hamburger) {
   	display: none
   }
-  .block-header-1--nav a.hamburger {
+  .block-header-1--nav li a.hamburger {
     float: right;
     display: block
   }
@@ -117,7 +117,7 @@ header {
   .block-header-1--nav.responsive {
   	position: relative
   }
-  .block-header-1--nav.responsive a.hamburger {
+  .block-header-1--nav.responsive li a.hamburger {
     position: absolute;
     right: 0;
     top: 0
