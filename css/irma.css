@@ -162,5 +162,5 @@ column.text p {
 }
 
 .center {
-	justify-content: center;
+	text-align: center;
 }
