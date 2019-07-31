@@ -149,7 +149,6 @@ column.text p {
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  border-left: 2px solid #ccc;
   transition: max-height 0.2s ease-out;
 }
 
