@@ -120,7 +120,7 @@ column.text p {
   background-color: #ECECEC;
   display: block;
   margin: auto;
-  width: 900px;
+  max-width: 900px;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -141,7 +141,7 @@ column.text p {
 .content {
   display: block;
   margin: auto;
-  width: 900px;
+  max-width: 900px;
   padding: 0 18px;
   background-color: white;
   max-height: 0;
@@ -162,5 +162,9 @@ column.text p {
 }
 
 .center {
-	text-align: center;
+    display: block;
+    padding-bottom: 30px;
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
 }
