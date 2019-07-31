@@ -96,22 +96,18 @@ header {
 /* Make menu look good on small screens , based on: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 
 /* Hide the link that should open and close the topnav on small screens */
-
-
  .block-header-1--nav .hamburger {
   display: none;
 }
 
 
-
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .block-header-1--nav li {
+  .block-header-1--nav li:not(:first-child) {
   	display: none
   }
   .block-header-1--nav a.hamburger {
     float: right;
-    max-height: 60px;
     display: block
   }
 }
