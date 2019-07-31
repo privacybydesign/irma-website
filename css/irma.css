@@ -25,7 +25,8 @@ header {
 /* Double call to action */
 
 .button.primary.inverted {
-    margin-right: 1px;    
+    margin-right: 10px;    
+    margin-bottom: 5px;    
 }
 
 /* Overwriting colors */
@@ -144,6 +145,6 @@ column.text p {
   margin-left: 5px;
 }
 
-.collapsible .active:after {
+.open:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
