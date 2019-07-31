@@ -87,7 +87,7 @@ header {
  }
 header { 
   background-color: #fff;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%
  }
