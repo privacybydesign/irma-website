@@ -15,6 +15,12 @@ header {
 .block-header-1--logo {
 	padding-right: 30px;
 }
+
+.block-header-1 .nav-item {
+    font-size: 16px;
+    font-size: 1.0rem
+}
+
 /* Double call to action */
 
 .button.primary.inverted {
@@ -93,4 +99,8 @@ header {
  }
 }
 
-
+/* Increase font sizes */
+column.text p {
+    font-size: 20px;
+    font-size: 1.25rem;
+}
