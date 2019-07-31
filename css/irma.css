@@ -140,10 +140,11 @@ column.text p {
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
+  color: #444;
   display: block;
   margin: auto;
   max-width: 900px;
-  padding: 0 18px;
+  padding: 10px 18px;
   background-color: white;
   max-height: 0;
   overflow: hidden;
