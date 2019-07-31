@@ -47,8 +47,8 @@ page_sections:
     answer: Click somewhere
   - question: Can you do this?
     answer: Yes
-  - question: Why is the PIN only 5 digits long? 
-    answer: Life is too short for 7 digit PINS
+  - question: I have a question!
+    answer: We have the answer :) 
 - template: content-feature
   block: feature-1
   media_alignment: Left
