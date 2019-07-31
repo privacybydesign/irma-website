@@ -1,0 +1,11 @@
+<section class="block block-faq-1">
+  <div class="container">
+    <div class="columns">
+      <div class="column">
+        {% for faq_item in section.faq_items %}
+        <li class="faq-item">{{ faq_item.answer }}</li>
+        {% endfor %}
+      </div>        
+    </div>
+  </div>
+</section>

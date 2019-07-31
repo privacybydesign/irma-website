@@ -49,6 +49,15 @@ page_sections:
   media:
     image: "/uploads/2018/06/21/blocks-split.png"
     alt_text: uBuild Blocks Mock-Up
+- template: faqs
+  block: faq-1
+  faq_items:
+  - question: "/"
+    answer: Home
+  - question: "/"
+    answer: Hello
+  - question: "/"
+    answer: World
 - template: content-feature
   block: feature-1
   media_alignment: Right
