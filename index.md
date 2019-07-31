@@ -41,6 +41,8 @@ page_sections:
   background_image: "/uploads/2019/07/30/irma-2-bg.png"
 - template: faqs
   block: faq-1
+  headline: <span class="light">Fequently asked questions and their <strong>answers</strong><span>
+    class="light">the Blocks to create sites quickly</span>
   faq_items:
   - question: How do I
     answer: Home
