@@ -6,27 +6,13 @@
     </a>
   </div>
 
-  <nav class="block-header-2--nav" id="myTopnav">
+  <nav class="block-header-2--nav">
     <ul>
         {% for nav_item in section.navigation %}
         <li class="nav-item {% if page.url == nav_item.link %}active{% endif %}"><a href="{{ nav_item.link }}">{{ nav_item.link_text }}</a></li>
         {% endfor %}
     </ul>
-    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a class="button primary small block-header-2--cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
+     <a class="button primary small block-header-2--cta" href="{{ section.cta.url }}">{{ section.cta.button_text }}</a>
   </nav>
 
 </header>
-
-<script>
-  function toggleMenu() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "block-header-2--nav") {
-      x.className += " responsive";
-    } else {
-      x.className = "block-header-2--nav";
-    }
-  }
-</script>
