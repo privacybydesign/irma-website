@@ -25,7 +25,8 @@ header {
 /* Double call to action */
 
 .button.primary.inverted {
-    margin-right: 10px
+    margin-right: 10px;
+    display: flex;
 }
 
 /* Overwriting colors */

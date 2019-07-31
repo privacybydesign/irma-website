@@ -29,12 +29,12 @@ page_sections:
   content: IRMA stores your credentials on your phone<br> and keeps <em>your</em> data in <em>your</em> pocket. 
   ctaiOS:
     enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
+    url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
     button_text: 'Get IRMA for iOS'
   ctaAndroid:
     enabled: true
-    url: https://github.com/forestryio/ubuild-jekyll
-    button_text: Get IRMA for iOS
+    url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
+    button_text: Get IRMA for Android
   image:
     image: "/uploads/2019/07/30/screenshot.png"
     alt_text: Product Shot
