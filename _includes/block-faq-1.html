@@ -27,10 +27,16 @@
         content.style.maxHeight = null;
         content.style.paddingTop = "0px";
         content.style.paddingBottom = "0px";
+        content.style.marginTop = "0px";
+        content.style.marginBottom = "0px";
+        content.style.borderLeft = "none;"
       } else {
-        content.style.maxHeight = content.scrollHeight + 30 + "px";
+        content.style.maxHeight = content.scrollHeight + 20 + "px";
         content.style.paddingTop = "10px";
-        content.style.paddingBottom = "20px";
+        content.style.paddingBottom = "10px";
+        content.style.marginTop = "10px";
+        content.style.marginBottom = "10px";
+        content.style.borderLeft = "2px solid #ccc;"
       }
     });
   }
