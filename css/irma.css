@@ -1,3 +1,5 @@
+/* Changing header */
+
 .block-header-2--logo img {
     max-height: 4.0rem;
 }
@@ -5,6 +7,12 @@
 .block-header-2 {
     padding: 0.5rem 2rem;
 }
+
+header {
+    border-bottom: 1px solid #fff;
+}
+
+/* Overwriting colors */
 
 .block-hero-2 {
     --bg: #004C92;
@@ -19,16 +27,51 @@
     color: #fff;
 }
 
+.button.secondary{
+	background-color:transparent;
+	border:1.5px solid #004C92;
+}
+
+.block-header-1 .nav-item.active a{
+	color:#004C92;
+}
+
+.nav-item.active a:hover{
+	color:#004C92;
+}
+
+.nav-item.active a{
+	color:#004C92;
+}
+
+.nav-item.active a:hover{
+	color:#004C92;
+}
+
+.block-hero-1{
+	--bg:#004C92;
+	--text:#fff;}
+
+.block-hero-2{
+	--bg:#004C92;
+	--text:#fff;
+}
+.block-cta-bar{
+	background:#004C92;
+	color:#fff
+}
+
+
+::-moz-selection{background:#004C92;color:#fff}
+::-webkit-selection{background:#004C92;color:#fff}
+::selection{background:#004C92;color:#fff}
+
+/* Adjusting the size of elements */
+
 media screen and (min-width: 700px)
 .block-hero-2 .column.media img {
     width: 25vw;
     max-width: 320px;
 }
 
-header {
-    border-bottom: 1px solid #fff;
-}
 
-::-moz-selection{background:#004C92;color:#fff}
-::-webkit-selection{background:#004C92;color:#fff}
-::selection{background:#004C92;color:#fff}
