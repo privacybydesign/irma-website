@@ -22,8 +22,8 @@ page_sections:
     button_text: Download
 - template: hero-banner-w-image
   block: hero-2
-  headline: Get IRMA <br><strong>The digital passport that protects your privacy.</strong>
-  content: IRMA stores your credentials on your phone and no where else.<br> IRMA keeps your data in your pocket. 
+  headline: Get IRMA. <br><strong>The digital passport that protects your privacy.</strong>
+  content: IRMA stores your credentials on your phone<br> and keeps *your* data in *your* pocket. 
   cta:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
