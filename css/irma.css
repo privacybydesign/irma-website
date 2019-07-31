@@ -1,77 +1,73 @@
 /* Changing header */
 
 .block-header-2--logo img {
-    max-height: 4.0rem;
+    max-height: 4.0rem
 }
 
 .block-header-2 {
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 2rem
 }
 
 header {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #BBB;
+    box-shadow: 0px 2px #888888
 }
 
 /* Overwriting colors */
 
-.block-hero-2 {
-    --bg: #004C92;
+
+.button.primary {
+ background-color:#004C92
+}
+
+.button.secondary {
+ border:1.5px solid #004C92
+}
+
+.block-header-1 .nav-item.active a {
+ color:#004C92
+}
+
+.block-header-1 .nav-item.active a:hover {
+ color:#004C92
 }
 
 .block-header-2 .nav-item.active a {
-    color: #004C92;
+ color:#004C92
 }
 
-.button.primary {
-    background-color: #004C92;
-    color: #fff;
+.block-header-2 .nav-item.active a:hover {
+ color:#004C92
 }
 
-.button.secondary{
-	background-color:transparent;
-	border:1.5px solid #004C92;
+.block-hero-1 {
+ --bg:#004C92
 }
 
-.block-header-1 .nav-item.active a{
-	color:#004C92;
+.block-hero-2 {
+ --bg:#004C92
 }
 
-.nav-item.active a:hover{
-	color:#004C92;
+.block-cta-bar {
+ background:#004C92
 }
 
-.nav-item.active a{
-	color:#004C92;
+::-moz-selection {
+ background:#ffedbc
 }
-
-.nav-item.active a:hover{
-	color:#004C92;
+::-webkit-selection {
+ background:#004C92
 }
-
-.block-hero-1{
-	--bg:#004C92;
-	--text:#fff;}
-
-.block-hero-2{
-	--bg:#004C92;
-	--text:#fff;
+::selection {
+ background:#004C92
 }
-.block-cta-bar{
-	background:#004C92;
-	color:#fff
-}
-
-
-::-moz-selection{background:#004C92;color:#fff}
-::-webkit-selection{background:#004C92;color:#fff}
-::selection{background:#004C92;color:#fff}
 
 /* Adjusting the size of elements */
 
-media screen and (min-width: 700px)
+@media screen and (min-width: 700px)
 .block-hero-2 .column.media img {
     width: 25vw;
-    max-width: 320px;
+    max-width: 320px
 }
 
 
