@@ -117,7 +117,7 @@ column.text p {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
+  background-color: #505050;
   display: block;
   margin: auto;
   width: 900px;
