@@ -115,8 +115,7 @@ column.text p {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  max-width: 600px;
-  margin: auto;
+  width: 100%;
   border: none;
   text-align: left;
   outline: none;
@@ -145,6 +144,6 @@ column.text p {
   margin-left: 5px;
 }
 
-.active:after {
+.collapsible .active:after {
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
