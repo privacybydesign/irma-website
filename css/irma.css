@@ -89,16 +89,19 @@ header {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%
  }
-.block-hero-2 .column.media img {
+ .block-hero-2 .column.media img {
   width:25vw;
   max-width:320px
  }
-header { 
+ header { 
   background-color: #fff;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
   width: 100%
+ }
+ .block {
+    padding: 2rem 4rem;
  }
 }
 
