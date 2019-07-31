@@ -25,9 +25,7 @@ header {
 /* Double call to action */
 
 .button.primary.inverted {
-    margin-right: 10px;    
-    display: flex;   
-    flex-flow:row wrap;
+    margin-right: 1px;    
 }
 
 /* Overwriting colors */
@@ -124,8 +122,8 @@ column.text p {
   font-size: 15px;
 }
 
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+/* Add a background color to the button if it is clicked on (add the .open class with JS), and when you move the mouse over it (hover) */
+.open, .collapsible:hover {
   background-color: #ccc;
 }
 
