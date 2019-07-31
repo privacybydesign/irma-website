@@ -1,10 +1,10 @@
 /* Changing header */
 
-.block-header-2--logo img {
+.block-header-1--logo img {
     max-height: 4.0rem
 }
 
-.block-header-2 {
+.block-header-1 {
     padding: 0.5rem 2rem
 }
 
@@ -31,11 +31,11 @@ header {
  color:#004C92
 }
 
-.block-header-2 .nav-item.active a {
+.block-header-1 .nav-item.active a {
  color:#004C92
 }
 
-.block-header-2 .nav-item.active a:hover {
+.block-header-1 .nav-item.active a:hover {
  color:#004C92
 }
 
@@ -88,17 +88,17 @@ header {
 /* Make menu look good on small screens , based on: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp*/
 
 /* Hide the link that should open and close the topnav on small screens */
- .block-header-2--nav .icon {
+ .block-header-1--nav .icon {
   display: none;
 }
 
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
-  .block-header-2--nav li:not(:first-child) {
+  .block-header-1--nav li:not(:first-child) {
   	display: none
   }
-  .block-header-2--nav a.icon {
+  .block-header-1--nav a.icon {
     float: right;
     display: block
   }
@@ -106,15 +106,15 @@ header {
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 @media screen and (max-width: 600px) {
-  .block-header-2--nav.responsive {
+  .block-header-1--nav.responsive {
   	position: relative
   }
-  .block-header-2--nav.responsive a.icon {
+  .block-header-1--nav.responsive a.icon {
     position: absolute;
     right: 0;
     top: 0
   }
-  .block-header-2--nav.responsive li {
+  .block-header-1--nav.responsive li {
     float: none;
     display: block;
     text-align: left;

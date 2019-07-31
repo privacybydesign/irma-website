@@ -27,7 +27,11 @@ page_sections:
   block: hero-2
   headline: Get IRMA. <br><strong>The digital passport that protects your privacy.</strong>
   content: IRMA stores your credentials on your phone<br> and keeps <em>your</em> data in <em>your</em> pocket. 
-  cta:
+  ctaiOS:
+    enabled: true
+    url: https://github.com/forestryio/ubuild-jekyll
+    button_text: 'Get IRMA for iOS'
+  ctaAndroid:
     enabled: true
     url: https://github.com/forestryio/ubuild-jekyll
     button_text: 'Get IRMA for iOS'
