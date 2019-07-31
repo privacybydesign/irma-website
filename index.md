@@ -12,11 +12,15 @@ page_sections:
   - link: "/"
     link_text: Home
   - link: "#"
+    link_text: About
+  - link: "#"
     link_text: Get IRMA
   - link: "#"
     link_text: Get started
   - link: "#"
     link_text: Features
+- link: "#"
+    link_text: Resources
   - link: "#"
     link_text: FAQ
   cta:
