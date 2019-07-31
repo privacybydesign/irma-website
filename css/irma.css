@@ -27,7 +27,6 @@ header {
 .button.primary.inverted {
     margin-right: 10px;    
     margin-bottom: 10px;    
-    z-index: -9999;
 }
 
 /* Overwriting colors */
@@ -95,6 +94,7 @@ header {
   max-width:320px
  }
  header { 
+  z-index: 9999;
   background-color: #fff;
   position: sticky;
   position: -webkit-sticky;
@@ -102,7 +102,7 @@ header {
   width: 100%
  }
  .block-hero-2 {
-    padding: 2rem 4rem;
+    padding: 3rem 4rem;
  }
 }
 
