@@ -19,7 +19,7 @@ page_sections:
     link_text: Get started
   - link: "#"
     link_text: Features
-- link: "#"
+  - link: "#"
     link_text: Resources
   - link: "#"
     link_text: FAQ
