@@ -115,7 +115,7 @@ column.text p {
   color: #444;
   cursor: pointer;
   padding: 18px;
-  width: 60%;
+  max-width: 600px;
   margin: auto;
   border: none;
   text-align: left;
