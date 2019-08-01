@@ -10,6 +10,8 @@
 
 header {
     border-bottom: 1px solid #000;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0,0,0,0.6);
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.6);
 }
 
 .block-header-1--logo {
