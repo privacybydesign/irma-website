@@ -41,27 +41,29 @@ page_sections:
   background_image: "/uploads/2019/07/30/irma-2-bg.png"
 - template: 3-column-text
   block: three-column-1
-  headline: 16 Fully Responsive Design Blocks
   col_1:
+    headline: Authentication
     content: "The Design Blocks can be used without Forestry but to harness the power 
     of Blocks we recommend using Forestry. Once the site is imported you can immediately
     create new sites and make them fully customizable. \U0001F447"
   col_2:
+    headline: Digital signatures
     content: "The Design Blocks can be used without Forestry but to harness the power 
     of Blocks we recommend using Forestry. Once the site is imported you can immediately
     create new sites and make them fully customizable. \U0001F447"
   col_3:
+    headline: Authorisation
     content: "The Design Blocks can be used without Forestry but to harness the power 
     of Blocks we recommend using Forestry. Once the site is imported you can immediately
     create new sites and make them fully customizable. \U0001F447"
-- template: faqs
+- template: faq
   block: faq-1
   headline: <span class="light">Fequently asked questions and their <strong>answers</strong><span>
   faq_items:
   - question: How do I do something?
     answer: Click somewhere
   - question: Can you do this?
-    answer: Yes
+    answer: "Yes"
   - question: I have a question!
     answer: We have the answer :) 
 - template: content-feature
