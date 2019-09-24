@@ -105,7 +105,7 @@ page_sections:
     answer: Websites waar je met IRMA in kunt loggen hebben een knop daarvoor, waar
       bijvoorbeeld op staat <em>Log in met IRMA</em>. Als je de IRMA app nog niet
       op je telefoon hebt zul je die eerst moeten installeren en vullen met de kenmerken
-      die je nodig hebt.<br><br> Als je IRMA app al wel hebt, zijn twee verschillende
+      die je nodig hebt.<br><br> Als je de IRMA app al wel hebt, zijn er twee verschillende
       situaties<span>:</span><ul class="indent"><li> Als je de website bekijkt op
       je computer of laptop en je drukt op die login knop verschijnt er een QR code.
       Je opent dan de IRMA app op je telefoon met je PIN. Onderaan in de app zit een
