@@ -33,7 +33,7 @@ page_sections:
   image:
     image: "/uploads/non-free/screenshot.png"
     alt_text: Product Shot
-  background_image: "/uploads/2019/07/30/irma-2-bg.png"
+  background_image: "/uploads/non-free/irma-2-bg.png"
 - template: 3-column-text
   block: three-column-1
   id: gebruik
