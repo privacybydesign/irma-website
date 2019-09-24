@@ -135,11 +135,6 @@ page_sections:
       apparaat kun je een apart IRMA account openen en vullen met persoonskenmerken.
       Het is misschien wel verstandig omdat te doen, want als je dan het ene apparaat
       kwijt bent, kun je nog met een ander inloggen.
-  - question: Waar staan mijn IRMA gegevens opgeslagen.
-    answer: IRMA gegevens worden alleen op je eigen telefoon opgeslagen en nergens
-      anders. Ze staan dus niet ook nog ergens in een cloud. De organistie achter
-      IRMA kan (en wil) niet zien welke kenmerken jij op jouw telefoon opgeslagen
-      hebt en kan ook niet zien waar je ze gebruikt.
   - question: Hoezo is IRMA privacy-vriendelijk en veilig?
     answer: 'Persoonskenmerken van IRMA staan alleen in de IRMA app en zijn beschermd
       met een PIN. Je laat alleen die gegevens van jezelf zien die in een bepaalde
@@ -154,7 +149,7 @@ page_sections:
       bijvoorbeeld bij een online winkel. Dan vindt de uitwisseling anders plaats:
       je moet eerst bij Facebook inloggen, waarna Facebook aan de webwinkel vertelt
       wie je bent. Facebook kan zo profielen opbouwen van wie waar inlogt.'
-  - question: Waar staan mijn IRMA gegevens opgeslagen.
+  - question: Waar staan mijn IRMA gegevens opgeslagen?
     answer: De kenmerken van jezelf die je in de IRMA app verzamelt staan alleen in
       de app zelf en worden door IRMA nergens anders opgeslagen. Ze staan dus niet
       ook nog ergens in een cloud. Als je jouw kenmerken uit de app verwijdert zijn
@@ -232,7 +227,7 @@ page_sections:
       alle software die gebruikt wordt in infrastructuur met een publieke rol open source moet zijn. 
 
   - question: Ik wil meer informatie over IRMA; waar kan ik terecht? 
-    answer: Het grotere verhaal achter IRMA staat beschreven in een <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a>. <br><br>  Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de stichting Privacy by Design op een eigen  <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">pagina </a>. Mensen die de software van IRMA willen bekijken kunnen terecht op een technische <a href="https://irma.app/docs target="_blank">documentatie</a> pagina en op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
+    answer: Het grotere verhaal achter IRMA staat beschreven in een <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a>. <br><br>  Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de stichting Privacy by Design op een eigen  <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">pagina</a>. Mensen die de software van IRMA willen bekijken kunnen terecht op een technische <a href="https://irma.app/docs" target="_blank">documentatie</a> pagina en op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
 
 - template: irma-footer-2
   block: irma-footer-2
