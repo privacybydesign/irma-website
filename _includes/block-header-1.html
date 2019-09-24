@@ -12,6 +12,12 @@
           href="{{ nav_item.link }}">{{ nav_item.link_text }}</a></li>
       {% endfor %}
     </ul>
+    <select>
+      <option value="" selected="selected">Select</option>
+      {% for nav_item in section.navigation %}
+      <option value="{{ nav_item.link }}">{{ nav_item.link_text }}</option>
+      {% endfor %}
+    </select>
   </nav>
 
 </header>

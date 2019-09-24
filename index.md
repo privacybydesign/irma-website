@@ -1,13 +1,15 @@
 ---
 layout: blocks
-title: Homepage
+title: IRMA app
 lang: en
 lang-ref: index
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header
-  block: header-1
+  block: irma-header-1
   logo: "/uploads/non-free/irma_logo@1x.png"
+  menu: "/uploads/non-free/navigation-menu.png"
+  url: "/"
   navigation:
   - link: "/"
     link_text: IRMA
