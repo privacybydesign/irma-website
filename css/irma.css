@@ -1,117 +1,178 @@
+/* Scrolling to elements*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+
 /* Changing header */
 
 .block-header-1--logo img {
-    max-height: 4.0rem
+  max-height: 4.0rem;
 }
 
 .block-header-1 {
-    padding: 0.5rem 2rem
+  padding: 0.5rem 2rem
 }
 
 header {
-    border-bottom: 1px solid #000;
-    -webkit-box-shadow: 0 1px 6px 0 rgba(0,0,0,0.6);
-    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.6);
+  border-bottom: 1px solid #000;
+  -webkit-box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.6);
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  height: 90px
 }
 
 .block-header-1--logo {
-	padding-right: 30px;
+  padding-right: 30px;
 }
 
 .block-header-1 .nav-item {
-    font-size: 16px;
-    padding: 0.5rem 0;
-    font-size: 1.0rem
+  font-size: 16px;
+  padding: 0.5rem 0;
+  font-size: 1.0rem
 }
+
+/* Scroll adjustment to make up for sticky header */
+.destination {
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  margin-top: -105px;
+  /* 90 (height of nav) and a 15 for extra space*/
+}
+
+/* First element after header needs margin on top*/
+
+/* .block-hero-2 {
+  margin-top: 90px; 
+} 
+*/
+
+/* .headspace {
+  min-height: 90px;
+} */
 
 /* Double call to action */
 
 .button.primary.inverted {
-    margin-right: 10px;    
-    margin-bottom: 10px;    
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 /* Overwriting colors */
 
+ul,
+.faq-item {
+  font-weight: 400;
+  color: #666 !important;
+}
 
 .button.primary {
- background-color:#004C92
+  background-color: #004C92
 }
 
 .button.secondary {
- border:1.5px solid #004C92
+  border: 1.5px solid #004C92
 }
 
 .block-header-1 .nav-item.active a {
- color:#004C92
+  color: #004C92
 }
 
 .block-header-1 .nav-item.active a:hover {
- color:#004C92
+  color: #004C92
 }
 
 .block-header-1 .nav-item.active a {
- color:#004C92
+  color: #004C92
 }
 
 .block-header-1 .nav-item.active a:hover {
- color:#004C92
+  color: #004C92
 }
 
 .block-hero-1 {
- --bg:#004C92
+  --bg: #00B1E6
 }
 
 .block-hero-2 {
- --bg:#004C92
+  --bg: #004C92
 }
 
 .block-cta-bar {
- background:#004C92
+  background: #004C92
 }
 
 ::-moz-selection {
- background:#ffedbc
+  background: #ffedbc
 }
+
 ::-webkit-selection {
- background:#004C92
+  background: #004C92
 }
+
 ::selection {
- background:#004C92
+  background: #004C92
+}
+
+.black {
+  color: #000000;
+}
+
+#myTopnav {
+  display: none;
 }
 
 /* Adjusting the size of elements */
 
 @media screen and (min-width:700px) {
- .block-hero-2 .column.text {
+  #myTopnav {
+    display: block;
+  }
+
+  .block-hero-2 .column.text {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%
- }
- .block-hero-2 .column.media {
+  }
+
+  .block-hero-2 .column.media {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%
- }
- .block-hero-2 .column.media img {
-  width:25vw;
-  max-width:320px
- }
- header { 
-  z-index: 9999;
-  background-color: #fff;
-  position: sticky;
-  position: -webkit-sticky;
-  top: 0;
-  width: 100%
- }
- .block-hero-2 {
+  }
+
+  .block-hero-2 .column.media img {
+    width: 25vw;
+    max-width: 350px
+  }
+
+  header {
+    z-index: 9999;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 90px;
+  }
+
+  .block-hero-2 {
     padding: 3rem 4rem;
- }
+  }
 }
 
 /* Increase font sizes */
 column.text p {
-    font-size: 20px;
-    font-size: 1.25rem;
+  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 
@@ -136,7 +197,8 @@ column.text p {
 }
 
 /* Add a background color to the button if it is clicked on (add the .open class with JS), and when you move the mouse over it (hover) */
-.open, .collapsible:hover {
+.open,
+.collapsible:hover {
   background-color: #ccc;
   color: #313131;
 }
@@ -155,7 +217,8 @@ column.text p {
 }
 
 .collapsible:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
   font-size: 13px;
   color: white;
   float: right;
@@ -163,13 +226,45 @@ column.text p {
 }
 
 .open:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
 }
 
 .center {
-    display: block;
-    padding-bottom: 30px;
-    margin: auto;
-    text-align: center;
-    max-width: 900px;
+  display: block;
+  padding-bottom: 30px;
+  margin: auto;
+  text-align: center;
+  max-width: 900px;
+}
+
+.indent {
+  padding-left: 30px;
+}
+
+.block-footer-2 {
+  font-size: 12.8px;
+  font-size: .8rem;
+  color: white;
+  background: rgb(69, 68, 68);
+  text-align: left;
+}
+
+.block-footer-2 p {
+  font-weight: 400;
+  color: white;
+}
+
+.block-footer-2 a {
+  color: lightskyblue;
+}
+
+
+.block-footer-2 img {
+  max-width: 200px;
+}
+
+
+.block-footer-2 .column {
+  min-width: 200px;
 }

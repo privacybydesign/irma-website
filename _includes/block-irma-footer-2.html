@@ -1,0 +1,25 @@
+<section class="block block-footer-2">
+  <div class="container">
+    <div class="destination" id="{{ section.id }}"></div>
+    <div class="columns">
+      <div class="column">
+        <img src="{{ section.image_1.image | relative_url }}" alt="{{ section.image_1.caption }}">
+      </div>
+      <div class="column">
+        <h3>{{ section.col_2.headline }}</h3>
+        <br>
+        <p>{{ section.col_2.content }}</p>
+      </div>
+      <div class="column">
+        <h3>{{ section.col_3.headline }}</h3>
+        <br>
+        <p>{{ section.col_3.content }}</p>
+      </div>
+      <div class="column">
+        <h3>{{ section.col_4.headline }}</h3>
+        <br>
+        <p>{{ section.col_4.content }}</p>
+      </div>
+    </div>
+  </div>
+</section>
