@@ -117,16 +117,6 @@ html {
   /* 90 (height of nav) and a 15 for extra space*/
 }
 
-/* First element after header needs margin on top*/
-
-/* .block-hero-2 {
-  margin-top: 90px; 
-} 
-*/
-
-/* .headspace {
-  min-height: 90px;
-} */
 
 /* Double call to action */
 
@@ -195,38 +185,6 @@ ul,
   color: #000000;
 }
 
-
-/* Adjusting the size of elements */
-
-@media screen and (min-width:700px) {
-  .block-hero-2 .column.text {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%
-  }
-
-  .block-hero-2 .column.media {
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%
-  }
-
-  .block-hero-2 .column.media img {
-    width: 25vw;
-    max-width: 350px
-  }
-
-  header {
-    z-index: 9999;
-    background-color: #fff;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 90px;
-  }
-
-  .block-hero-2 {
-    padding: 3rem 4rem;
-  }
-}
 
 /* Increase font sizes */
 column.text p {
@@ -320,10 +278,60 @@ column.text p {
 
 
 .block-footer-2 img {
-  max-width: 200px;
+  max-width: 100px;
+
 }
 
 
 .block-footer-2 .column {
-  min-width: 200px;
+  flex: 0 0 calc(100% - 4rem);
+  -ms-flex: 0 0 calc(100% - 4rem);
+}
+
+.block-footer-2 .column:first-child {
+  text-align: center;
+}
+
+/* Adjusting the size of elements based on screen size */
+
+@media screen and (min-width:700px) {
+  .block-hero-2 .column.text {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%
+  }
+
+  .block-hero-2 .column.media {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%
+  }
+
+  .block-hero-2 .column.media img {
+    width: 25vw;
+    max-width: 350px
+  }
+
+  header {
+    z-index: 9999;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 90px;
+  }
+
+  .block-hero-2 {
+    padding: 3rem 4rem;
+  }
+}
+
+
+@media screen and (min-width:1200px) {
+  .block-footer-2 .column {
+    flex: 0 0 calc(25% - 4rem);
+    -ms-flex: 0 0 calc(25% - 4rem);
+  }
+
+  .block-footer-2 img {
+    max-width: 200px;
+  }
 }

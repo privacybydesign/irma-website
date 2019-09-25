@@ -237,7 +237,7 @@ page_sections:
   col_2:  
     headline: Privacy by Design Foundation
     content: IRMA wordt gemaakt door de stichting <a href="https://privacybydesign.foundation/" target="_blank">Privacy
-      by Design</a>. Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de stichting Privacy by Design op haar eigen  <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">website </a>.
+      by Design</a>. Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de stichting Privacy by Design op haar eigen  <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">website</a>.
   col_3:
     headline: Docs
     content: Ontwikkelaars die met IRMA willen werken kunnen terecht op de technische <a href="https://irma.app/docs" target="_blank">documentatie</a>.
