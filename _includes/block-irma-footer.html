@@ -1,0 +1,40 @@
+<section class="block block-footer-2">
+  <div class="container">
+    <div class="destination" id="{% t section.id %}"></div>
+    <div class="columns">
+      <div class="column">
+        <img src="{{ section.image_1.image | prepend: site.baseurl_root }}" alt="{% t section.image_1.alt %}">
+      </div>
+      <div class="column">
+        <h3>{% t section.col_2.headline %}</h3>
+        <br>
+        <p>{% t section.col_2.content %}</p>
+      </div>
+      <div class="column">
+        <h3>{% t section.col_3.headline %}</h3>
+        <br>
+        <p>{% t section.col_3.content %}</p>
+      </div>
+      <div class="column">
+        <h3>{% t section.col_4.headline %}</h3>
+        <br>
+        <p>{% t section.col_4.content %}</p>
+      </div>
+    </div>
+    <hr>
+    <div id="language">
+      <h4>Change language</h4>
+      <ol>
+      {% for lang in page.languages %}
+        <li>
+          <a {% if site.lang == lang %} id="selected-lang" {% endif %}
+            href="{{ site.baseurl_root }}{{ page.url}}?lang={{ lang }}"
+          >
+            {{ lang }}
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+    </div>
+  </div>
+</section>

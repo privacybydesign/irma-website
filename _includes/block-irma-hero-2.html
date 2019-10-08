@@ -1,0 +1,22 @@
+<section class="block block-hero-2" 
+{% if section.background_image %}
+style="background-image: url('{{ section.background_image | prepend: site.baseurl_root }}')"
+{% endif %}>
+  <div class="container">
+    <div class="columns">
+      <div class="column text">
+        <h1><span class="light">{% t section.headline %}</span></h1>
+        <p>{{ section.content }}</p>
+        {% if section.ctaiOS and section.ctaiOS.enabled == true %}
+        <button class="button primary inverted" onclick="location.href='{% t section.ctaiOS.url %}'" type="button">{% t section.ctaiOS.button_text %}</button>
+        {% endif %}
+        {% if section.ctaAndroid and section.ctaAndroid.enabled == true %}
+        <button class="button primary inverted" onclick="location.href='{% t section.ctaAndroid.url %}'" type="button">{% t section.ctaAndroid.button_text %}</button>
+        {% endif %}
+      </div>
+      <div class="column media">
+        <img src="{{site.baseurl_root}}{% t section.image.image %}" alt="{% t section.image.alt_text %}">
+      </div>
+    </div>
+  </div>
+</section>

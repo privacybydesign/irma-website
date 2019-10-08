@@ -1,3 +1,18 @@
+/* Language elements */
+
+#language {
+  font-size: 2em;
+}
+
+#language ol {
+  display: flex;
+}
+
+#language li {
+  margin-right: 0.5em;
+  list-style-type: none;
+}
+
 /* Scrolling to elements*/
 
 html {
