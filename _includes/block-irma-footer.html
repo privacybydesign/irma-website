@@ -21,20 +21,19 @@
         <p>{% t section.col_4.content %}</p>
       </div>
     </div>
-    <hr>
+    <!-- <hr>
     <div id="language">
       <h4>Change language</h4>
       <ol>
-      {% for lang in page.languages %}
+        {% for lang in page.languages %}
         <li>
           <a {% if site.lang == lang %} id="selected-lang" {% endif %}
-            href="{{ site.baseurl_root }}{{ page.url}}?lang={{ lang }}"
-          >
+            href="{{ site.baseurl_root }}{{ page.url}}?lang={{ lang }}">
             {{ lang }}
           </a>
         </li>
-      {% endfor %}
-    </ol>
-    </div>
+        {% endfor %}
+      </ol>
+    </div> -->
   </div>
 </section>

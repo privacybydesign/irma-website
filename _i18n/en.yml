@@ -9,6 +9,9 @@ nav:
   faq_text: FAQs
   links_link: "#links"
   links_text: Links
+  flag_src:  "/uploads/flags/nl.png"
+  flag_alt: NL
+  flag_link: /
 
 banner:
   headline: Choose IRMA. <br><strong>Put a digital passport on your own mobile.</strong>

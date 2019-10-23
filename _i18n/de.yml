@@ -9,6 +9,9 @@ nav:
   faq_text: FAQs
   links_link: "#links"
   links_text: Links
+  flag_src:  "/uploads/flags/de.png"
+  flag_alt: DE
+  flag_link: de
 
 banner:
   headline: Kies IRMA. <br><strong>Zet een digitaal paspoort op je eigen mobiel.</strong>

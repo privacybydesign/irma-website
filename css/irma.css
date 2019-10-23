@@ -13,6 +13,12 @@
   list-style-type: none;
 }
 
+
+.langicons img {
+  max-height: 2rem;
+}
+
+
 /* Scrolling to elements*/
 
 html {
@@ -293,7 +299,7 @@ column.text p {
 
 
 .block-footer-2 img {
-  max-width: 100px;
+  max-width: 200px;
 
 }
 
@@ -337,6 +343,7 @@ column.text p {
   .block-hero-2 {
     padding: 3rem 4rem;
   }
+
 }
 
 

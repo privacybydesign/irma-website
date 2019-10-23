@@ -10,6 +10,10 @@ page_sections:
 - template: navigation-header
   block: irma-header
   logo: "/uploads/non-free/irma_logo@1x.png"
+  image:
+    image: nav.flag_src
+    alt_text: nav.flag_alt  
+    link: nav.flag_link
   menu: "/uploads/non-free/navigation-menu.png"
   url: "/"
   navigation:

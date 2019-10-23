@@ -8,6 +8,7 @@
       {% for nav_item in section.navigation %}
       <a class="refs" href="{% t nav_item.link %}">{% t nav_item.link_text %}</a>
       {% endfor %}
+      <a style="float: right; padding-right: 20px; margin-top: 5px;" class="langicons" href="{% t section.image.link %}"><img src="{{site.baseurl_root}}{% t section.image.image %}" alt="{% t section.image.alt_text %}"></a></li>
     </div>
   </div>
 
