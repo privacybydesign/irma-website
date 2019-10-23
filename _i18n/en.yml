@@ -1,232 +1,114 @@
 nav:
   home_link: "/"
   home_text: IRMA
-  usage_link: "#gebruik"
-  usage_text: Gebruik
-  explanation_link: "#uitleg"
-  explanation_text: Uitleg
+  usage_link: "#usage"
+  usage_text: Usage
+  explanation_link: "#explanation"
+  explanation_text: Explanation
   faq_link: "#faqs"
   faq_text: FAQs
   links_link: "#links"
   links_text: Links
 
 banner:
-  headline: Kies IRMA. <br><strong>Zet een digitaal paspoort op je eigen mobiel.</strong>
-  ios: IRMA voor iOS
+  headline: Choose IRMA. <br><strong>Put a digital passport on your own mobile.</strong>
+  ios: IRMA for iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
-  android: IRMA vor Android
+  android: IRMA for Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   product_shot_src: "/uploads/non-free/screenshot.png"
   product_shot_alt: Product Shot
 
 usage:
   id: gebruik
-  login_headline: Inloggen
+  login_headline: Logging in
   login_alt: Login
-  login_content: Met IRMA kun je makkelijk inloggen en jezelf bekend maken. Je laat alleen
-    die kenmerken van jezelf zien die relevant zijn. Bijvoorbeeld om een bepaalde
-    film te kijken, bewijs je dat je ouder  dan 16 bent, en verder niets.
-  sign_headline: Ondertekenen
-  sign_alt: Ondertekenen
-  sign_content: Ook kun je met IRMA documenten digitaal ondertekenen. Je gebruikt alleen
-    relevante kenmerken van jezelf, in een soort digitaal stempel. Zo kun je met
-    IRMA ondertekenen als arts, als burger of vanuit een andere rol.
-  trust_headline: Vertrouwen
-  trust_alt: Vertrouwen
-  trust_content: Gegevens in een IRMA app komen uit betrouwbare bronnen en zijn cryptografisch
-    beschermd. De kenmerken die jij met IRMA bekend maakt zijn daarmee echt, en
-    echt van jou.
+  login_content: With IRMA it is easy to log in and make yourself known, by disclosing only relevant attributes of yourself. For instance, in order to watch a certain movie online, you prove that you are older than 16, and nothing else.
+  sign_headline: Signing digitally
+  sign_alt: Signing
+  sign_content: With IRMA you can also sign documents digitally. You use only relevant attributes of yourselves in a digital stamp. In this way you can sign with IRMA as a medical doctor, or as citizen, or in some other role.
+  trust_headline: Trust
+  trust_alt: Trust
+  trust_content: Data in IRMA come from trusted sources and are cryptographically protected. Thus, the attributes that you disclose to make yourself known are genuine and are really about you.
 
 slogan:
   id: start
-  heading: Met IRMA heb je <strong>in de hand</strong> wat er met jouw gegevens gebeurt.
+  heading: With IRMA you have your data <strong>in front of you</strong>.
 
 explanation:
-  id: uitleg
-  getstarted_headline: Zelf aan de slag met IRMA
-  getstarted_alt: Zelf aan de slag met IRMA
-  getstarted_content: Iedereen kan de IRMA app gratis downloaden (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
-    en <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>)
-    en vullen met eigen gegevens. Bijvoorbeeld bij de gemeente kun je inlogggen
-    en basisgegevens (naam, adres, etc.) over jezelf ophalen. Maar ook kun je jouw
-    emailadres of 06-nummer in je IRMA app opslaan. Met zulke gegevens kan iedereen
-    zichzelf online bekend maken.
-  tool_headline: IRMA is een middel, geen doel op zich
-  tool_alt: IRMA is een middel, geen doel op zich
-  tool_content: Voor iedereen is het gebruik van allerlei wachtwoorden veel gedoe. Toch
-    moeten websites weten met wie ze te maken hebben. IRMA geeft zekerheid. Met
-    IRMA kun je op een makkelijke en veilige manier online doen wat je wil doen.
-    Bijvoorbeeld een film kijken of iets (ver)kopen.
-  usecases_headline: Wat kan ik er al mee?
-  usecases_alt: Wat kan ik er al mee?
-  usecases_content: Er komen steeds meer websites waar je met IRMA in kan loggen. Artsen,
-    bijvoorbeeld, kunnen via IRMA bij medische dossiers op de website <a href="https://www.helder.health"
-    target="_blank">helder</a>. Vooral bij gemeenten en in de zorg wordt aan verder
-    gebruik van IRMA gewerkt. Om een indruk te krijgen van de mogelijkheden kun
-    je zelf een aantal IRMA <a href="https://privacybydesign.foundation/demo/" target="_blank">demo's</a>
-    uitproberen.
+  id: explanation
+  getstarted_headline: Get to work yourself with IRMA
+  getstarted_alt: Get to work yourself with IRMA
+  getstarted_content: Everyone can freely download the IRMA app (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
+    and <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>) and fill it with their own data. For instance, store your email address and possibly mobile number as attribute in your IRMA app. At municipalities in The Netherlands you can log in and collect basic attributes (name, address etc) about yourself. With such attributes people can make him/herself known online.
+  tool_headline: IRMA is a means, not a goal in itself
+  tool_alt: IRMA is a means, not a goal
+  tool_content: Having to use many passwords is a hassle for everyone. Yet, websites need to know who they are dealing with. IRMA provides certainty. With IRMA you can do what you wish to do online, with ease and trust. For instance, watching a movie, buying, or selling.
+  usecases_headline: What can I do with it now?
+  usecases_alt: What can I do with it now?
+  usecases_content: Websites are now appearing where users can log in with IRMA. In The Netherlands, medical doctors log in to access patient files at the website <a href="https://www.helder.health" target="_blank">helder</a>. In local government and healthcare in particular, IRMA usage is growing. In order to get an impression of possibilities, you can try out some IRMA <a href="https://privacybydesign.foundation/demo-en/" target="_blank">demo's</a> yourself.
 
 faq:
   id: faqs
-  headline: <span class="light">Veel gestelde vragen en <strong>antwoorden</strong>
+  headline: <span class="light">Frequently asked questions and <strong>answers</strong>
     daarop<span>
   item1:
-    question: Hoe moet ik met IRMA inloggen op een website?
-    answer: Websites waar je met IRMA in kunt loggen hebben een knop daarvoor, waar
-      bijvoorbeeld op staat <em>Log in met IRMA</em>. Als je de IRMA app nog niet
-      op je telefoon hebt zul je die eerst moeten installeren en vullen met de kenmerken
-      die je nodig hebt.<br><br> Als je de IRMA app al wel hebt, zijn er twee verschillende
-      situaties<span>:</span><ul class="indent"><li> Als je de website bekijkt op
-      je computer of laptop en je drukt op die login knop verschijnt er een QR code.
-      Je opent dan de IRMA app op je telefoon met je PIN. Onderaan in de app zit een
-      knopje waarmee je de QR code kunt scannen. In de app krijg je dan de vraag of
-      je kenmerken waarom de website vraagt wil vrijgeven. Als je op OK klikt, ben
-      je ingelogd.</li><li> Als je de website op je telefoon bekijkt wordt na het
-      indrukken van de login knop automatisch overgeschakeld naar de IRMA app. Daarin
-      verschijnt de vraag of je de gevraagde kenmerken wil vrijgeven. Nadat je op
-      OK hebt gedrukt ga je terug naar de website en ben je ingelogd. Als het goed
-      is gaat je telefoon automatisch terug, maar soms moet je dat met de hand doen.</li></ul><br>Het
-      kan zijn dat de website vraagt om kenmerken die je nog niet in je IRMA app geladen
-      hebt. Dan moet je dat eerst nog even doen voordat je in kunt loggen.
-  item2:
-    question: Welke kenmerken kan ik nu (en later) in de IRMA app zetten?
-    answer: Vanuit gemeenten kun je zelf kenmerken zoals je naam, adres, geboortedatum,
-      BSN in je IRMA app zetten, maar ook of je bijvoorbeeld ouder dan 18 of 65 bent.
-      Daarnaast kun je een of meer email adressen en mobiele telefoonnummers, na controle, toevoegen.
-      Studenten en medewerkers in het (hoger) onderwijs kunnen ook hun registratie
-      toevoegen. Medewerkers in de zorg kunnen zogenaamde BIG en AGB registraties
-      toevoegen. Ook vanuit sociale media (LinkedIn, Twitter, Facebook) kun je gegevens
-      laden. Hiermee kun je in veel situaties voldoende van jezelf bekend maken.<br><br>Naar
-      verwachting zullen de komende tijd nog veel andere bronnen van persoonsgegevens
-      aan IRMA toegevoegd worden, voor gebruikers in het algemeen en ook voor speciale
-      (beroeps)groepen.
+    question: How do I use IRMA to log in on a website?
+    answer: Websites that support IRMA typically have a button that says <em>Log in with IRMA</a>. If you don't have the IRMA app on your phone yet, you will have to install it first and fill it with your attributes. If you do have the IRMA app already, there two different situations<span>:</span><ul class="indent"><li> When you access the website where you need to log in with IRMA on a computer or laptop and you press the login button, a QR code appears. You open the IRMA app on your phone with your PIN. At the bottom of the app's screen, there is a button that allows you to scan the QR code. The app asks if you wish to disclose the requested attributes. When you click OK, you are logged in.</li><li> When you view the website on your mobile phone, the IRMA app is automatically opened when you hit the login button. The app then asks you whether you agree to disclose the requested attributes. After pressing OK, your phone returns to the website and you are logged in. If all is well, your phone automatically returns to the original page, but sometimes you have to go back manually. </li></ul><br>It may happen that you haven't collected yet the attributes that the website requests. In that case, you first have to load them before you can log in.
+  item2: 
+    question: I live outside the Netherlands; can I still use IRMA?
+    answer: The IRMA app is available internationally, but only a few attributes are available globally, namely email and some data from social media (which are not very reliable). The real challenge for your country is to organise interesting local sources of attributes that wish to issue data to IRMA apps. The Privacy by Design Foundation has concentrated so far on The Netherlands, where it has organised connections of IRMA to instance the government's national citizen administration, but also to medical and academic registers. Similar connections need to be organised in other countries, in order to make IRMA really useful there. Local help and support is needed for this. So do join the effort and help out, if you are interested.<br><br>Another issue is that the IRMA app itself (and its documentation) is available so far only in English and in Dutch. Since the source code for the IRMA app is available online, volunteers from other countries can contribute by translating the relevant texts into their own language.
   item3:
-    question: Kan ik IRMA op een tweede telefoon of tablet zetten?
-    answer: Jazeker, op ieder (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
-      en <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>)
-      apparaat kun je een apart IRMA account openen en vullen met persoonskenmerken.
-      Het is misschien wel verstandig omdat te doen, want als je dan het ene apparaat
-      kwijt bent, kun je nog met een ander inloggen.
+    question: Which attributes can I load into my IRMA app, now and later?
+    answer: You can load your email address where-ever you are in the world. You can also load attributes from some social media accounts. When you have European mobile phone registration, you can also get your mobile phone number as IRMA attribute. In the Netherlands you can obtain more attributes, for instance from municipalities, like name, address, date of birth, citizen registration number ("BSN"), but also age limits like whether you are older than 18 or 65. Students and staff can add their academic registration. Health care professionals can add their professional registration ("AGB"). With these attributes people can make themselves known in many situations.<br><br>It is expected that many other attribute sources will join the IRMA ecosystem, for users in general, but also for special groups of individuals.
   item4:
-    question: Hoezo is IRMA privacy-vriendelijk en veilig?
-    answer: 'Persoonskenmerken van IRMA staan alleen in de IRMA app en zijn beschermd
-      met een PIN. Je laat alleen die gegevens van jezelf zien die in een bepaalde
-      situatie relevant en nodig zijn. Bijvoorbeeld, om korting te krijgen moet je
-      soms bewijzen dat je student bent; dat kun je met IRMA doen zonder je naam of
-      studie te tonen.<br><br> Jouw kenmerken in de IRMA app zijn digitaal ondertekend
-      door de bron waar de gegevens vandaan komen. Daardoor kan een website of winkel,
-      waar je jezelf bekend maakt, cryptografisch controleren dat de gegevens echt
-      zijn. Deze uitwisseling van persoonskenmerken vindt rechtstreeks plaats, tussen
-      je telefoon en deze website. Niemand anders kan zien dat jij je daar bekendmaakt.
-      Dit is heel anders dan bij een (privacy-onvriendelijke) login via Facebook,
-      bijvoorbeeld bij een online winkel. Dan vindt de uitwisseling anders plaats:
-      je moet eerst bij Facebook inloggen, waarna Facebook aan de webwinkel vertelt
-      wie je bent. Facebook kan zo profielen opbouwen van wie waar inlogt.'
+    question: Can I install IRMA on a second phone or tablet?
+    answer: Certainly, on every separate (<a
+      href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
+      and <a
+      href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>) device you can open a separate IRMA account and fill it with your attributes. It might even be wise to do so, since if you loose one device, you can still use the other one to log in. 
   item5:
-    question: Waar staan mijn IRMA gegevens opgeslagen?
-    answer: De kenmerken van jezelf die je in de IRMA app verzamelt staan alleen in
-      de app zelf en worden door IRMA nergens anders opgeslagen. Ze staan dus niet
-      ook nog ergens in een cloud. Als je jouw kenmerken uit de app verwijdert zijn
-      ze ook echt weg. Jij geeft zelf steeds expliciet toestemming voordat deze kenmerken
-      vanuit de IRMA app aan een website doorgegeven worden.
+    question: In which sense is IRMA privacy-friendly and secure?
+    answer: Your personal attributes are stored exclusively in the IRMA app on your phone and nowhere else. They are protected via the PIN of the IRMA app. You disclose only those attributes that are relevant and required in a particular situation (data minimalisation, as required by the General Data Protection Regulation). For instance, in order to get a certain discount, you may have to prove that you are a student; with IRMA you can do so without disclosing your name or your field of study.<br><br>Your attributes in the IRMA app are digitally signed by the source (issuer) of these attributes. A website receiving attributes can cryptographically check that they are authentic (really coming from the source). This exchange of personal attributes happens directly, between your phone and the website. No-one else can register that you make yourself known there. This is completely different from the (privacy-unfriendly) login mechanism of Facebook (and others), used for instance at an online store. In that case the data exchange happens differently<span>:</span> you first have to log in at Facebook, and then Facebook tells the store who you are. In this way Facebook can build up detailed profiles of who logs in where and when.
   item6:
-    question: Hoe lang zijn kenmerken in IRMA geldig en hoe kan ik ze verversen?
-    answer: In de IRMA app kun je op het kaartje met je kenmerken zien hoe lang ze
-      geldig zijn. Die geldigheidsduur hangt af van het soort gegevens, namelijk van
-      hoe veranderlijk ze zijn. Je naam en geboortedatum zijn vijf jaar geldig, maar
-      je adres slechts een jaar. De uitgever (bron) van kenmerken bepaalt de geldigheidsduur.
-      De geldigheid van IRMA kenmerken kan dus verlopen. De app geeft je daar een
-      waarschuwing voor. Je kunt je kenmerken altijd, ook zonder waarschuwing, verversen
-      door ze opnieuw op te halen bij de bron, net zo als je de eerste keer doet.
-      Bijvoorbeeld, na je 18e verjaardag kun je opnieuw je gegevens bij je gemeente
-      ophalen en heb je als nieuw kenmerk dat je ouder dan 18 bent.
+    question: Where are my IRMA attributes stored? 
+    answer: The attributes about yourself that you collect in the IRMA app on your phone are stored in the IRMA app only, and nowhere else. In particular, they are not stored somewhere in the cloud. When you remove attributes from your IRMA app, they are really gone. You are asked to give permission explicitly before any of these attributes in your phone are diclosed, from the app to a website.
   item7:
-    question: Wat doe ik als ik een nieuwe telefoon koop?
-    answer: Op een nieuwe telefoon kun je de IRMA app opnieuw installeren, een nieuw
-      account openen, en je kenmerken opnieuw ophalen. Er is op dit moment geen mogelijkheid
-      om je kenmerken van je oude telefoon over te zetten naar je nieuwe telefoon.
-      Daar wordt wel aan gewerkt. Gelukkig is het niet heel moeilijk om je gegevens
-      opnieuw op te halen. Het kost wel een klein beetje tijd.
+    question: For how long are IRMA attributes valid, and how can I refresh them?
+    answer: Within the IRMA app you can see on each card with attributes when they expire. The validity period depends on the stability of the attributes at hand. For instance, in The Netherlands, your name and date-of-birth attributes are valid for five years, whereas your address attribute is valid for only one year. The issuer (source) of attributes decides about expiry times. The validity of IRMA attributes may thus run out. The app warns you about this. You can always renew (refresh) them, even without warning, by reloading them from the source, just like you did the first time. For instance, after your 18th birthday you can renew your attributes from your (Dutch) municipality and then obtain an older-than-18 attribute.
   item8:
-    question: Wat doe ik als ik mijn telefoon verlies?
-    answer: <span>De IRMA app op je telefoon is beschermd met een PIN, net als je
-      app voor internetbankieren. Wanneer je je telefoon verliest kan een ander dus
-      geen gebruik maken van je IRMA app en zich als jou voordoen. Als je dus een
-      goede PIN gekozen hebt, hoef je je geen zorgen te maken. <br><br> Je kunt jezelf
-      echter nog beter beschermen<span>:</span> bij het openen van een IRMA account heb je de
-      optie gekregen om een email adres toe te voegen. Als je dat gedaan hebt, kun
-      je via de <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">MijnIRMA</a>
-      omgeving je IRMA account blokkeren. Dan kan er echt helemaal niks meer met de
-      IRMA app op je oude, verloren telefoon gebeuren. Als je nog geen email adres
-      toegevoegd hebt in MijnIRMA kun je dat alsnog doen, door <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">daar</a>
-      met IRMA zelf in te loggen. Het is verstandig dat te doen.
+    question: What should I do when I buy a new phone?
+    answer: On a new phone you can install a new IRMA app, open a new (empyt) account, and reload your attributes from the various sources onto your new phone. Currently, there is no possibility to transfer attributes from one phone to another. This is work in progress, which involves some delicate security issues. Fortunately, it is not so difficult to load your attributes again onto your new phone. It does take a bit of time.
   item9:
-    question: Ik heb een vraag over IRMA; waar kan ik terecht?
-    answer: Als je een vraag hebt over inloggen met IRMA bij webwinkel De Hippe Kip,
-      dan kun je die vraag het beste stellen aan De Hippe Kip zelf. Ook als die website
-      je vraagt IRMA te installeren en dat lukt niet, dan kun je het beste daar met
-      je vragen naar toegaan. Meestal staat er op zulke webpagina's informatie over
-      hoe je vragen kunt stellen en contact op kunt nemen. <br><br> Als je tenslotte
-      een vraag hebt over het systeem IRMA zelf, dan kun je een berichtje sturen naar
-      het adres <a href="mailto:irma@privacybydesign.foundation">irma@privacybydesign.foundation</a>.
+    question: What should I do when I loose my phone?
+    answer: <span>The IRMA app on your phone is protected with a PIN, just like internet banking apps. Therefore, when you loose your phone, someone else can not abuse your IRMA app and pretend to be you (commit identity fraud). So you do not need to worry, assuming your PIN is non-trivial.<br><br>There are still better ways to protect yourself<span>:</span> upon opening your IRMA account, you had the option to register an email address. If you have done this, you can block your old IRMA account via the <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a> environment. Then it really cannot be used anymore. If you have not registered an email address, you can still do so via <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a>. This is recommended.
   item10:
-    question: Wat gebeurt er met mijn gegevens als ik met IRMA inlog?
-    answer: Als je inlogt bij een website maakt je telefoon rechtstreeks contact met
-      de website. Nadat jij toestemming gegeven hebt worden de gevraagde kenmerken
-      vanuit jouw telefoon direct aan de website getoond. Daar zit niemand tussen.
-      De IRMA organistie kan jouw kenmerken niet zien — omdat ze alleen op jouw telefoon
-      staan — en kan ook niet zien welke attributen je aan welke website vrijgeeft.
+    question: I have a question about IRMA; where should I go?
+    answer: When you have a question about logging in with IRMA at webshop The Trendy Chicken, you can best address your question at The Trendy Chicken itself. Also when that website asks you to install the IRMA app and that fails, you can best talk to them. Often such pages contain additional info and allow you to ask questions.<br><br>If, in the end, you have a question about IRMA itself, you can send an email to the address <a href="mailto:irma@privacybydesign.foundation">irma@privacybydesign.foundation</a>. Please explain clearly what your point is, and provide your phon's model and supply screen shots if possible when something goes wrong.
   item11:
-    question: Wie zit er achter IRMA?
-    answer: IRMA wordt gemaakt door de stichting <a href="https://privacybydesign.foundation/" target="_blank">Privacy
-      by Design</a>. Deze stichting is in 2016 voortgekomen uit de <em>Digital Security</em>
-      onderzoeksgroep van de Radboud Universiteit in Nijmegen. De stichting is onafhankelijk
-      en heeft geen doelstelling om winst te maken. Sinds 2019 heeft de stichting
-      Privacy by Design een strategische samenwerking met de stichting Internet Domeinregistratie
-      Nederland (<a href="https://www.sidn.nl/" target="_blank">SIDN</a>). Mede door deze samenwerking wordt de stabiliteit
-      en continuiteit van IRMA gegarandeerd.
+    question: What happens to my data when I log in with IRMA?
+    answer: When you log in with IRMA at a website your phone talks directly to that website. No-one is inbetween, monitoring that exchange. The IRMA organisation cannot see your attributes — because they are exclusively on your phone — and can also not see which attributes you disclose to which website.
   item12:
-    question: Hoezo kan IRMA gratis zijn?
-    answer: RMA is gratis voor gebruikers. IRMA is ook gratis voor websites die
-      gebruikers via IRMA laten inloggen<span>:</span> iedereen kan kenmerken uit een IRMA app
-      opvragen en bekijken, als de gebruiker toestemming geeft. Maar het is <em>niet
-      gratis</em> om kenmerken uit te geven. Niet iedereen kan zomaar kenmerken in
-      IRMA apps zetten; dat zou snel een rommeltje worden.<br><br> Voor die uitgifte
-      moet betaald worden en moet een contract getekend worden, waarbij de uitgever
-      zich ertoe verplicht om alleen juiste gegevens in de IRMA app van de juiste
-      persoon te zetten. <br><br>Ook kan een contract afgesloten worden voor support garanties (een "SLA") via SIDN. Omdat IRMA een decentraal systeem is, waarbij gegevens alleen
-      op telefoons staan en rechtstreeks met websites uitgewisseld worden, heeft de
-      organisatie achter IRMA relatief weinig te doen. Omdat die organisatie bovendien
-      geen winstoogmerk heeft is IRMA als geheel een goedkoop systeem.
+    question: Who is behind IRMA?
+    answer: IRMA is produced and run by the <a href="https://privacybydesign.foundation/en" target="_blank">Privacy by Design</a> Foundation. In 2016 this foundation grew out of the Digital Security research group from Radboud University at Nijmegen, The Netherlands. It is an independent non-profit foundation. Since 2019 it has a strategic cooperation with (<a href="https://www.sidn.nl/en" target="_blank">SIDN</a>), the foundation that runs the .nl domain. This cooperation contributes to IRMA's stability and continuity.
   item13:
-    question: IRMA is <em>open source</em>; wat betekent dat?
-    answer: De software van IRMA is open source. Dat betekent dat de manier waarop IRMA werkt door iedereen bekeken kan worden<span>:</span> de software 
-      staat gewoon online, namelijk op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. Natuurlijk moet je wel wat van 
-      computerprogramma's weten om dit echt te kunnen begrijpen, maar het principe is belangrijk<span>:</span> IRMA kent geen geheimen en werkt op een 
-      transparante manier. Dit draagt bij aan het vertrouwen in IRMA. Er zijn daarom met IRMA geen discussies over verborgen achterdoortjes van 
-      leveranciers met een eigen agenda, zoals bijvoorbeeld met 5G telecommunicatie. De stichting Privacy by Design achter IRMA vindt dat 
-      alle software die gebruikt wordt in infrastructuur met een publieke rol open source moet zijn. 
+    question: How can IRMA be free?
+    answer: IRMA is free for users and also free for websites that use IRMA for login<span>:</span> everyone can request attributes from the IRMA app, and will receive them after the user has given consent. But it is <em>not free</em> to issue attributes. Not everyone can put attributes in other people's phones, since that would quickly become a mess.<br><br>Issuing involves a fee and also a contract, in which the issuer commits itself to put only accurate (authentic) data in the IRMA app of the right person.<br><br>Additionally, a contract is available, both for verifiers and issuers, that gives availability guarantees (an "SLA") via SIDN. Since IRMA is a decentralised system, in which attributes are stored only on user's phones, the organisation behind IRMA has a relatively light task. Because, in addition, this organisation has no profit goals, IRMA as a whole is a cheap system.
   item14:
-    question: Ik wil meer informatie over IRMA; waar kan ik terecht? 
-    answer: Het grotere verhaal achter IRMA staat beschreven in een
-      <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a>.
-      <br><br>Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de
-      stichting Privacy by Design op een eigen
-      <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">pagina</a>.
-      Mensen die de software van IRMA willen bekijken kunnen terecht op een technische
-      <a href="https://irma.app/docs" target="_blank">documentatie</a> pagina en op 
-      <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
+    question: IRMA is <em>open source</em>; what does that mean?
+    answer: The IRMA software is deliberately open source. This means that the way that IRMA works can be inspected by anyone<span>:</span> the software is available online, see <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. This also means that people outside the foundation can contribute. Indeed, several other organisations are contributing software and designs to the IRMA ecosystem. Of course, you do have to know a bit about computer programs in order to really understand IRMA's software, but the principle is important<span>:</span> IRMA has no secrets and works in a transparant manner. This contributes to trust in IRMA. There are no uneasy discussions about hidden backdoors in IRMA, like for instance in 5G telecommunications. The Privacy by Design foundation is of the opinion that all software in infrastructure with a public role should be open source.
+  item15:
+    question: I like to know more about IRMA; where can I go?
+    answer: Extensive background information about how IRMA works is described by the Privacy by Design foundation at this <a href="https://privacybydesign.foundation/irma-explanation/" target="_blank">page</a>. People who wish to understand the real technicalities can check out IRMA's <a href="https://irma.app/docs" target="_blank">documentation</a> page and <a href="https://github.com/privacybydesign" target="_blank">GitHub</a> repository.<br><br>The big picture behind IRMA is described in a <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a> which is available only in Dutch, so far.
 
 footer:
   id: links
   irma_alt: IRMA logo
   irma_headline: Privacy by Design Foundation
-  irma_content: IRMA wordt gemaakt door de stichting <a href="https://privacybydesign.foundation/" target="_blank">Privacy
-    by Design</a>. Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de stichting Privacy by Design op
-    haar eigen  <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">website</a>.
+  irma_content: IRMA is produced and run by the <a href="https://privacybydesign.foundation/en" target="_blank">Privacy
+    by Design</a> Foundation, which provides extensive 
+    <a href="https://privacybydesign.foundation/irma-explanation/" target="_blank">explanations</a>.
   doc_headline: Docs
-  doc_content: Ontwikkelaars die met IRMA willen werken kunnen terecht op de technische
-    <a href="https://irma.app/docs" target="_blank">documentatie</a>.
+  doc_content: Developers who wish to work with IRMA can check out IRMA's technical <a href="https://irma.app/docs" target="_blank">documentation</a>.
   github_headline: GitHub
-  github_content: Mensen die de software van IRMA willen bekijken of willen bijdragen aan IRMA kunnen
-    terecht op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
+  github_content: People who wish to inspect IRMA's software or wish to contribte to IRMA development can go to IRMA's <a href="https://github.com/privacybydesign" target="_blank">GitHub</a> page.

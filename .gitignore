@@ -9,5 +9,5 @@ dist/
 .tmp/
 _site/
 
-
+# Ignore vendor files
 vendor/

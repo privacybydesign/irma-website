@@ -122,7 +122,7 @@ page_sections:
   block: irma-footer
   id: footer.id
   image_1:
-    image: "/uploads/non-free/irma_logo@1x.png"
+    image: "/uploads/non-free/IRMApoweredbySIDN_wit.png"
     alt: footer.irma_alt
   col_2:  
     headline: footer.irma_headline
