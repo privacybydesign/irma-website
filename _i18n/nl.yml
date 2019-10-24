@@ -19,7 +19,7 @@ banner:
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA voor Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
-  product_shot_src: "/uploads/non-free/screenshot.png"
+  product_shot_src: "/uploads/non-free/screenshot-nl.png"
   product_shot_alt: Product Shot
 
 usage:
@@ -179,7 +179,14 @@ faq:
       vanuit jouw telefoon direct aan de website getoond. Daar zit niemand tussen.
       De IRMA organistie kan jouw kenmerken niet zien — omdat ze alleen op jouw telefoon
       staan — en kan ook niet zien welke attributen je aan welke website vrijgeeft.
-  item11:
+  item11: 
+    question: Kan ik IRMA ook buiten Nederland gebruiken?
+    answer: Jazeker, IRMA is internationaal beschikbaar. Voor mensen buiten Nederland zijn echter nog niet zoveel attributen beschikbaar 
+      als voor mensen binnen Nederland. In andere landen moeten er eerst ook aansluitingen komen van IRMA op leveranciers van attributen,
+      zoals de Basisregistratie Personen (BRP) in Nederland.<br><br>
+      Je kan op ons <a href="https://metrics.privacybydesign.foundation/grafana/d/000000011/" target="_blank">dashboard</a> 
+      zien hoe IRMA op de hele wereld gebruikt wordt.   
+  item12:
     question: Wie zit er achter IRMA?
     answer: IRMA wordt gemaakt door de stichting <a href="https://privacybydesign.foundation/" target="_blank">Privacy
       by Design</a>. Deze stichting is in 2016 voortgekomen uit de <em>Digital Security</em>
@@ -188,7 +195,7 @@ faq:
       Privacy by Design een strategische samenwerking met de stichting Internet Domeinregistratie
       Nederland (<a href="https://www.sidn.nl/" target="_blank">SIDN</a>). Mede door deze samenwerking wordt de stabiliteit
       en continuiteit van IRMA gegarandeerd.
-  item12:
+  item13:
     question: Hoezo kan IRMA gratis zijn?
     answer: IRMA is gratis voor gebruikers. IRMA is ook gratis voor websites die
       gebruikers via IRMA laten inloggen<span>:</span> iedereen kan kenmerken uit een IRMA app
@@ -201,12 +208,12 @@ faq:
       op telefoons staan en rechtstreeks met websites uitgewisseld worden, heeft de
       organisatie achter IRMA relatief weinig te doen. Omdat die organisatie bovendien
       geen winstoogmerk heeft is IRMA als geheel een goedkoop systeem.
-  item13:
+  item14:
     question: IRMA is <em>open source</em>; wat betekent dat?
     answer: De software van IRMA is open source. Dat betekent dat de manier waarop IRMA werkt door iedereen bekeken kan worden <span>:</span> de software staat gewoon online, namelijk op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. Dit betekent dat mensen van buiten de stichting ook kunnen bijdragen, wat daadwerkelijk gebeurt<span>:</span> verschillende andere organisaties dragen bij met software en designs aan het IRMA ecosysteem. Natuurlijk moet je wel wat van computerprogramma's weten om de software echt te kunnen begrijpen, maar het principe is belangrijk<span>:</span> IRMA kent geen geheimen en werkt op een transparante manier. Dit draagt bij aan het vertrouwen in IRMA. Er zijn daarom met IRMA geen discussies over verborgen achterdoortjes van 
       leveranciers met een eigen agenda, zoals bijvoorbeeld met 5G telecommunicatie. De stichting Privacy by Design achter IRMA vindt dat 
       alle software die gebruikt wordt in infrastructuur met een publieke rol open source moet zijn. 
-  item14:
+  item15:
     question: Ik wil meer informatie over IRMA; waar kan ik terecht? 
     answer: Het grotere verhaal achter IRMA staat beschreven in een
       <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a>.

@@ -121,6 +121,8 @@ page_sections:
     answer: faq.item13.answer
   - question: faq.item14.question
     answer: faq.item14.answer
+  - question: faq.item15.question
+    answer: faq.item15.answer
 
 - template: irma-footer
   block: irma-footer
