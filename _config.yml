@@ -6,7 +6,6 @@ description: Met IRMA heb je in de hand wat er met jouw gegevens gebeurt.
 baseurl: ""
 url: ''
 languages: ["nl", "en", "de"]
-exclude_from_localizations: ["uploads", css"]
 defaults:
 - scope:
     path: ''
