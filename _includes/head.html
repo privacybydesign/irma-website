@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="{{ site.lang }}">
 
 <head>
   <meta charset="utf-8">
@@ -9,8 +9,14 @@
   <meta name="author" content="{{ site.author }}">
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google" content="notranslate">
   <link rel="stylesheet" href="{{ "/css/ubuild.css" | prepend: site.baseurl_root }}"/>
   <link rel="stylesheet" href="{{ "/css/irma.css" | prepend: site.baseurl_root }}"/>
+  <link rel="shortcut icon" type="image/png" href="{{ site.baseurl_root }}/uploads/non-free/favicon.png">
+  {% assign uniq_langs =  site.languages | uniq %}
+  {% for lang in uniq_langs %}
+  <link rel="alternate" hreflang="{{ lang }}" href="{{ site.baseurl_root }}{{ page.url}}?lang={{ lang }}" >
+  {% endfor %}
 </head>
 
 <body>
