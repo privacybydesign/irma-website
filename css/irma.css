@@ -19,6 +19,9 @@ html {
   scroll-behavior: smooth;
 }
 
+strong {
+  font-weight: 700;
+}
 
 @media screen and (prefers-reduced-motion: reduce) {
   html {
