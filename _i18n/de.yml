@@ -110,7 +110,7 @@ footer:
   id: links
   irma_alt: IRMA logo
   irma_headline: Stiftung Privacy by Design
-  irma_content: IRMA wird von der <a href="https://privacybydesign.foundation/" target="_blank">Stiftung Privacy by Design</a> entwickelt. Eine detailliertere Erklärung der Funktionsweise von IRMA bietet die Stiftung Privacy by Design auf ihrer eigenen <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">Webseite</a>. Für aktuelle Informationen <br/> <a href="https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-lang="de" data-show-count="false">Follow @irma_privacy</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>.
+  irma_content: "IRMA wird von der <a href=\"https://privacybydesign.foundation/\" target=\"_blank\">Stiftung Privacy by Design</a> entwickelt. Eine detailliertere Erklärung der Funktionsweise von IRMA bietet die Stiftung Privacy by Design auf ihrer eigenen <a href=\"https://privacybydesign.foundation/irma-uitleg/\" target=\"_blank\">Webseite</a>. Folgen Sie uns auf Twitter: <br/> <a href=\"https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw\" class=\"twitter-follow-button\" data-lang=\"de\" data-size=\"large\" data-show-count=\"false\">Follow @irma_privacy</a><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
   doc_headline: Docs
   doc_content: Entwickler, die mit IRMA arbeiten möchten, können hier die <a href="https://irma.app/docs" target="_blank">Dokumentation</a> finden.
   github_headline: GitHub
