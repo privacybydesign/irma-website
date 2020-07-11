@@ -1,0 +1,21 @@
+<section class="block block-two-column-1">
+  <div class="container">
+    <div class="destination" id="{% t section.id %}"></div>
+    <div class="columns">
+      <div class="column">
+        <figure>
+          <img src="{{ section.image_1.image | prepend: site.baseurl_root }}" alt="{% t section.image_1.alt %}" style="width: 50%;">
+        </figure>
+        <h3>{% t section.col_1.headline %}</h3>
+        <p>{% t section.col_1.content %}</p>
+      </div>
+      <div class="column">
+        <figure>
+          <img src="{{ section.image_2.image | prepend: site.baseurl_root }}" alt="{% t section.image_2.alt %}" style="width: 50%;">
+        </figure>
+        <h3>{% t section.col_2.headline %}</h3>
+        <p>{% t section.col_2.content %}</p>
+      </div>
+    </div>
+  </div>
+</section>

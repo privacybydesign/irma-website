@@ -21,6 +21,8 @@ page_sections:
     link_text: nav.explanation_text
   - link: nav.faq_link
     link_text: nav.faq_text
+  - link: nav.start_link
+    link_text: nav.start_text
   - link: nav.links_link
     link_text: nav.links_text
 - template: irma-banner

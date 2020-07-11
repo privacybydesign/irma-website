@@ -7,17 +7,30 @@ nav:
   explanation_text: Uitleg
   faq_link: "#faqs"
   faq_text: FAQs
+  start_link: "/irma-start"
+  start_text: Van start met IRMA
   links_link: "#links"
   links_text: Links
+  users_link: "#start_gebruikers"
+  users_text: Gebruikers
+  verifiers_link: "#start_verifiers"
+  verifiers_text: Verifiers
+  issuers_link: "#start_issuers"
+  issuers_text: Issuers
+  start_links_link: "#start_links"
+  start_links_text: Links
+
+
 
 banner:
-  headline: Kies IRMA. <br><strong>Zet een digitaal paspoort op je eigen mobiel.</strong>
+  headline: Kies IRMA <br><strong>Zet een digitaal paspoort op je eigen mobiel</strong>
   ios: IRMA voor iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA voor Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   product_shot_src: "/uploads/non-free/screenshot-nl.png"
   product_shot_alt: Product Shot
+
 
 usage:
   id: gebruik
@@ -179,12 +192,11 @@ faq:
     answer: Jazeker, IRMA is internationaal beschikbaar. Voor mensen buiten Nederland zijn echter nog niet zoveel attributen beschikbaar
       als voor mensen binnen Nederland. In andere landen moeten er eerst ook aansluitingen komen van IRMA op leveranciers van attributen,
       zoals de Basisregistratie Personen (BRP) in Nederland.<br><br>
-      Je kan op ons <a href="https://metrics.privacybydesign.foundation/grafana/d/000000011/" target="_blank">dashboard</a>
+      Je kan op het online <a href="https://metrics.privacybydesign.foundation/grafana/d/000000011/" target="_blank">dashboard</a>
       zien hoe IRMA op de hele wereld gebruikt wordt.
   item12:
     question: Wie zit er achter IRMA?
-    answer: IRMA wordt gemaakt door de stichting <a href="https://privacybydesign.foundation/" target="_blank">Privacy
-      by Design</a>. Deze stichting is in 2016 voortgekomen uit de <em>Digital Security</em>
+    answer: IRMA wordt gemaakt door de stichting <a href="https://privacybydesign.foundation/" target="_blank">Privacy by Design</a>. Deze stichting is in 2016 voortgekomen uit de <em>Digital Security</em>
       onderzoeksgroep van de Radboud Universiteit in Nijmegen. De stichting is onafhankelijk
       en maakt geen winst. Sinds 2019 werkt de stichting
       Privacy by Design samen met de stichting Internet Domeinregistratie
@@ -223,9 +235,72 @@ footer:
   id: links
   irma_alt: IRMA logo
   irma_headline: Privacy by Design Foundation
-  irma_content: "IRMA wordt gemaakt door de stichting <a href=\"https://privacybydesign.foundation/\" target=\"_blank\">Privacy by Design</a>. Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de stichting Privacy by Design op haar eigen  <a href=\"https://privacybydesign.foundation/irma-uitleg/\" target=\"_blank\">website</a>. Volg ons op Twitter voor actuele informatie: <br/> <a href=\"https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw\" class=\"twitter-follow-button\" data-lang=\"nl\" data-size=\"large\" data-show-count=\"false\">Follow @irma_privacy</a><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
+  irma_content: "IRMA wordt gemaakt door de stichting <a href=\"https://privacybydesign.foundation/\" target=\"_blank\">Privacy by Design</a> in nauwe samenwerking met <a href=\"https://www.sidn.nl/\" target=\"_blank\">SIDN</a>. Uitgebreidere uitleg over de werking van IRMA wordt gegeven door de stichting Privacy by Design op haar eigen  <a href=\"https://privacybydesign.foundation/irma-uitleg/\" target=\"_blank\">website</a>. Volg IRMA op Twitter voor actuele informatie op <br/> <a href=\"https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw\" class=\"twitter-follow-button\" data-lang=\"nl\" data-size=\"large\" data-show-count=\"false\">@irma_privacy</a><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
   doc_headline: Ontwikkelaars
   doc_content: Mensen die de software van IRMA willen bekijken of willen bijdragen aan IRMA kunnen terecht op de
     <a href="https://irma.app/docs" target="_blank">documentatie</a> pagina en op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
   github_headline: Stakeholders
   github_content: De stichting <a href=\"https://privacybydesign.foundation/\" target=\"_blank\">Privacy by Design</a> werkt voortdurend aan nieuwe functionaliteit en toepassingen. Dit gebeurt in nauwe samenwerking met partners en stakeholders. Bezoek onze <a href="roadmap.html" target="_blank">Trello roadmap</a> om meer over onze toekomstplannen te leren.
+
+
+start_banner:
+  headline: <strong>Heb je plannen met IRMA?</strong> <br><br> Lees vooral verder
+
+
+start_intro:
+  id: start_intro
+  aandeslag_header: Aan de slag met IRMA
+  aandeslag_content: Steeds meer mensen hebben de IRMA app op hun telefoon en steeds meer organisaties willen het mogelijk maken dat mensen zichzelf bekend maken met IRMA, bijvoorbeeld om in te loggen, om zich via de telefoon bekend te maken, of om te videobellen met zekerheid over wie er deelneemt. Op deze pagina worden de belangrijkste punten van IRMA op een rijtje gezet, om duidelijk te maken wat IRMA biedt en waar je op moet letten als je IRMA wil gaan gebruiken. 
+  eco_header: Welke partijen spelen een rol?
+  eco_content: <b>Gebruikers</b> zijn de mensen die IRMA op hun telefoon hebben, met daarin kaartjes met persoonsgegevens; gebruikers maken zich met IRMA bekend door (relevante) gegevens van die kaartjes te onthullen. <br> <b>Verifiers</b> zijn de organisaties die iets willen weten van gebruikers en die informatie opvragen via IRMA; verifiers zijn de partijen aan wie gebruikers hun gegevens onthullen.<br> <b>Issuers</b> zijn de organisaties die aan gebruikers persoonsgegevens over henzelf uitgeven, in de vorm van kaartjes in hun IRMA app; gebruikers kunnen zich vervolgens bekend maken aan verifiers met de gegevens op die kaartjes.</li></ol>
+  issuer_verifier_example_header: Voorbeeld issuers en verifiers
+  issuer_verifier_example_content: Een belangrijke issuer is de gemeente Nijmegen die een aansluiting heeft gemaakt op de Basisregistratie Personen (BRP) die voor iedereen beschikbaar is. Daarmee kan iedere gebruiker, ook als die niet in Nijmegen woont, kaartjes in de IRMA app krijgen met gegevens die de overheid heeft, zoals naam, geboortedatum, BSN, adres en leeftijdsgrenzen. Een webwinkel kan als verifier vragen om deze adresgegevens voor bezorging. Met IRMA kunnen organisaties zowel issuer als verifier zijn&colon; een warenhuis kan in de rol van issuer (eenmaal) een klantenkaart aan een gebruiker uitgeven als kaartje in IRMA en in de rol van verifier dat kaartje (meermaals) opvragen bij online bestellingen.
+
+
+
+zekerheden_verplichtingen:
+  id: zekerheden_verplichtingen
+  heading: IRMA biedt <strong>zekerheden</strong> maar schept ook <strong>verplichtingen</strong>. Die zijn verschillend voor gebruikers, voor verifiers en voor issuers.
+
+
+gebruikers:
+  headline: Gebruikers
+
+start_gebruikers:
+  id: start_gebruikers
+  tonen_header: Kaartjes tonen
+  tonen_content: In hun IRMA app hebben gebruikers een overzicht van welke kaartjes ze hebben geladen (bij issuers). Een verifier kan aan een gebruiker vragen om zich bekend te maken met (een combinatie van) gegevens op die kaartjes, typisch via een "login" knop of via een link op de website. Wanneer de gebruiker op de eigen telefoon daarop klikt start de IRMA app vanzelf. Wanneer op een aparte computer of laptop geklikt wordt verschijnt eerst een QR-code die door de gebruiker gescand kan worden, met de IRMA app. Binnen de app komt er dan een scherm waarop zichtbaar is welke verifier om welke gegevens vraagt.
+  zekerheid_header: Zekerheid voor gebruikers
+  zekerheid_content: IRMA biedt de gebruiker <b>zekerheid</b> in de vorm van transparantie&colon; de IRMA app toont wie wat wil weten. De app vraagt de gebruiker expliciet om toestemming om de gevraagde persoonsgegevens te onthullen aan een verifier. Je kan als gebruiker niet aanpassen welke gegevens door een verifier gevraagd worden, maar soms heb je wel <b>opties</b>. Je hebt misschien verschillende e-mailadressen in je IRMA app geladen, op verschillende kaartjes. Als een verifier dan om je e-mailadres vraagt, heb je zelf de optie welk adres (van welk kaartje) je onthult. Uiteindelijk is het altijd de gebruiker die beslist over het wel-of-niet onthullen van de gevraagde gegevens.
+  verplichting_header: Verplichtingen voor gebruikers
+  verplichting_content: De gebruiker moet niet blind op de "ja" knop drukken en daarmee zomaar akkoord gaan met het doorgeven van de eigen gegevens aan een verifier. Het is verstandig eerst even goed te kijken wie wat vraagt voor welke dienst. De IRMA app is een krachtig middel waarmee gebruikers veel van zichzelf kunnen onthullen. Dat geeft regie maar vereist ook voorzichtigheid. Die voorzichtigheid is een <b>verplichting</b> van de gebruiker ten opzichte van zichzelf. Zoals we verderop zullen zien mogen verifiers alleen om noodzakelijke gegevens vragen. Een online muziekwinkel mag niet om je geboortedatum vragen, gewoonweg omdat een geboortedatum niet noodzakelijk en relevant is om jou een CD te verkopen. Grote, bekende organisaties zullen zich waarschijnlijk wel netjes gedragen en zullen niet te veel gegevens vragen, maar als gebruiker moet je wel waakzaam blijven. Als een verifier duidelijk om te veel van jouw gegevens vraagt, moet je vooral niet akkoord gaan. Je kunt dan een klacht indienen bij die verifier zelf, of bij de Autoriteit Persoonsgegevens. 
+
+verifiers:
+  headline: Verifiers
+
+start_verifiers:
+  id: start_verifiers
+  tonen_header: Gegevens van kaartjes vragen
+  tonen_content: Een verifier is een organisatie die gebruikers vraagt om persoonsgegevens te onthullen die in hun IRMA app zijn opgeslagen (op kaartjes). Met die gegevens kan bijvoorbeeld ingelogd worden bij de verifier, of kan automatisch een formulier ingevuld worden, of kan een telefoon/video gesprek gestart worden. <br> Er zijn geen technische beperkingen aan wat een verifier kan vragen -- maar wel juridische, zie verderop. De verifier kan in principe helemaal zelf kiezen welke gegevens hij aan gebruikers vraagt, uit welke kaartjes. De kaartjes in IRMA bevatten een digitale handtekening van de issuer. Hiermee kan de verifier zelf (cryptografisch) controleren welke partij de kaartjes uitgegeven heeft en daarmee garant staat voor de juistheid van de gegevens. Deze handtekening geeft de verifier <b>zekerheid</b> over wie de issuer is van het kaartje. De verifier moet zelf inschatten of hij een issuer betrouwbaar genoeg vindt. <br> Soms staat een bepaald gegeven, zoals een naam, op verschillende kaartjes. De verifier kan dan zelf de keuze maken ("ik wil de naam specifiek van dat kaartje") of de gebruiker een optie geven ("ik wil de naam van een van deze kaartjes; kies zelf maar welke je geeft"). Net zo kun je in veel situaties kiezen of je een paspoort of een rijbewijs toont. <br> Er zijn juridische beperkingen aan wat een verifier mag vragen. De Algemene Verordening Gegevensbescherming (AVG) beschrijft <b>verplichtingen</b> voor verifiers, waaronder met name doelbinding en data-minimalisatie. Dit houdt in dat verifiers alleen om die gegevens mogen vragen die noodzakelijk zijn voor de geboden dienst.
+  verplichting_header: Data-minimalisatie voorbeelden
+  verplichting_content: Stel je wil als verifier op je website korting geven aan studenten. Mensen die werken of studeren aan een onderwijsinstelling kunnen een "academisch" kaartje in hun IRMA app laden met daarop hun naam, e-mailadres, nummer en instelling en status (medewerker/student). Je mag als verifier, voor het doel "korting" vragen dat de gebruiker aantoont&colon; status is student. Maar je mag niet ook nog vragen om de instelling waar deze persoon studeert, of om het studentnummer. Die gegevens zijn niet noodzakelijk. <br><br> Vaak willen organisaties een naam en geslacht weten enkel om hun klanten beleefd te kunnen benaderen met&colon; Beste Mevrouw Jansen, [boodschap]. Echter, naam en geslacht zijn niet noodzakelijk om beleefd te zijn. De organisatie kan klanten ook benaderen met een generieke formulering&colon; Beste Mijnheer, Mevrouw, [boodschap]. Opvragen van namen vanuit IRMA, enkel voor een beleefheidsdoel, mag dus niet. <br><br> Een online boekwinkel mag vragen om het adres van een klant voor bezorging van een fysiek boek, maar mag dan weer niet vragen om het adres als de klant een e-book koopt dat gedownload kan worden. <br><br> Om een bevestiging van een bestelling naar een klant te sturen mag je als webwinkel vragen om een e-mailadres of een mobiel nummer. Je kunt vervolgens klanten met zo'n adres of nummer ook in laten loggen (via IRMA). Inloggen met een wachtwoord is dan niet meer nodig.
+  tips_header: Tips voor verifiers
+  tips_content: Deze doelbinding en data-minimalisatie eisen zijn over het algemeen logisch en vanzelfsprekend, maar je moet er als verifier wel even goed over nadenken. Het BSN is een heel gevoelig persoonsgegeven dat je als verifier alleen op mag vragen als je een wettelijke basis hebt om het BSN te verwerken. Bedenk daarbij ook dat het voor iedereen zichtbaar is om welke gegevens je vraagt met IRMA. De Autoriteit Persoonsgegevens kan het dus ook makkelijk controleren -- en kan zonodig ingrijpen. <br> Als je als verifier IRMA gebruikt hoef je sommige gegevens niet meer zelf op te slaan. Je kunt ze immers iedere keer opnieuw opvragen bij je gebruikers. Op zo'n manier beperk je ook je eigen risico's. Want wat je niet opslaat, kun je ook niet kwijtraken, door een hack of door een slordigheid. Om terugkerende klanten te herkennen kun je als verifier besluiten ook issuer te worden (zie later) en een eigen klantkaartje in IRMA uit te geven, met een klantnummer en eventueel andere relevante informatie. <br> Het gebruik van IRMA door verifiers is in principe gratis. Een verifier moet wel een "IRMA knop" op de eigen website inbouwen. Daarvoor is open source software beschikbaar, die ook gratis is. Een handige programmeur heeft IRMA in een paar uurtjes werkend. Je moet als verifier wel zelf een IRMA server draaien en onderhouden. Er is 24/7 support beschikbaar voor het geval er iets misgaat met IRMA, maar daar betaal je wel voor. Als je geen eigen IRMA server wil beheren, kun je een "ontzorg" dienst afnemen, via een broker die functioneert als IRMA verifier, namens jou. Je betaalt dan een tarief per login actie. Zo'n broker verwerkt gegevens van gebruikers voor jou verwerkt. Dat is minder privacy-vriendelijk voor jouw gebruikers dan dat je zelf een IRMA server in beheer hebt.
+
+
+issuers:
+  headline: Issuers
+
+start_issuers:
+  id: start_issuers
+  verplichting_header: Verplichtingen voor issuers
+  verplichting_content: Een issuer is een organisatie die IRMA kaartjes uitgeeft aan gebruikers. Dit klinkt eenvoudig, maar het is geen kleinigheid om issuer te zijn in het IRMA ecosysteem. Je hebt als issuer eigenlijk alleen <b>verplichtingen</b>. <br><br>Je moet als issuer zorgen dat de gegevens op kaartjes juist zijn en aan de juiste persoon uitgegeven worden -- en je moet transparant zijn over hoe je dat garandeert. <br><br> Je moet zorgen dat je altijd beschikbaar bent, zodat gebruikers ten alle tijden kaartjes bij jou kunnen ophalen (of kunnen verversen). <br><br> Je moet je ICT-goed op orde hebben en heel zorgvuldig omgaan met een "private key" die het uitgeven van IRMA kaartjes mogelijk maakt. <br><br> Je moet kaartjes op tijd herroepen, als gegevens niet meer juist blijken te zijn; dit is alleen van toepassing wanneer je als issuer ook revocatie ondersteunt; <br><br> Je moet ook nog eens betalen om issuer te zijn.
+  waarom_header: Waarom toch issuer worden?
+  waarom_content: Gegeven al deze verplichtingen, waarom zou je eigenlijk issuer willen zijn? Het kan een noodzakelijk stap zijn om een groter geheel goed te laten functioneren. Dat is bijvoorbeeld de motivatie voor de gemeente Nijmegen om BRP kaartjes uit te geven, voor gebruik in de zorg, bij de overheid, bij webwinkels, of elders. Maar uitgifte van kaartjes kan ook goed passen in een eigen digitaliseringsstrategie&colon; een warenhuis wil misschien de bestaande plastic klantenkaart vervangen door een digitale kaartje in IRMA. Dan zal het warenhuis die IRMA kaartjes wel eerst uit moeten gaan geven. De kosten en moeite daarvan wegen misschien wel op tegen de voordelen, waaronder de bespaarde (ook milleu) kosten van het niet meer uitgeven en vervangen van plastic kaartjes. Als issuer moet je er rekening mee houden dat iedere verifier in principe jouw kaartjes op kan vragen. Dat is niet altijd zinvol, maar het kan wel. Net zo kan ook nu iedere winkel aan klanten vragen of ze een AH-bonuskaart hebben. Om issuer te worden moet je een contract tekenen met de organisatie achter IRMA, waarin de bovengenoemde verplichtingen netjes geregeld worden.
+
+start_footer:
+  id: start_links
+  contact_headline: Contactpersoon
+  contact_content: Wil je als organisatie aan de slag met IRMA en wil je misschien nog meer weten, neem dan contact op met Bob Kronenburg van SIDN, op&colon; <a href="Bob.kronenburg@sidn.nl">Bob.kronenburg@sidn.nl</a>. Met hem kun je zonodig een afspraak maken voor verdere informatie, consultancy, support, contracten etc.
+  join_headline: Actief aan de gang?
+  join_content: Voor praktische/technische vragen je terecht op het IRMA slack kanaal waar ook ervaringen uitgewisseld worden. Voor verdere informatie over de werking van IRMA is er uitgebreide <a href="https://irma.app/docs" target="_blank">documentatie</a>&semi; de IRMA software is open source en staat op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
