@@ -7,6 +7,8 @@ nav:
   explanation_text: Erklärung
   faq_link: "#faqs"
   faq_text: FAQs
+  start_link: "/irma-start"
+  start_text: Integriere IRMA
   links_link: "#links"
   links_text: Links
 
