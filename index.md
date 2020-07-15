@@ -43,6 +43,7 @@ page_sections:
 - template: 3-column-text
   block: irma-three-column
   id: usage.id
+  class: usage.class
   image_1:
     image: "/uploads/non-free/login.png"
     alt: usage.login_alt

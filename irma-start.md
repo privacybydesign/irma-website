@@ -2,7 +2,7 @@
 languages:
 - nl
 layout: blocks
-title: Van start met IRMA
+title: Integreer IRMA
 date: 2017-11-22T23:00:00.000+00:00
 page_sections:
 - template: navigation-header
@@ -33,6 +33,7 @@ page_sections:
 - template: 3-column-text
   block: irma-three-column
   id: start_intro.id
+  class: start_intro.class
   col_1:
     headline: start_intro.aandeslag_header
     content: start_intro.aandeslag_content
@@ -51,10 +52,12 @@ page_sections:
 - template: irma-banner
   block: irma-hero-2
   headline: gebruikers.headline
+  class: gebruikers.class
 
 - template: 3-column-text
   block: irma-three-column
   id: start_gebruikers.id
+  class: start_intro.class
   col_1:
     headline: start_gebruikers.tonen_header
     content: start_gebruikers.tonen_content
@@ -68,10 +71,12 @@ page_sections:
 - template: irma-banner
   block: irma-hero-2
   headline: verifiers.headline
+  class: verifiers.class
 
 - template: 3-column-text
   block: irma-three-column
   id: start_verifiers.id
+  class: start_intro.class
   col_1:
     headline: start_verifiers.tonen_header
     content: start_verifiers.tonen_content
@@ -85,10 +90,13 @@ page_sections:
 - template: irma-banner
   block: irma-hero-2
   headline: issuers.headline
+  class: issuers.class
+
 
 - template: 2-column-text
   block: irma-two-column
   id: start_issuers.id
+  class: start_intro.class
   col_1:
     headline: start_issuers.verplichting_header
     content: start_issuers.verplichting_content

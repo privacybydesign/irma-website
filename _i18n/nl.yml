@@ -8,7 +8,7 @@ nav:
   faq_link: "#faqs"
   faq_text: FAQs
   start_link: "/irma-start"
-  start_text: Van start met IRMA
+  start_text: Integreer IRMA
   links_link: "#links"
   links_text: Links
   users_link: "#start_gebruikers"
@@ -46,7 +46,7 @@ usage:
     IRMA ondertekenen als arts, als burger of vanuit een andere rol.
   trust_headline: Zeker weten
   trust_alt: Zeker weten
-  trust_content: Gegevens in een IRMA app komen uit betrouwbare bronnen en zijn cryptografisch
+  trust_content: Gegevens in een IRMA-app komen uit betrouwbare bronnen en zijn cryptografisch
     beschermd. De kenmerken die jij met IRMA bekend maakt zijn daarmee echt, en
     echt van jou.
 
@@ -58,11 +58,11 @@ explanation:
   id: uitleg
   getstarted_headline: Zelf aan de slag met IRMA
   getstarted_alt: Zelf aan de slag met IRMA
-  getstarted_content: Iedereen kan de IRMA app gratis downloaden (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
+  getstarted_content: Iedereen kan de IRMA-app gratis downloaden (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
     en <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>)
     en vullen met je eigen gegevens. Bijvoorbeeld bij de gemeente kun je inlogggen
     en je basisgegevens (naam, adres, etc.) over jezelf ophalen. Maar ook kun je jouw
-    e-mailadres of 06-nummer in je IRMA app opslaan. Met zulke gegevens kan iedereen
+    e-mailadres of 06-nummer in je IRMA-app opslaan. Met zulke gegevens kan iedereen
     zichzelf online bekend maken.
   tool_headline: IRMA is een middel, geen doel op zich
   tool_alt: IRMA is een middel, geen doel op zich
@@ -85,25 +85,25 @@ faq:
   item1:
     question: Hoe moet ik met IRMA inloggen op een website?
     answer: Websites waar je met IRMA in kunt loggen hebben een knop daarvoor, waar
-      bijvoorbeeld op staat <em>Log in met IRMA</em>. Als je de IRMA app nog niet
+      bijvoorbeeld op staat <em>Log in met IRMA</em>. Als je de IRMA-app nog niet
       op je telefoon hebt zul je die eerst moeten installeren en vullen met de kenmerken
-      die je nodig hebt.<br><br> Als je de IRMA app al wel hebt, zijn er twee verschillende
+      die je nodig hebt.<br><br> Als je de IRMA-app al wel hebt, zijn er twee verschillende
       situaties<span>:</span><ul class="indent"><li> Als je de website bekijkt op
       je computer of laptop en je drukt op die login knop verschijnt er een QR code.
-      Je opent dan de IRMA app op je telefoon met je PIN. Onderaan in de app zit een
+      Je opent dan de IRMA-app op je telefoon met je PIN. Onderaan in de app zit een
       knopje waarmee je de QR code kunt scannen. In de app krijg je dan de vraag of
       je kenmerken waarom de website vraagt wil vrijgeven. Als je op OK klikt, ben
       je ingelogd.</li><li> Als je de website op je telefoon bekijkt wordt na het
-      indrukken van de login knop automatisch overgeschakeld naar de IRMA app. Daarin
+      indrukken van de login knop automatisch overgeschakeld naar de IRMA-app. Daarin
       verschijnt de vraag of je de gevraagde kenmerken wil vrijgeven. Nadat je op
       OK hebt gedrukt ga je terug naar de website en ben je ingelogd. Als het goed
       is gaat je telefoon automatisch terug, maar soms moet je dat met de hand doen.</li></ul><br>Het
-      kan zijn dat de website vraagt om kenmerken die je nog niet in je IRMA app geladen
+      kan zijn dat de website vraagt om kenmerken die je nog niet in je IRMA-app geladen
       hebt. Dan moet je die eerst voordat je in kunt loggen.
   item2:
-    question: Welke kenmerken kan ik nu (en later) in de IRMA app zetten?
+    question: Welke kenmerken kan ik nu (en later) in de IRMA-app zetten?
     answer: Vanuit gemeenten kun je zelf kenmerken zoals je naam, adres, geboortedatum,
-      BSN in je IRMA app zetten, maar ook of je bijvoorbeeld ouder dan 18 of 65 bent.
+      BSN in je IRMA-app zetten, maar ook of je bijvoorbeeld ouder dan 18 of 65 bent.
       Daarnaast kun je een of meer e-mail adressen en mobiele telefoonnummers, na controle, toevoegen.
       Studenten en medewerkers in het (hoger) onderwijs kunnen ook hun registratie
       toevoegen. Medewerkers in de zorg kunnen zogenaamde AGB registraties
@@ -121,11 +121,11 @@ faq:
       kwijt bent, kun je nog met een ander inloggen.
   item4:
     question: Hoezo is IRMA privacy-vriendelijk en veilig?
-    answer: Persoonskenmerken van IRMA staan alleen in de IRMA app en zijn beschermd
+    answer: Persoonskenmerken van IRMA staan alleen in de IRMA-app en zijn beschermd
       met een PIN. Je laat alleen die gegevens van jezelf zien die in een bepaalde
       situatie relevant en nodig zijn (data minimalisatie, zoals vereist door de Algemene Verordening Gegevensbescherming). Bijvoorbeeld, om korting te krijgen moet je
       soms bewijzen dat je student bent; dat kun je met IRMA doen zonder je naam of
-      studie te tonen.<br><br> Jouw kenmerken in de IRMA app zijn digitaal ondertekend
+      studie te tonen.<br><br> Jouw kenmerken in de IRMA-app zijn digitaal ondertekend
       door de bron (uitgever) waar de gegevens vandaan komen. Daardoor kan een website of winkel,
       waar je jezelf bekend maakt, cryptografisch controleren dat de gegevens echt
       zijn. Deze uitwisseling van persoonskenmerken vindt rechtstreeks plaats, tussen
@@ -136,14 +136,14 @@ faq:
       wie je bent. Facebook kan zo profielen opbouwen van wie waar wanneer inlogt.
   item5:
     question: Waar staan mijn IRMA gegevens opgeslagen?
-    answer: De kenmerken van jezelf die je in de IRMA app verzamelt staan alleen in
+    answer: De kenmerken van jezelf die je in de IRMA-app verzamelt staan alleen in
       de app zelf en worden door IRMA nergens anders opgeslagen. Ze staan dus niet
       ook nog ergens in een cloud. Als je jouw kenmerken uit de app verwijdert zijn
       ze ook echt weg. Jij geeft zelf steeds expliciet toestemming voordat deze kenmerken
-      vanuit de IRMA app aan een website doorgegeven worden.
+      vanuit de IRMA-app aan een website doorgegeven worden.
   item6:
     question: Hoe lang zijn kenmerken in IRMA geldig en hoe kan ik ze verversen?
-    answer: In de IRMA app kun je op het kaartje met je kenmerken zien hoe lang ze
+    answer: In de IRMA-app kun je op het kaartje met je kenmerken zien hoe lang ze
       geldig zijn. Die geldigheidsduur hangt af van het soort gegevens, namelijk van
       hoe veranderlijk ze zijn. Je naam en geboortedatum zijn vijf jaar geldig, maar
       je adres slechts een jaar. De uitgever (bron) van kenmerken bepaalt de geldigheidsduur.
@@ -154,21 +154,21 @@ faq:
       ophalen en heb je als nieuw kenmerk dat je ouder dan 18 bent.
   item7:
     question: Ik heb een nieuwe mobiele telefoon en nu?
-    answer: Op een nieuwe telefoon kun je de IRMA app opnieuw installeren, een nieuw
+    answer: Op een nieuwe telefoon kun je de IRMA-app opnieuw installeren, een nieuw
       account openen, en je kenmerken opnieuw ophalen. Er is op dit moment geen mogelijkheid
       om je kenmerken van je oude telefoon over te zetten naar je nieuwe telefoon.
       Daarbij komen subtiele beveiligseisen kijken, maar daar wordt aan gewerkt. Gelukkig is het niet heel moeilijk om je gegevens
       opnieuw op te halen. Het kost wel een klein beetje tijd.
   item8:
     question: Ik ben mijn telefoon kwijt en nu?
-    answer: <span>De IRMA app op je telefoon is beschermd met een persoonlijk PIN-code, net als je
+    answer: <span>De IRMA-app op je telefoon is beschermd met een persoonlijk PIN-code, net als je
       app voor internetbankieren. Zo kan niemand jouw gegevens gebruiken. Als je dus een
       goede PIN gekozen hebt, hoef je je geen zorgen te maken. <br><br> Je kunt jezelf
       echter nog beter beschermen<span>:</span> bij het openen van een IRMA account heb je de
       optie gekregen om een e-mail adres toe te voegen. Als je dat gedaan hebt, kun
       je via de <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">MijnIRMA</a>
       omgeving je oude IRMA account blokkeren. Dan kan er echt helemaal niks meer met de
-      IRMA app op je oude, verloren telefoon gebeuren. Als je nog geen e-mail adres
+      IRMA-app op je oude, verloren telefoon gebeuren. Als je nog geen e-mail adres
       toegevoegd hebt in MijnIRMA kun je dat alsnog doen, door <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">daar</a>
       met IRMA zelf in te loggen. Het is verstandig dat te doen.
   item9:
@@ -205,12 +205,12 @@ faq:
   item13:
     question: Hoezo kan IRMA gratis zijn?
     answer: IRMA is gratis voor gebruikers. IRMA is ook gratis voor websites die
-      gebruikers via IRMA laten inloggen<span>:</span> iedereen kan kenmerken uit een IRMA app
+      gebruikers via IRMA laten inloggen<span>:</span> iedereen kan kenmerken uit een IRMA-app
       opvragen en bekijken, als de gebruiker toestemming geeft. Maar het is <em>niet
       gratis</em> om kenmerken uit te geven. Niet iedereen kan zomaar kenmerken in
-      IRMA apps zetten; dat zou snel een rommeltje worden.<br><br> Voor die uitgifte
+      IRMA-apps zetten; dat zou snel een rommeltje worden.<br><br> Voor die uitgifte
       moet betaald worden en moet een contract getekend worden, waarbij de uitgever
-      zich ertoe verplicht om alleen juiste gegevens in de IRMA app van de juiste
+      zich ertoe verplicht om alleen juiste gegevens in de IRMA-app van de juiste
       persoon te zetten. <br><br>Ook kan een contract afgesloten worden voor support garanties (een "SLA") via SIDN, zowel door uitgevers als ontvangers (controleurs) van attributen. Omdat IRMA een decentraal systeem is, waarbij gegevens alleen
       op telefoons staan en rechtstreeks met websites uitgewisseld worden, heeft de
       organisatie achter IRMA relatief weinig te doen. Omdat die organisatie bovendien
@@ -249,12 +249,13 @@ start_banner:
 
 start_intro:
   id: start_intro
+  class: start
   aandeslag_header: Aan de slag met IRMA
-  aandeslag_content: Steeds meer mensen hebben de IRMA app op hun telefoon en steeds meer organisaties willen het mogelijk maken dat mensen zichzelf bekend maken met IRMA, bijvoorbeeld om in te loggen, om zich via de telefoon bekend te maken, of om te videobellen met zekerheid over wie er deelneemt. Op deze pagina worden de belangrijkste punten van IRMA op een rijtje gezet, om duidelijk te maken wat IRMA biedt en waar je op moet letten als je IRMA wil gaan gebruiken. 
+  aandeslag_content: Steeds meer mensen hebben de IRMA-app op hun telefoon en steeds meer organisaties willen het mogelijk maken dat mensen zichzelf bekend maken met IRMA, bijvoorbeeld om in te loggen, om zich via de telefoon bekend te maken, of om te videobellen met zekerheid over wie er deelneemt. Op deze pagina worden de belangrijkste punten van IRMA op een rijtje gezet, om duidelijk te maken wat IRMA biedt en waar je op moet letten als je IRMA wil gaan gebruiken. 
   eco_header: Welke partijen spelen een rol?
-  eco_content: <b>Gebruikers</b> zijn de mensen die IRMA op hun telefoon hebben, met daarin kaartjes met persoonsgegevens; gebruikers maken zich met IRMA bekend door (relevante) gegevens van die kaartjes te onthullen. <br> <b>Verifiers</b> zijn de organisaties die iets willen weten van gebruikers en die informatie opvragen via IRMA; verifiers zijn de partijen aan wie gebruikers hun gegevens onthullen.<br> <b>Issuers</b> zijn de organisaties die aan gebruikers persoonsgegevens over henzelf uitgeven, in de vorm van kaartjes in hun IRMA app; gebruikers kunnen zich vervolgens bekend maken aan verifiers met de gegevens op die kaartjes.</li></ol>
+  eco_content: <b>Gebruikers</b> zijn de mensen die IRMA op hun telefoon hebben, met daarin kaartjes met persoonsgegevens; gebruikers maken zich met IRMA bekend door (relevante) gegevens van die kaartjes te onthullen. <br> <b>Verifiers</b> zijn de organisaties die iets willen weten van gebruikers en die informatie opvragen via IRMA; verifiers zijn de partijen aan wie gebruikers hun gegevens onthullen.<br> <b>Issuers</b> zijn de organisaties die aan gebruikers persoonsgegevens over henzelf uitgeven, in de vorm van kaartjes in hun IRMA-app; gebruikers kunnen zich vervolgens bekend maken aan verifiers met de gegevens op die kaartjes.</li></ol>
   issuer_verifier_example_header: Voorbeeld issuers en verifiers
-  issuer_verifier_example_content: Een belangrijke issuer is de gemeente Nijmegen die een aansluiting heeft gemaakt op de Basisregistratie Personen (BRP) die voor iedereen beschikbaar is. Daarmee kan iedere gebruiker, ook als die niet in Nijmegen woont, kaartjes in de IRMA app krijgen met gegevens die de overheid heeft, zoals naam, geboortedatum, BSN, adres en leeftijdsgrenzen. Een webwinkel kan als verifier vragen om deze adresgegevens voor bezorging. Met IRMA kunnen organisaties zowel issuer als verifier zijn&colon; een warenhuis kan in de rol van issuer (eenmaal) een klantenkaart aan een gebruiker uitgeven als kaartje in IRMA en in de rol van verifier dat kaartje (meermaals) opvragen bij online bestellingen.
+  issuer_verifier_example_content: Een belangrijke issuer is de gemeente Nijmegen die een aansluiting heeft gemaakt op de Basisregistratie Personen (BRP) die voor iedereen beschikbaar is. Daarmee kan iedere gebruiker, ook als die niet in Nijmegen woont, kaartjes in de IRMA-app krijgen met gegevens die de overheid heeft, zoals naam, geboortedatum, BSN, adres en leeftijdsgrenzen. Een webwinkel kan als verifier vragen om deze adresgegevens voor bezorging. Met IRMA kunnen organisaties zowel issuer als verifier zijn&colon; een warenhuis kan in de rol van issuer (eenmaal) een klantenkaart aan een gebruiker uitgeven als kaartje in IRMA en in de rol van verifier dat kaartje (meermaals) opvragen bij online bestellingen.
 
 
 
@@ -265,36 +266,40 @@ zekerheden_verplichtingen:
 
 gebruikers:
   headline: Gebruikers
+  class: bolder
 
 start_gebruikers:
   id: start_gebruikers
   tonen_header: Kaartjes tonen
-  tonen_content: In hun IRMA app hebben gebruikers een overzicht van welke kaartjes ze hebben geladen (bij issuers). Een verifier kan aan een gebruiker vragen om zich bekend te maken met (een combinatie van) gegevens op die kaartjes, typisch via een "login" knop of via een link op de website. Wanneer de gebruiker op de eigen telefoon daarop klikt start de IRMA app vanzelf. Wanneer op een aparte computer of laptop geklikt wordt verschijnt eerst een QR-code die door de gebruiker gescand kan worden, met de IRMA app. Binnen de app komt er dan een scherm waarop zichtbaar is welke verifier om welke gegevens vraagt.
+  tonen_content: In hun IRMA-app hebben gebruikers een overzicht van welke kaartjes ze hebben geladen (bij issuers). Een verifier kan aan een gebruiker vragen om zich bekend te maken met (een combinatie van) gegevens op die kaartjes, typisch via een "login" knop of via een link op de website. Wanneer de gebruiker op de eigen telefoon daarop klikt start de IRMA-app vanzelf. Wanneer op een aparte computer of laptop geklikt wordt verschijnt eerst een QR-code die door de gebruiker gescand kan worden, met de IRMA-app. Binnen de app komt er dan een scherm waarop zichtbaar is welke verifier om welke gegevens vraagt.
   zekerheid_header: Zekerheid voor gebruikers
-  zekerheid_content: IRMA biedt de gebruiker <b>zekerheid</b> in de vorm van transparantie&colon; de IRMA app toont wie wat wil weten. De app vraagt de gebruiker expliciet om toestemming om de gevraagde persoonsgegevens te onthullen aan een verifier. Je kan als gebruiker niet aanpassen welke gegevens door een verifier gevraagd worden, maar soms heb je wel <b>opties</b>. Je hebt misschien verschillende e-mailadressen in je IRMA app geladen, op verschillende kaartjes. Als een verifier dan om je e-mailadres vraagt, heb je zelf de optie welk adres (van welk kaartje) je onthult. Uiteindelijk is het altijd de gebruiker die beslist over het wel-of-niet onthullen van de gevraagde gegevens.
+  zekerheid_content: IRMA biedt de gebruiker <b>zekerheid</b> in de vorm van transparantie&colon; de IRMA-app toont wie wat wil weten. De app vraagt de gebruiker expliciet om toestemming om de gevraagde persoonsgegevens te onthullen aan een verifier. Je kan als gebruiker niet aanpassen welke gegevens door een verifier gevraagd worden, maar soms heb je wel <b>opties</b>. Je hebt misschien verschillende e-mailadressen in je IRMA-app geladen, op verschillende kaartjes. Als een verifier dan om je e-mailadres vraagt, heb je zelf de optie welk adres (van welk kaartje) je onthult. Uiteindelijk is het altijd de gebruiker die beslist over het wel-of-niet onthullen van de gevraagde gegevens.
   verplichting_header: Verplichtingen voor gebruikers
-  verplichting_content: De gebruiker moet niet blind op de "ja" knop drukken en daarmee zomaar akkoord gaan met het doorgeven van de eigen gegevens aan een verifier. Het is verstandig eerst even goed te kijken wie wat vraagt voor welke dienst. De IRMA app is een krachtig middel waarmee gebruikers veel van zichzelf kunnen onthullen. Dat geeft regie maar vereist ook voorzichtigheid. Die voorzichtigheid is een <b>verplichting</b> van de gebruiker ten opzichte van zichzelf. Zoals we verderop zullen zien mogen verifiers alleen om noodzakelijke gegevens vragen. Een online muziekwinkel mag niet om je geboortedatum vragen, gewoonweg omdat een geboortedatum niet noodzakelijk en relevant is om jou een CD te verkopen. Grote, bekende organisaties zullen zich waarschijnlijk wel netjes gedragen en zullen niet te veel gegevens vragen, maar als gebruiker moet je wel waakzaam blijven. Als een verifier duidelijk om te veel van jouw gegevens vraagt, moet je vooral niet akkoord gaan. Je kunt dan een klacht indienen bij die verifier zelf, of bij de Autoriteit Persoonsgegevens. 
+  verplichting_content: De gebruiker moet niet blind op de "ja" knop drukken en daarmee zomaar akkoord gaan met het doorgeven van de eigen gegevens aan een verifier. Het is verstandig eerst even goed te kijken wie wat vraagt voor welke dienst. De IRMA-app is een krachtig middel waarmee gebruikers veel van zichzelf kunnen onthullen. Dat geeft regie maar vereist ook voorzichtigheid. Die voorzichtigheid is een <b>verplichting</b> van de gebruiker ten opzichte van zichzelf. Zoals we verderop zullen zien mogen verifiers alleen om noodzakelijke gegevens vragen. Een online muziekwinkel mag niet om je geboortedatum vragen, gewoonweg omdat een geboortedatum niet noodzakelijk en relevant is om jou een CD te verkopen. Grote, bekende organisaties zullen zich waarschijnlijk wel netjes gedragen en zullen niet te veel gegevens vragen, maar als gebruiker moet je wel waakzaam blijven. Als een verifier duidelijk om te veel van jouw gegevens vraagt, moet je vooral niet akkoord gaan. Je kunt dan een klacht indienen bij die verifier zelf, of bij de Autoriteit Persoonsgegevens. 
 
 verifiers:
   headline: Verifiers
+  class: bolder
+
 
 start_verifiers:
   id: start_verifiers
   tonen_header: Gegevens van kaartjes vragen
-  tonen_content: Een verifier is een organisatie die gebruikers vraagt om persoonsgegevens te onthullen die in hun IRMA app zijn opgeslagen (op kaartjes). Met die gegevens kan bijvoorbeeld ingelogd worden bij de verifier, of kan automatisch een formulier ingevuld worden, of kan een telefoon/video gesprek gestart worden. <br> Er zijn geen technische beperkingen aan wat een verifier kan vragen -- maar wel juridische, zie verderop. De verifier kan in principe helemaal zelf kiezen welke gegevens hij aan gebruikers vraagt, uit welke kaartjes. De kaartjes in IRMA bevatten een digitale handtekening van de issuer. Hiermee kan de verifier zelf (cryptografisch) controleren welke partij de kaartjes uitgegeven heeft en daarmee garant staat voor de juistheid van de gegevens. Deze handtekening geeft de verifier <b>zekerheid</b> over wie de issuer is van het kaartje. De verifier moet zelf inschatten of hij een issuer betrouwbaar genoeg vindt. <br> Soms staat een bepaald gegeven, zoals een naam, op verschillende kaartjes. De verifier kan dan zelf de keuze maken ("ik wil de naam specifiek van dat kaartje") of de gebruiker een optie geven ("ik wil de naam van een van deze kaartjes; kies zelf maar welke je geeft"). Net zo kun je in veel situaties kiezen of je een paspoort of een rijbewijs toont. <br> Er zijn juridische beperkingen aan wat een verifier mag vragen. De Algemene Verordening Gegevensbescherming (AVG) beschrijft <b>verplichtingen</b> voor verifiers, waaronder met name doelbinding en data-minimalisatie. Dit houdt in dat verifiers alleen om die gegevens mogen vragen die noodzakelijk zijn voor de geboden dienst.
+  tonen_content: Een verifier is een organisatie die gebruikers vraagt om persoonsgegevens te onthullen die in hun IRMA-app zijn opgeslagen (op kaartjes). Met die gegevens kan bijvoorbeeld ingelogd worden bij de verifier, of kan automatisch een formulier ingevuld worden, of kan een telefoon/video gesprek gestart worden. <br> Er zijn geen technische beperkingen aan wat een verifier kan vragen -- maar wel juridische, zie verderop. De verifier kan in principe helemaal zelf kiezen welke gegevens hij aan gebruikers vraagt, uit welke kaartjes. De kaartjes in IRMA bevatten een digitale handtekening van de issuer. Hiermee kan de verifier zelf (cryptografisch) controleren welke partij de kaartjes uitgegeven heeft en daarmee garant staat voor de juistheid van de gegevens. Deze handtekening geeft de verifier <b>zekerheid</b> over wie de issuer is van het kaartje. De verifier moet zelf inschatten of hij een issuer betrouwbaar genoeg vindt. <br> Soms staat een bepaald gegeven, zoals een naam, op verschillende kaartjes. De verifier kan dan zelf de keuze maken ("ik wil de naam specifiek van dat kaartje") of de gebruiker een optie geven ("ik wil de naam van een van deze kaartjes; kies zelf maar welke je geeft"). Net zo kun je in veel situaties kiezen of je een paspoort of een rijbewijs toont. <br> Er zijn juridische beperkingen aan wat een verifier mag vragen. De Algemene Verordening Gegevensbescherming (AVG) beschrijft <b>verplichtingen</b> voor verifiers, waaronder met name doelbinding en data-minimalisatie. Dit houdt in dat verifiers alleen om die gegevens mogen vragen die noodzakelijk zijn voor de geboden dienst.
   verplichting_header: Data-minimalisatie voorbeelden
-  verplichting_content: Stel je wil als verifier op je website korting geven aan studenten. Mensen die werken of studeren aan een onderwijsinstelling kunnen een "academisch" kaartje in hun IRMA app laden met daarop hun naam, e-mailadres, nummer en instelling en status (medewerker/student). Je mag als verifier, voor het doel "korting" vragen dat de gebruiker aantoont&colon; status is student. Maar je mag niet ook nog vragen om de instelling waar deze persoon studeert, of om het studentnummer. Die gegevens zijn niet noodzakelijk. <br><br> Vaak willen organisaties een naam en geslacht weten enkel om hun klanten beleefd te kunnen benaderen met&colon; Beste Mevrouw Jansen, [boodschap]. Echter, naam en geslacht zijn niet noodzakelijk om beleefd te zijn. De organisatie kan klanten ook benaderen met een generieke formulering&colon; Beste Mijnheer, Mevrouw, [boodschap]. Opvragen van namen vanuit IRMA, enkel voor een beleefheidsdoel, mag dus niet. <br><br> Een online boekwinkel mag vragen om het adres van een klant voor bezorging van een fysiek boek, maar mag dan weer niet vragen om het adres als de klant een e-book koopt dat gedownload kan worden. <br><br> Om een bevestiging van een bestelling naar een klant te sturen mag je als webwinkel vragen om een e-mailadres of een mobiel nummer. Je kunt vervolgens klanten met zo'n adres of nummer ook in laten loggen (via IRMA). Inloggen met een wachtwoord is dan niet meer nodig.
+  verplichting_content: Stel je wil als verifier op je website korting geven aan studenten. Mensen die werken of studeren aan een onderwijsinstelling kunnen een "academisch" kaartje in hun IRMA-app laden met daarop hun naam, e-mailadres, nummer en instelling en status (medewerker/student). Je mag als verifier, voor het doel "korting" vragen dat de gebruiker aantoont&colon; status is student. Maar je mag niet ook nog vragen om de instelling waar deze persoon studeert, of om het studentnummer. Die gegevens zijn niet noodzakelijk. <br><br> Vaak willen organisaties een naam en geslacht weten enkel om hun klanten beleefd te kunnen benaderen met&colon; Beste Mevrouw Jansen, [boodschap]. Echter, naam en geslacht zijn niet noodzakelijk om beleefd te zijn. De organisatie kan klanten ook benaderen met een generieke formulering&colon; Beste Mijnheer, Mevrouw, [boodschap]. Opvragen van namen vanuit IRMA, enkel voor een beleefheidsdoel, mag dus niet. <br><br> Een online boekwinkel mag vragen om het adres van een klant voor bezorging van een fysiek boek, maar mag dan weer niet vragen om het adres als de klant een e-book koopt dat gedownload kan worden. <br><br> Om een bevestiging van een bestelling naar een klant te sturen mag je als webwinkel vragen om een e-mailadres of een mobiel nummer. Je kunt vervolgens klanten met zo'n adres of nummer ook in laten loggen (via IRMA). Inloggen met een wachtwoord is dan niet meer nodig.
   tips_header: Tips voor verifiers
   tips_content: Deze doelbinding en data-minimalisatie eisen zijn over het algemeen logisch en vanzelfsprekend, maar je moet er als verifier wel even goed over nadenken. Het BSN is een heel gevoelig persoonsgegeven dat je als verifier alleen op mag vragen als je een wettelijke basis hebt om het BSN te verwerken. Bedenk daarbij ook dat het voor iedereen zichtbaar is om welke gegevens je vraagt met IRMA. De Autoriteit Persoonsgegevens kan het dus ook makkelijk controleren -- en kan zonodig ingrijpen. <br> Als je als verifier IRMA gebruikt hoef je sommige gegevens niet meer zelf op te slaan. Je kunt ze immers iedere keer opnieuw opvragen bij je gebruikers. Op zo'n manier beperk je ook je eigen risico's. Want wat je niet opslaat, kun je ook niet kwijtraken, door een hack of door een slordigheid. Om terugkerende klanten te herkennen kun je als verifier besluiten ook issuer te worden (zie later) en een eigen klantkaartje in IRMA uit te geven, met een klantnummer en eventueel andere relevante informatie. <br> Het gebruik van IRMA door verifiers is in principe gratis. Een verifier moet wel een "IRMA knop" op de eigen website inbouwen. Daarvoor is open source software beschikbaar, die ook gratis is. Een handige programmeur heeft IRMA in een paar uurtjes werkend. Je moet als verifier wel zelf een IRMA server draaien en onderhouden. Er is 24/7 support beschikbaar voor het geval er iets misgaat met IRMA, maar daar betaal je wel voor. Als je geen eigen IRMA server wil beheren, kun je een "ontzorg" dienst afnemen, via een broker die functioneert als IRMA verifier, namens jou. Je betaalt dan een tarief per login actie. Zo'n broker verwerkt gegevens van gebruikers voor jou verwerkt. Dat is minder privacy-vriendelijk voor jouw gebruikers dan dat je zelf een IRMA server in beheer hebt.
 
 
 issuers:
   headline: Issuers
+  class: bolder
 
 start_issuers:
   id: start_issuers
   verplichting_header: Verplichtingen voor issuers
-  verplichting_content: Een issuer is een organisatie die IRMA kaartjes uitgeeft aan gebruikers. Dit klinkt eenvoudig, maar het is geen kleinigheid om issuer te zijn in het IRMA ecosysteem. Je hebt als issuer eigenlijk alleen <b>verplichtingen</b>. <br><br>Je moet als issuer zorgen dat de gegevens op kaartjes juist zijn en aan de juiste persoon uitgegeven worden -- en je moet transparant zijn over hoe je dat garandeert. <br><br> Je moet zorgen dat je altijd beschikbaar bent, zodat gebruikers ten alle tijden kaartjes bij jou kunnen ophalen (of kunnen verversen). <br><br> Je moet je ICT-goed op orde hebben en heel zorgvuldig omgaan met een "private key" die het uitgeven van IRMA kaartjes mogelijk maakt. <br><br> Je moet kaartjes op tijd herroepen, als gegevens niet meer juist blijken te zijn; dit is alleen van toepassing wanneer je als issuer ook revocatie ondersteunt; <br><br> Je moet ook nog eens betalen om issuer te zijn.
+  verplichting_content: Een issuer is een organisatie die IRMA kaartjes uitgeeft aan gebruikers. Dit klinkt eenvoudig, maar het is geen kleinigheid om issuer te zijn in het IRMA ecosysteem. Je hebt als issuer eigenlijk alleen <b>verplichtingen</b>. <br><br><ul><li>Je moet als issuer zorgen dat de gegevens op kaartjes juist zijn en aan de juiste persoon uitgegeven worden -- en je moet transparant zijn over hoe je dat garandeert.</li> <li> Je moet zorgen dat je altijd beschikbaar bent, zodat gebruikers ten alle tijden kaartjes bij jou kunnen ophalen (of kunnen verversen). </li> <li> Je moet je ICT-goed op orde hebben en heel zorgvuldig omgaan met een "private key" die het uitgeven van IRMA kaartjes mogelijk maakt. </li> <li> Je moet kaartjes op tijd herroepen, als gegevens niet meer juist blijken te zijn; dit is alleen van toepassing wanneer je als issuer ook revocatie ondersteunt; </li> <li> Je moet ook nog eens betalen om issuer te zijn. </li></ul>
   waarom_header: Waarom toch issuer worden?
   waarom_content: Gegeven al deze verplichtingen, waarom zou je eigenlijk issuer willen zijn? Het kan een noodzakelijk stap zijn om een groter geheel goed te laten functioneren. Dat is bijvoorbeeld de motivatie voor de gemeente Nijmegen om BRP kaartjes uit te geven, voor gebruik in de zorg, bij de overheid, bij webwinkels, of elders. Maar uitgifte van kaartjes kan ook goed passen in een eigen digitaliseringsstrategie&colon; een warenhuis wil misschien de bestaande plastic klantenkaart vervangen door een digitale kaartje in IRMA. Dan zal het warenhuis die IRMA kaartjes wel eerst uit moeten gaan geven. De kosten en moeite daarvan wegen misschien wel op tegen de voordelen, waaronder de bespaarde (ook milleu) kosten van het niet meer uitgeven en vervangen van plastic kaartjes. Als issuer moet je er rekening mee houden dat iedere verifier in principe jouw kaartjes op kan vragen. Dat is niet altijd zinvol, maar het kan wel. Net zo kan ook nu iedere winkel aan klanten vragen of ze een AH-bonuskaart hebben. Om issuer te worden moet je een contract tekenen met de organisatie achter IRMA, waarin de bovengenoemde verplichtingen netjes geregeld worden.
 

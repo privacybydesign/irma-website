@@ -417,6 +417,29 @@ column.text p {
   text-align: center;
 }
 
+.start > div > div > p {
+  text-align: left;
+}
+
+.start > div > div > h3 {
+  text-align: left;
+}
+
+.start > div > div > ul {
+  padding-left: 1em;
+}
+
+
+.start > div > div > ul > li {
+  text-align: left;
+  padding-bottom: 0.5em;
+  padding-left: 1em;
+}
+
+h1 span.bolder{
+  font-weight: 500 !important;
+}
+
 /* Adjusting the size of elements based on screen size */
 
 @media screen and (min-width:700px) {

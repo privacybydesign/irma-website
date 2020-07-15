@@ -5,7 +5,7 @@ style="background-image: url('{{ section.background_image | prepend: site.baseur
   <div class="container">
     <div class="columns">
       <div class="column text">
-        <h1><span class="light">{% t section.headline %}</span></h1>
+        <h1><span class="light {% t section.class %}">{% t section.headline %}</span></h1>
         <p>{{ section.content }}</p>
         {% if section.ctaiOS and section.ctaiOS.enabled == true %}
         <button class="button primary inverted" onclick="location.href='{% t section.ctaiOS.url %}'" type="button">{% t section.ctaiOS.button_text %}</button>
