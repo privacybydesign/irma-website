@@ -1,22 +1,22 @@
 nav:
   home_link: "/"
   home_text: IRMA
-  usage_link: "#usage"
-  usage_text: Usage
-  explanation_link: "#explanation"
-  explanation_text: Explanation
+  usage_link: "#gebruik"
+  usage_text: Utilisation
+  explanation_link: "#uitleg"
+  explanation_text: Explication
   faq_link: "#faqs"
   faq_text: FAQs
   start_link: "/irma-start"
-  start_text: Integrate IRMA
+  start_text: Intégration
   links_link: "#links"
-  links_text: Links
+  links_text: Liens
 
 banner:
-  headline: Choose IRMA <br><strong>Put a digital passport on your own mobile</strong>
-  ios: IRMA for iOS
+  headline: Choisissez IRMA.<br><strong>Mettez un passeport numérique dans votre téléphone mobile.<strong>
+  ios: IRMA pour iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
-  android: IRMA for Android
+  android: IRMA pour Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   product_shot_src: "/uploads/non-free/screenshot-en.png"
   product_shot_alt: Product Shot
@@ -48,7 +48,7 @@ explanation:
   tool_content: Avoir à utiliser plusieurs mots de passe est ennuyant pour tout le monde. Pourtant, les sites Web doivent savoir à qui ils ont affaire. IRMA vous apporte de la certitude. Avec IRMA, vous pouvez faire ce que vous souhaitez faire en ligne avec facilité et certitude. Par exemple, regarder ou acheter un film.
   usecases_headline: Que puis-je faire avec maintenant?
   usecases_alt: Que puis-je faire avec maintenant?
-  usecases_content: Les sites webs qui permettent d’utiliser IRMA commencent à apparaître. <a href="https://irma-meet.nl/lang/en">IRMA-meet</a> offre des appels vidéo qui permettent de savoir avec certitude à qui vous parlez. Aux Pays-Bas, les médecins s’y connectent pour accéder aux dossiers des patients qui sont accessible sur le Web<a href="https://www.helder.health" target="_blank">helder</a>. Aux niveaux du government local et des soins de santé en particulier, l'utilisation de l'IRMA augmente. Afin de vous faire une idée des possibilités, vous pouvez essayer IRMA <a href="https://privacybydesign.foundation/demo-en/" target="_blank">demos</a> vous-même.
+  usecases_content: Les sites webs qui permettent d’utiliser IRMA commencent à apparaître (voir <a href="https://privacybydesign.foundation/usage/" target="_blank">https://privacybydesign.foundation/usage/</a> pour un aperçu). <a href="https://irma-meet.nl/lang/en">IRMA-meet</a> offre des appels vidéo qui permettent de savoir avec certitude à qui vous parlez. Aux Pays-Bas, les médecins s’y connectent pour accéder aux dossiers des patients qui sont accessible sur le Web <a href="https://www.helder.health" target="_blank">helder</a>. Aux niveaux du government local et des soins de santé en particulier, l'utilisation de l'IRMA augmente. Afin de vous faire une idée des possibilités, vous pouvez essayer IRMA <a href="https://privacybydesign.foundation/demo-en/" target="_blank">demos</a> vous-même.
 
 faq:
   id: Questions fréquemment posées
@@ -70,9 +70,7 @@ faq:
       href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>) appareil, vous pouvez ouvrir un compte IRMA séparé et y insérer vos attributs. Il peut même être judicieux de le faire, car si vous perdez un appareil, vous pouvez toujours utiliser l'autre pour vous connecter.
   item5:
     question: Dans quel sens IRMA est-il respectueux de la vie privée et sécurisé?
-    answer: Vos attributs personnels sont stockés exclusivement dans l'application IRMA sur votre téléphone et nulle part ailleurs. Ils sont protégés via le code PIN de l'application IRMA. Vous ne divulguez que les attributs pertinents et requis dans une situation particulière (minimisation des données, comme l'exige le Règlement Général sur la Protection des Données). Par exemple, pour obtenir un certain rabais, vous devrez peut-être prouver que vous êtes étudiant; avec IRMA, vous pouvez le faire sans divulguer votre nom ou votre domaine d'études.<br><br>Your attributes in the IRMA app are digitally signed by the source (issuer) of these attributes. A website receiving attributes can cryptographically check that they are authentic (really coming from the source). This exchange of personal attributes happens directly, between your phone and the website. No-one else can register that you make yourself known there. This is completely different from the (privacy-unfriendly) login mechanism of Facebook (and others), used for instance at an online store. In that case the data exchange happens differently
-
-Vos attributs dans l'application IRMA sont signés numériquement par la source (émetteur) de ces attributs. Un site Web recevant des attributs peut vérifier cryptographiquement leur authenticité (provenant réellement de la source). Cet échange d'attributs personnels se fait directement, entre votre téléphone et le site Web. Personne d'autre n’est en mesure d’enregistrer le fait que vous vous identifiez sur ce site web. Ceci est complètement différent du mécanisme de connexion (non respectueux de la vie privée) de Facebook (et d'autres), utilisé par exemple dans une boutique en ligne. Dans ce cas, l'échange de données se déroule différemment<span>:</span> vous devez d'abord vous connecter à Facebook, puis Facebook dit au magasin qui vous êtes. De cette façon, Facebook peut créer des profils détaillés de qui se connecte où et quand.
+    answer: Vos attributs personnels sont stockés exclusivement dans l'application IRMA sur votre téléphone et nulle part ailleurs. Ils sont protégés via le code PIN de l'application IRMA. Vous ne divulguez que les attributs pertinents et requis dans une situation particulière (minimisation des données, comme l'exige le Règlement Général sur la Protection des Données). Par exemple, pour obtenir un certain rabais, vous devrez peut-être prouver que vous êtes étudiant; avec IRMA, vous pouvez le faire sans divulguer votre nom ou votre domaine d'études.<br><br>Vos attributs dans l'application IRMA sont signés numériquement par la source (émetteur) de ces attributs. Un site Web recevant des attributs peut vérifier cryptographiquement leur authenticité (provenant réellement de la source). Cet échange d'attributs personnels se fait directement, entre votre téléphone et le site Web. Personne d'autre n’est en mesure d’enregistrer le fait que vous vous identifiez sur ce site web. Ceci est complètement différent du mécanisme de connexion (non respectueux de la vie privée) de Facebook (et d'autres), utilisé par exemple dans une boutique en ligne. Dans ce cas, l'échange de données se déroule différemment<span>:</span> vous devez d'abord vous connecter à Facebook, puis Facebook dit au magasin qui vous êtes. De cette façon, Facebook peut créer des profils détaillés de qui se connecte où et quand.
   item6:
     question: Où sont stockés mes attributs IRMA?
     answer: Les attributs vous concernant et que vous collectez dans l'application IRMA sur votre téléphone sont stockés uniquement dans l'application IRMA, et nulle part ailleurs. En particulier, ils ne sont pas stockés quelque part dans le cloud. Lorsque vous supprimez des attributs de votre application IRMA, ils ont vraiment disparu. Vous êtes invité à donner votre permission explicitement avant que l'un de ces attributs de votre téléphone ne soit divulgué de l'application à un site Web.
@@ -103,6 +101,10 @@ Vos attributs dans l'application IRMA sont signés numériquement par la source 
   item15:
     question: Où puis-je trouver plus d’information sur IRMA?
     answer: Le site de la foundation Privacy by Design contient des informations générales détaillées sur le fonctionnement d'IRMA. <a href="https://privacybydesign.foundation/irma-explanation/" target="_blank">page</a>. Les personnes qui souhaitent comprendre les details techniques approfondis peuvent consulter la page <a href="https://irma.app/docs" target="_blank">documentation</a> d’IRMA et <a href="https://github.com/privacybydesign" target="_blank">GitHub</a> repository.<br><br> La vue d'ensemble derrière IRMA est décrite dans le <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank"> Manifeste IRMA </a> qui n'est disponible qu'en néerlandais, pour l'instant.
+  item16:
+      question: Puis-je installer IRMA sans le Google Play Store?
+      answer: Oui, vous pouvez télécharger l'application IRMA ici<span>:</span> <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Si vous installez IRMA de cette manière, l'application ne recevra pas automatiquement les mises à jour. Nous travaillons sur l'ajout de l'application à F-Droid.
+
 
 footer:
   id: links

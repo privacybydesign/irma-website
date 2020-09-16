@@ -48,7 +48,7 @@ explanation:
   tool_content: Die Verwendung von allerlei Passwörtern ist für jeden lästig. Dennoch müssen Webseiten wissen, mit wem sie es zu tun haben. IRMA bietet Gewissheit. Mit IRMA kannst du online einfach und sicher das tun, was du tun willst. Zum Beispiel einen Film anschauen, kaufen oder verkaufen.
   usecases_headline: Wo kann ich IRMA benutzen?
   usecases_alt: Wo kann ich IRMA benutzen?
-  usecases_content: Es gibt immer mehr Webseiten, auf denen du dich mit IRMA anmelden kannst. Mit <a href="https://irma-meet.nl/lang/en">IRMA-meet</a> kannst Du Videogespräche führen und hast Du Gewissheit darüber, mit wem Du sprichst. Ärzte in den Niederlanden können beispielsweise via IRMA Patientenakten einsehen (siehe  <a href="https://www.helder.health"
+  usecases_content: Es gibt immer mehr Webseiten, auf denen du dich mit IRMA anmelden kannst (besuche <a href="https://privacybydesign.foundation/usage/" target="_blank">https://privacybydesign.foundation/usage/</a> für eine Übersicht). Mit <a href="https://irma-meet.nl/lang/en">IRMA-meet</a> kannst Du Videogespräche führen und hast Du Gewissheit darüber, mit wem Du sprichst. Ärzte in den Niederlanden können beispielsweise via IRMA Patientenakten einsehen (siehe  <a href="https://www.helder.health"
     target="_blank">helder</a>). Insbesondere das Gesundheitswesen und die niederländischen Gemeinden nutzen vermehrt IRMA. Um dir einen Eindruck von den Möglichkeiten zu verschaffen, kannst du selbst eine Reihe von  <a href="https://privacybydesign.foundation/demo/" target="_blank">IRMA-Demos</a> ausprobieren.
 
 faq:
@@ -107,12 +107,16 @@ faq:
       <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">Webseite</a> der Stiftung Privacy by Design. Wer die Software von IRMA einsehen möchte, kann 
       <a href="https://irma.app/docs" target="_blank">IRMAs Dokumentationsseite</a> und das 
       <a href="https://github.com/privacybydesign" target="_blank">GitHub Repository</a> besuchen.
+  item16:
+        question: Kann ich IRMA ohne Google Play Store installieren?
+        answer: Ja, du kannst IRMA hier heruntergeladen<span>:</span> <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Wenn du IRMA auf diese Weise installierst, empfängst du keine automatischen Updates für die App. Wir arbeiten daran, IRMA bei F-Droid anzubieten.
+
 
 footer:
   id: links
   irma_alt: IRMA logo
   irma_headline: Stiftung Privacy by Design
-  irma_content: "IRMA wird von der <a href=\"https://privacybydesign.foundation/\" target=\"_blank\">Stiftung Privacy by Design</a> entwickelt in nahe Zusammenarbeit mit <a href=\"https://www.sidn.nl/en\" target=\"_blank\">SIDN</a>. Eine detailliertere Erklärung der Funktionsweise von IRMA bietet die Stiftung Privacy by Design auf ihrer eigenen <a href=\"https://privacybydesign.foundation/irma-uitleg/\" target=\"_blank\">Webseite</a>. <a href=\"https://privacybydesign.foundation/privacy-policy-en/\">Datenschutz.</a> Folgen Sie uns auf Twitter: <br/> <a href=\"https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw\" class=\"twitter-follow-button\" data-lang=\"de\" data-size=\"large\" data-show-count=\"false\">@irma_privacy</a>"
+  irma_content: "IRMA wird von der <a href=\"https://privacybydesign.foundation/\" target=\"_blank\">Stiftung Privacy by Design</a> entwickelt in nahe Zusammenarbeit mit <a href=\"https://www.sidn.nl/en\" target=\"_blank\">SIDN</a>. Eine detailliertere Erklärung der Funktionsweise von IRMA bietet die Stiftung Privacy by Design auf ihrer eigenen <a href=\"https://privacybydesign.foundation/irma-uitleg/\" target=\"_blank\">Webseite</a>. Folgen Sie uns auf Twitter: <br/> <a href=\"https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw\" class=\"twitter-follow-button\" data-lang=\"de\" data-size=\"large\" data-show-count=\"false\">@irma_privacy</a><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
   doc_headline: Entwickler
   doc_content: Entwickler, die mit IRMA arbeiten möchten, können hier die <a href="https://irma.app/docs" target="_blank">Dokumentation</a> finden. Personen, die den Code anschauen wollen oder zu IRMA beitragen wollen, finden hier die <a href="https://github.com/privacybydesign" target="_blank">GitHub Seite</a>.
   github_headline: Stakeholders

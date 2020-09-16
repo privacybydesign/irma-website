@@ -5,7 +5,7 @@ email: ''
 description: Met IRMA heb je in de hand wat er met jouw gegevens gebeurt.
 baseurl: ""
 url: ''
-languages: ["nl", "nl", "en", "de"]
+languages: ["nl", "fr", "en", "de"]
 defaults:
 - scope:
     path: ''
