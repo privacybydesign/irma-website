@@ -110,10 +110,10 @@ footer:
   id: links
   irma_alt: IRMA logo
   irma_headline: Privacy by Design Foundation
-  irma_content: " IRMA est créé et géré par la <a href=\"https://privacybydesign.foundation/en\" target=\"_blank\">Privacy
-    by Design</a> Foundation en cooperation étroite avec <a href=\"https://www.sidn.nl/en\" target=\"_blank\">SIDN</a>. La fondation fournit des explications 
-    <a href=\"https://privacybydesign.foundation/irma-explanation/\" target=\"_blank\">complètes</a>.
-    Suivez IRMA sur Twitter pour connaîtres les derniers développements: <br/> <a href=\"https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw\" class=\"twitter-follow-button\" data-lang=\"en\" data-size=\"large\" data-show-count=\"false\">@irma_privacy</a><script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>"
+  irma_content: "IRMA is produced and run by the <a href=\"https://privacybydesign.foundation/en\" target=\"_blank\">Privacy
+    by Design</a> Foundation in close cooperation with <a href=\"https://www.sidn.nl/en\" target=\"_blank\">SIDN</a>. The foundation provides extensive
+    <a href=\"https://privacybydesign.foundation/irma-explanation/\" target=\"_blank\">explanations</a>. <a href=\"https://privacybydesign.foundation/privacy-policy-en/\">Privacy policy.</a>
+    Follow IRMA on Twitter for the latest developments: <br/> <a href=\"https://twitter.com/irma_privacy?ref_src=twsrc%5Etfw\" class=\"twitter-follow-button\" data-lang=\"en\" data-size=\"large\" data-show-count=\"false\">@irma_privacy</a>"
   doc_headline: Développeurs/développeuses
   doc_content: les développeurs/développeuses qui souhaitent travailler avec IRMA peuvent consulter les informations techniques d'IRMA <a href="https://irma.app/docs" target="_blank">documentation</a>. Les personnes qui souhaitent inspecter le logiciel IRMA ou qui souhaitent contribuer au développement d'IRMA peuvent se rendre sur la page <a href="https://github.com/privacybydesign" target="_blank">GitHub</a> IRMA.
   github_headline: Parties prenantes.
