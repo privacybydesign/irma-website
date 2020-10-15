@@ -1,18 +1,19 @@
 ---
-title: IRMA (Development version)
+title: IRMA
 author: Privacy by Design Foundation
 email: ''
 description: Met IRMA heb je in de hand wat er met jouw gegevens gebeurt.
 baseurl: ""
 url: ''
 languages: ["nl", "fr", "en", "de"]
+default_locale_in_subfolder: true
 defaults:
-  - scope:
-      path: ''
-    values:
-      layout: default
+- scope:
+    path: ''
+  values:
+    layout: default
 markdown: kramdown
 plugins:
-  - jekyll-feed
-  - jekyll-menus
-  - jekyll-multiple-languages-plugin
+- jekyll-feed
+- jekyll-menus
+- jekyll-multiple-languages-plugin

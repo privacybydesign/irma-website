@@ -19,4 +19,4 @@ site:
     paths:
       - _site/*
   script:
-    - bundle exec jekyll build --config _config.yml
+    - bundle exec jekyll build --config _config_production.yml
