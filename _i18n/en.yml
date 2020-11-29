@@ -78,30 +78,33 @@ faq:
     question: For how long are IRMA attributes valid, and how can I refresh them?
     answer: Within the IRMA app you can see on each card with attributes when they expire. The validity period depends on the stability of the attributes at hand. For instance, in The Netherlands, your name and date-of-birth attributes are valid for five years, whereas your address attribute is valid for only one year. The issuer (source) of attributes decides about expiry times. The validity of IRMA attributes may thus run out. The app warns you about this. You can always renew (refresh) them, even without warning, by reloading them from the source, just like you did the first time. For instance, after your 18th birthday you can renew your attributes from your (Dutch) municipality and then obtain an older-than-18 attribute.
   item8:
+    question: A link to the IRMA app on a webpage does not open, for receiving or disclosing a card. What now?
+    answer: This may happen with the Firefox browser on Android phones. By default, Firefox does not open links to apps, such as IRMA. You can solve this by changing the settings of Firefox. Under "Settings" go to "Advanced" and allow "Open links in apps".
+  item9:
     question: What should I do when I buy a new phone?
     answer: On a new phone you can install a new IRMA app, open a new (empty) account, and reload your attributes from the various sources onto your new phone. Currently, there is no possibility to transfer attributes from one phone to another. This is work in progress, which involves some delicate security issues. Fortunately, it is not so difficult to load your attributes again onto your new phone. It does take a bit of time.
-  item9:
+  item10:
     question: What should I do when I lose my phone?
     answer: The IRMA app on your phone is protected with a PIN, just like internet banking apps. Therefore, when you lose your phone, someone else cannot abuse your IRMA app and pretend to be you (commit identity fraud). So you do not need to worry, assuming your PIN is non-trivial.<br><br>There are still better ways to protect yourself<span>:</span> upon opening your IRMA account, you had the option to register an email address. If you have done this, you can block your old IRMA account via the <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a> environment. Then it really cannot be used anymore. If you have not registered an email address, you can still do so via <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a>. This is recommended.
-  item10:
+  item11:
     question: I have a question about IRMA; where should I go?
     answer: When you have a question about logging in with IRMA at webshop The Trendy Chicken, you can best address your question at The Trendy Chicken itself. Also when that website asks you to install the IRMA app and that fails, you can best talk to them. Often such pages contain additional info and allow you to ask questions.<br><br>If, in the end, you have a question about IRMA itself, you can send an email to the address <a href="mailto:irma@privacybydesign.foundation">irma@privacybydesign.foundation</a>. Please explain clearly what your point is, and provide your phone's model and supply screen shots if possible when something goes wrong.
-  item11:
+  item12:
     question: What happens to my data when I log in with IRMA?
     answer: When you log in with IRMA at a website your phone talks directly to that website. No-one is in between, monitoring that exchange. The IRMA organisation cannot see your attributes — because they are exclusively on your phone — and can also not see which attributes you disclose to which website.
-  item12:
+  item13:
     question: Who is behind IRMA?
     answer: IRMA is produced and run by the <a href="https://privacybydesign.foundation/en" target="_blank">Privacy by Design</a> Foundation. In 2016 this foundation grew out of the Digital Security research group from Radboud University at Nijmegen, The Netherlands. It is an independent non-profit foundation. Since 2019 it has a strategic cooperation with (<a href="https://www.sidn.nl/en" target="_blank">SIDN</a>), the foundation that runs the .nl domain. This cooperation contributes to IRMA's stability and continuity.
-  item13:
+  item14:
     question: How can IRMA be free?
     answer: IRMA is free for users and also free for websites that use IRMA for login<span>:</span> everyone can request attributes from the IRMA app, and will receive them after the user has given consent. But it is <em>not free</em> to issue attributes. Not everyone can put attributes in other people's phones, since that would quickly become a mess.<br><br>Issuing involves a fee and also a contract, in which the issuer commits itself to put only accurate (authentic) data in the IRMA app of the right person.<br><br>Additionally, a contract is available, both for verifiers and issuers, that gives availability guarantees (an "SLA") via SIDN. Since IRMA is a decentralised system, in which attributes are stored only on user's phones, the organisation behind IRMA has a relatively light task. Because, in addition, this organisation has no profit goals, IRMA as a whole is a cheap system.
-  item14:
+  item15:
     question: IRMA is <em>open source</em>; what does that mean?
     answer: The IRMA software is deliberately open source. This means that the way that IRMA works can be inspected by anyone<span>:</span> the software is available online, see <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. This also means that people outside the foundation can contribute. Indeed, several other organisations are contributing software and designs to the IRMA ecosystem. Of course, you do have to know a bit about computer programs in order to really understand IRMA's software, but the principle is important<span>:</span> IRMA has no secrets and works in a transparent manner. This contributes to trust in IRMA. There are no uneasy discussions about hidden backdoors in IRMA, like for instance in 5G telecommunications. The Privacy by Design foundation is of the opinion that all software in infrastructure with a public role should be open source.
-  item15:
+  item16:
     question: I like to know more about IRMA; where can I go?
     answer: Extensive background information about how IRMA works is described by the Privacy by Design foundation at this <a href="https://privacybydesign.foundation/irma-explanation/" target="_blank">page</a>. People who wish to understand the real technicalities can check out IRMA's <a href="https://irma.app/docs" target="_blank">documentation</a> page and <a href="https://github.com/privacybydesign" target="_blank">GitHub</a> repository.<br><br>The big picture behind IRMA is described in a <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a> which is available only in Dutch, so far.
-  item16:
+  item17:
       question: Can I install IRMA on Android without Google Play Store?
       answer: Yes, you can download the IRMA app here<span>:</span> <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. If you install IRMA this way, the app will not recieve updates automatically. We are working on adding the app to F-Droid.
 
