@@ -120,4 +120,4 @@ footer:
   doc_headline: Entwickler
   doc_content: Entwickler, die mit IRMA arbeiten möchten, können hier die <a href="https://irma.app/docs" target="_blank">Dokumentation</a> finden. Personen, die den Code anschauen wollen oder zu IRMA beitragen wollen, finden hier die <a href="https://github.com/privacybydesign" target="_blank">GitHub Seite</a>.
   github_headline: Stakeholders
-  github_content: Die <a href=\"https://privacybydesign.foundation/\" target=\"_blank\">Stiftung Privacy by Design</a> arbeitet stetig an neuen Funktionen und Anwendungen. Hierbei wird eng zusammengearbeitet mit Partnern und Stakeholdern. Besuche unsere <a href="roadmap.html" target="_blank">Trello roadmap</a> um mehr über unsere Zukunftspläne zu erfahren.
+  github_content: Die <a href="https://privacybydesign.foundation/" target="_blank">Stiftung Privacy by Design</a> arbeitet stetig an neuen Funktionen und Anwendungen. Hierbei wird eng zusammengearbeitet mit Partnern und Stakeholdern. Besuche unsere <a href="roadmap.html" target="_blank">Trello roadmap</a> um mehr über unsere Zukunftspläne zu erfahren.
