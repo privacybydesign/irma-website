@@ -37,6 +37,10 @@ page_sections:
     enabled: true
     url: banner.android_url
     button_text: banner.android
+  ctaFdroid:
+    enabled: true
+    url: banner.fdroid_url
+    button_text: banner.fdroid
   image:
     image: banner.product_shot_src
     alt_text: banner.product_shot_alt

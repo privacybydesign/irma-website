@@ -28,6 +28,8 @@ banner:
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA voor Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
+  fdroid: IRMA via F-droid
+  fdroid_url: https://f-droid.org/en/packages/org.irmacard.cardemu/
   product_shot_src: "/uploads/non-free/screenshot-nl.png"
   product_shot_alt: Product Shot
 
@@ -59,7 +61,7 @@ explanation:
   getstarted_headline: Zelf aan de slag met IRMA
   getstarted_alt: Zelf aan de slag met IRMA
   getstarted_content: Iedereen kan de IRMA-app gratis downloaden (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
-    en <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>)
+    en <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a> en <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>)
     en vullen met je eigen gegevens. Bijvoorbeeld bij de gemeente kun je inlogggen
     en je basisgegevens (naam, adres, etc.) over jezelf ophalen. Maar ook kun je jouw
     e-mailadres of 06-nummer in je IRMA-app opslaan. Met zulke gegevens kan iedereen
@@ -115,7 +117,7 @@ faq:
   item3:
     question: Kan ik IRMA op een tweede telefoon of tablet zetten?
     answer: Jazeker, op ieder (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android</a>
-      en <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a>)
+      en <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS</a> en <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>)
       apparaat kun je een apart IRMA account openen en vullen met persoonskenmerken.
       Het is misschien wel verstandig omdat te doen, want als je dan het ene apparaat
       kwijt bent, kun je nog met een ander inloggen.
@@ -195,7 +197,7 @@ faq:
     answer: Jazeker, IRMA is internationaal beschikbaar. Voor mensen buiten Nederland zijn echter nog niet zoveel attributen beschikbaar
       als voor mensen binnen Nederland. In andere landen moeten er eerst ook aansluitingen komen van IRMA op leveranciers van attributen,
       zoals de Basisregistratie Personen (BRP) in Nederland.<br><br>
-      Je kan op het online <a href="https://metrics.privacybydesign.foundation/grafana/d/000000011/" target="_blank">dashboard</a>
+      Je kan op het online <a href="https://privacybydesign.foundation/dashboard/" target="_blank">dashboard</a>
       zien hoe IRMA op de hele wereld gebruikt wordt.
   item13:
     question: Wie zit er achter IRMA?
@@ -235,7 +237,7 @@ faq:
       <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
   item17:
     question: Kan ik de IRMA app op Android installeren zonder de Google Play Store?
-    answer: Ja, de app is hier te downloaden<span>:</span> <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Als je hem zo installeert wordt hij echter niet automatisch geüpdate. We werken eraan om de app toe te voegen aan F-Droid.
+    answer: Ja, de app is hier te downloaden<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, of via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Als je hem op de laatste manier installeert wordt hij echter niet automatisch geüpdate. 
 
 footer:
   id: links

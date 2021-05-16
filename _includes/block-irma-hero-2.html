@@ -13,6 +13,9 @@ style="background-image: url('{{ section.background_image | prepend: site.baseur
         {% if section.ctaAndroid and section.ctaAndroid.enabled == true %}
         <button class="button primary inverted" onclick="location.href='{% t section.ctaAndroid.url %}'" type="button">{% t section.ctaAndroid.button_text %}</button>
         {% endif %}
+        {% if section.ctaFdroid and section.ctaFdroid.enabled == true %}
+        <button class="button primary inverted" onclick="location.href='{% t section.ctaFdroid.url %}'" type="button">{% t section.ctaFdroid.button_text %}</button>
+        {% endif %}
       </div>
       <div class="column media">
         <img src="{{site.baseurl_root}}{% t section.image.image %}" alt="{% t section.image.alt_text %}">
