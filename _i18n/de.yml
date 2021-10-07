@@ -63,45 +63,47 @@ faq:
   item2:
     question: Ich lebe nicht in Holland, kann ich IRMA trotzdem benutzen?
     answer: Die IRMA-App ist international verfügbar, aber nur wenige Informationen können weltweit geladen werden. Bisher kannst du außerhalb der Niederlande nur deine E-Mail-Adresse, Handynummer und einige Daten aus Social Media (die nicht sehr zuverlässig sind) in die IRMA-App laden. Eine Herausforderung besteht im Moment darin, Partner in anderen Ländern zu finden, die relevante Daten an die IRMA-Benutzer herausgeben möchten.<br><br>Die Stiftung Privacy by Design ist bisher hauptsächlich in den Niederlanden tätig. Hier hat sie Verbindungen zu den Gemeinden, zu der Regierung, aber auch zu medizinischen und akademischen Registern aufgebaut. Ähnliche Verbindungen müssen in anderen Ländern erst hergestellt werden, um IRMA dort wirklich nützlich zu machen. Dabei sind jede Hilfe und Unterstützung willkommen. Also mach mit, wenn du interessiert bist.<br><br>Momentan ist die IRMA-App (und ihre Dokumentation) leider nur auf Englisch und Niederländisch verfügbar. Da der Quellcode der IRMA-App online steht, können Freiwillige aus anderen Ländern an der Entwicklung mitwirken, indem sie die relevanten Texte in ihre eigene Sprache übersetzen.<br><br>Auf unserem <a href="https://privacybydesign.foundation/dashboard/" target="_blank">Dashboard</a> können Sie sehen, wie IRMA weltweit eingesetzt wird.
-
   item3:
+    question: Warum wird meine Adresskarte von der Gemeinde Nijmegen ausgestellt, obwohl ich da nicht wohne?
+    answer: Momentan stellt die Gemeinde Nijmegen alle Adresskarten für Bewohner der Niederlande aus, die DigiD haben, unabhängig von deren Wohnsitz.
+  item4:
     question: Welche Informationen kann ich jetzt (und später) in die IRMA-App laden?
     answer: In deiner IRMA-App kannst du persönliche Informationen wie Name, Adresse und Geburtsdatum speichern, aber auch, ob du beispielsweise älter als 18 oder 65 Jahre bist. Du kannst auch eine oder mehrere E-Mail-Adressen und Handynummern hinzufügen (diese werden erst überprüft). Studenten und Angestellte in Universitäten und Hochschulen in den Niederlanden können eine digitale Studentenkarte oder Mitarbeiterkarte laden. Angestellte im holländischen Gesundheitswesen können die sogenannte BIG- und AGB-Registrierung hinzufügen. Du kannst auch Daten aus sozialen Medien (LinkedIn, Twitter, Facebook) laden. Allen Erwartungen nach, kann man in Zukunft noch viel mehr Daten in IRMA laden.
-  item4:
+  item5:
     question: Kann ich IRMA auf ein zweites Telefon oder Tablet übertragen?
     answer: Ja, du kannst auf jedem (<a href="https://play.google.com/store/apps/details?id=org.irmacard.cardemu">Android-</a>
       und <a href="https://itunes.apple.com/us/app/irma-authentication/id1294092994">iOS-</a> und <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>) Gerät eine separate IRMA-App installieren und sie mit persönlichen Informationen füllen. Dies kann sinnvoll sein, da du dich dann auch wenn du dein Handy verloren hast, weiterhin mit einem anderen Gerät anmelden kannst.
-  item5:
+  item6:
     question: Wie schützt IRMA deine Privatsphäre und Daten?
     answer: Deine persönliche Informationen werden ausschließlich in der IRMA-App gespeichert und mit einem PIN geschützt. Wenn du dich online anmeldest, gibst du nur die Informationen von dir preis, die in einer bestimmten Situation relevant und notwendig sind. Wenn du beispielsweise einen Rabatt erhalten möchtest, kannst du mit IRMA nachweisen, dass du studierst, ohne deinen Namen oder Studiengang preiszugeben.<br><br>Deine Informationen, die du in IRMA lädst, werden vom Herausgeber der Daten digital signiert. Infolgedessen kann die Webseite, bei der du dich anmeldest, kryptografisch überprüfen, ob die Daten echt sind. Dieser Austausch persönlicher Informationen erfolgt direkt zwischen deinem Smartphone und der Webseite. Niemand sonst kann sehen, dass du dich dort anmeldest. Dies ist ein großer Vorteil gegenüber datenschutzfeindlichen Logins via Facebook oder Google. Wenn du dich beispielsweise mit Facebook-Login bei einem Online-Shop anmeldest, erfolgt der Austausch von Informationen anders<span>:</span> du musst dich erst bei Facebook anmelden, woraufhin Facebook dem Online-Shop mitteilt, wer du bist. Facebook weiß damit, wer sich wo anmeldet, und kann Profile von den Benutzern erstellen. 
-  item6:
+  item7:
     question: Wo werden meine IRMA-Daten gespeichert?
     answer: Die Informationen, die du in die IRMA-App lädst, sind nur in der App selbst und nirgendwo sonst gespeichert. Sie befinden sich also auch nicht irgendwo in einer Online-Cloud. Wenn du Daten aus der App entfernst, sind sie auch wirklich weg. Du erteilst immer eine ausdrückliche Erlaubnis, bevor persönliche Informationen von der IRMA-App an eine Webseite weitergegeben werden.
-  item7:
+  item8:
     question: Wie lange sind meine Daten in IRMA gültig und wie kann ich sie aktualisieren?
     answer: In der IRMA-App siehst du für jede deiner Informationen, wie lange diese noch gültig sind. Die Gültigkeitsdauer hängt von der Art der Daten ab, und insbesondere davon, wie oft sich die Informationen verändern können. Dein Name und dein Geburtsdatum sind zum Beispiel fünf Jahre gültig, deine Anschrift jedoch nur ein Jahr. Der Herausgeber der Informationen bestimmt die Gültigkeitsdauer. Die Gültigkeit von IRMA-Daten kann daher erlöschen. Die App warnt dich davor. Du kannst deine Informationen jederzeit aktualisieren, indem du sie wie beim ersten Mal beim Herausgeber abrufst. Zum Beispiel kannst du (in den Niederlanden) nach deinem 18. Geburtstag deine Daten erneut bei der Gemeinde abrufen, und so den Beweis, dass du älter als 18 bist, laden.
-  item8:
+  item9:
     question: Was mache ich, wenn ich ein neues Smartphone kaufe?
     answer: Auf einem neuen Telefon kannst du die IRMA-App erneut installieren. Derzeit gibt es leider noch keine Möglichkeit, Daten von einem Telefon auf ein anderes zu übertragen. Daran arbeiten wir. Glücklicherweise ist es nicht sehr schwierig, die Daten erneut zu laden. Es kann jedoch ein bisschen Zeit kosten.
-  item9:
+  item10:
     question: Was mache ich, wenn ich mein Smartphone verliere?
     answer: Die IRMA-App auf deinem Telefon ist wie viele Internet-Banking-Apps mit einer PIN geschützt. Wenn du dein Smartphone verlierst, kann daher niemand deine IRMA-App benutzen und sich als du ausgeben. Wenn du eine gute PIN gewählt hast, musst du dir also keine Sorgen machen.<br><br>Du kannst dich sogar noch besser schützen<span>:</span> Wenn du die IRMA-App einrichtest, hast du die Möglichkeit, eine E-Mail-Adresse anzugeben. Diese E-Mail-Adresse kannst du benutzen um deine IRMA-App über die <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">MyIRMA</a>-Umgebung zu sperren. Dann kann die IRMA-App auf deinem verlorenen Telefon nicht mehr benutzt werden. Wenn du noch keine E-Mail-Adresse zu IRMA hinzugefügt hast, kannst du dies noch nachholen, indem du dich bei <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">MyIRMA</a> anmeldest. Es ist klug, das zu tun.
-  item10:
+  item11:
     question: Ich habe eine Frage zu IRMA, was kann ich tun?
     answer: Wenn du eine Frage zum Anmelden via IRMA bei einer bestimmten Webseite hast, stellst du die Frage am besten an diese Webseite. Auch wenn dich eine Webseite auffordert, IRMA zu installieren und dies nicht funktioniert, stellst du am besten dort deine Fragen. Normalerweise enthalten Webseiten die IRMA einsetzen, auch Informationen darüber, wie du Fragen stellen kannst und mit wem du Kontakt aufnehmen kannst. Wenn du eine Frage zum IRMA-System selbst hast, kannst du eine Mail an <a href="mailto:app@privacybydesign.foundation">app@privacybydesign.foundation</a> schicken.
-  item11:
+  item12:
     question: Was passiert mit meinen Daten, wenn ich mich bei einer Webseite mit IRMA anmelde?
     answer: Wenn du dich bei einer Webseite anmeldest, nimmt dein Smartphone direkt Kontakt mit der Webseite auf. Nachdem du dazu die Erlaubnis erteilt hast, gibt dein Telefon die angeforderten Informationen direkt an die Webseite weiter. Niemand anderes, auch nicht die Stiftung, die IRMA entwickelt hat, kann deine Informationen sehen.
-  item12:
+  item13:
     question: Wer steckt hinter IRMA?
     answer: IRMA wird von der <a href="https://privacybydesign.foundation/" target="_blank">Stiftung Privacy by Design</a> entwickelt und betrieben. Diese Stiftung ging 2016 aus der <em>Digital Security</em> Forschungsgruppe der Radboud Universität in Nimwegen hervor. Die Stiftung ist unabhängig und gemeinnützig. Seit 2019 arbeitet die Stiftung Privacy by Design strategisch mit der <a href="https://www.sidn.nl/" target="_blank">SIDN</a> Stiftung (für Internet Domain Registrationen in den Niederlanden) zusammen. Diese Zusammenarbeit trägt ebenfalls zur Stabilität und Kontinuität von IRMA bei.
-  item13:
+  item14:
     question: Wie ist es möglich, dass IRMA gratis ist?
     answer: Die IRMA-App ist für Benutzer kostenlos. IRMA ist zudem auch für Webseiten kostenlos, die es Besuchern ermöglichen, sich über IRMA anzumelden&#58; Informationen können aus der IRMA-App angefragt und nach der Zustimmung des Benutzers freigegeben werden. Das Herausgeben von Informationen ist jedoch nicht kostenlos. Nicht jede Partei kann Informationen herausgeben; das würde schnell im Chaos enden.<br><br>Das Herausgeben von Informationen an IRMA ist kostenpflichtig und es muss ein Vertrag unterzeichnet werden, in dem sich die Partei dazu verpflichtet, ausschließlich akkurate Daten in die IRMA-App der richtigen Person herauszugeben.<br><br>Das Herausgeben von Informationen an IRMA ist kostenpflichtig und es muss ein Vertrag unterzeichnet werden, in dem sich die Partei dazu verpflichtet, ausschließlich akkurate Daten in die IRMA-App der richtigen Person herauszugeben.<br><br>Darüber hinaus steht sowohl für Webseiten, die IRMA einsetzen, als auch für Herausgeber von Informationen ein Vertrag ("SLA") zur Verfügung, der Verfügbarkeitsgarantien über SIDN bietet. Da es sich bei IRMA um ein dezentrales System handelt, bei dem Daten nur auf dem Smartphone gespeichert und direkt mit Webseiten ausgetauscht werden, hat die Organisation hinter IRMA eine relativ leichte Aufgabe. Da diese Stiftung kein Gewinnstreben hat, ist IRMA als Ganzes ein billiges System.
-  item14:
+  item15:
     question: IRMA ist <em>„Open Source“</em> – was bedeutet das?
     answer: Die Software von IRMA ist bewusst Open Source. Das bedeutet, dass die Funktionsweise von IRMA für alle einsehbar ist<span>:</span> die Software ist online frei verfügbar (siehe  <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>). Das bedeutet auch, dass Personen außerhalb der Stiftung einen Beitrag leisten können. In der Tat tragen mehrere Organisationen mit Software und Designs zum IRMA Ökosystem bei. Natürlich muss man einiges über Computerprogramme wissen, um wirklich IRMAs Software zu verstehen, aber das Prinzip ist, was zählt<span>:</span> IRMA hat keine Geheimnisse und arbeitet transparent. Dies trägt zum Vertrauen in IRMA bei. Daher gibt es mit IRMA keine Diskussionen über versteckte Hintertüren, wie beispielsweise bei der 5G-Telekommunikation. Die Stiftung Privacy by Design ist der Meinung, dass Software, die in öffentlicher Infrastruktur zum Einsatz kommt, Open Source sein muss.
-  item15:
+  item16:
     question: Wo finde ich mehr Informationen über IRMA? 
     answer: Die Geschichte hinter IRMA ist in einem 
       <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a> beschrieben, das momentan leider nur auf Niederländisch zur Verfügung steht.
@@ -109,9 +111,9 @@ faq:
       <a href="https://privacybydesign.foundation/irma-uitleg/" target="_blank">Webseite</a> der Stiftung Privacy by Design. Wer die Software von IRMA einsehen möchte, kann 
       <a href="https://irma.app/docs" target="_blank">IRMAs Dokumentationsseite</a> und das 
       <a href="https://github.com/privacybydesign" target="_blank">GitHub Repository</a> besuchen.
-  item16:
-        question: Kann ich IRMA ohne Google Play Store installieren?
-        answer: Ja, du kannst IRMA hier heruntergeladen<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a> oder via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Wenn du IRMA auf diese letzte Weise installierst, empfängst du keine automatischen Updates für die App.
+  item17:
+    question: Kann ich IRMA ohne Google Play Store installieren?
+    answer: Ja, du kannst IRMA hier heruntergeladen<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a> oder via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Wenn du IRMA auf diese letzte Weise installierst, empfängst du keine automatischen Updates für die App.
 
 
 footer:
