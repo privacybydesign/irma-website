@@ -112,7 +112,9 @@ faq:
   item18:
     question: Can I install IRMA on Android without Google Play Store?
     answer: Yes, you can download the IRMA app here<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, or via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. If you install IRMA this latter way, the app will not recieve updates automatically.
-
+  item19:
+    question: What is my MyIRMA username?
+    answer: The MyIRMA username is an identifier for your app installation. How do you find this username? Log in on <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a> using your IRMA app (not via the mail option). After logging in you can find the MyIRMA username on the top of the page. If you have several IRMA apps, each installation has its own MyIRMA username.
 
 footer:
   id: links
