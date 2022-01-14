@@ -243,8 +243,8 @@ faq:
     question: Kan ik de IRMA app op Android installeren zonder de Google Play Store?
     answer: Ja, de app is hier te downloaden<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, of via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Als je hem op de laatste manier installeert wordt hij echter niet automatisch geüpdate. 
   item19:
-    question: Wat is mijn MijnIRMA gebruikersnaam?
-    answer: De MijnIRMA gebruikersnaam is een identifier voor je app installatie. En hoe vind je deze gebruikersnaam? Log aan op <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">MijnIRMA</a> met de IRMA inlogoptie (dus niet met email). Na het inloggen staat bovenaan de pagina je gebruikersnaam. Als je meerdere IRMA apps hebt geinstalleerd, heb je per installatie een eigen gebruikersnaam. 
+    question: Wat is mijn IRMA AppID?
+    answer: De IRMA AppID is een identifier voor je app installatie. En hoe vind je deze AppID? Log aan op <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">MijnIRMA</a>. Na het inloggen staat bovenaan de pagina je AppID. Als je meerdere IRMA apps hebt geinstalleerd, heb je per installatie een eigen AppID. 
 
 footer:
   id: links
