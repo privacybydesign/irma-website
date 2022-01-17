@@ -113,8 +113,8 @@ faq:
     question: Can I install IRMA on Android without Google Play Store?
     answer: Yes, you can download the IRMA app here<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, or via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. If you install IRMA this latter way, the app will not recieve updates automatically.
   item19:
-    question: What is my IRMA AppID?
-    answer: The IRMA AppID is an identifier for your app installation. How do you find this AppID? Log in on <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a>. After logging in you can find the IRMA AppID on the top of the page. If you have several IRMA apps, each installation has its own AppID.
+    question: What is my IRMA app ID?
+    answer: The IRMA app ID is an identifier for your app installation. You can find your App ID by logging in on <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a>. After logging in you can find the IRMA app ID on the top of the page. If you have several IRMA apps, each installation has its own app ID.
 
 footer:
   id: links
