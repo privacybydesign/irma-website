@@ -230,6 +230,27 @@ faq:
       leveranciers met een eigen agenda, zoals bijvoorbeeld met 5G telecommunicatie. De stichting Privacy by Design achter IRMA vindt dat
       alle software die gebruikt wordt in infrastructuur met een publieke rol open source moet zijn.
   item17:
+    question: Ik wil graag IRMA en al mijn gegevens verwijderen.
+    answer: Via <a href="https://privacybydesign.foundation/mijnirma/">MijnIRMA</a> verwijder je zelf al uw gegevens. Verwijder daarna de IRMA-app van uw telefoon. Als je geen actie onderneemt en de IRMA-app een jaar lang niet gebruikt, verwijderen wij na dat jaar automatisch al uw gegevens.
+  item18:
+    question: Ik wil mij afmelden bij een organisatie waarop ik inlog met IRMA.
+    answer: Neem hiervoor contact op met de organisatie waar je je bij wilt afmelden.
+  item19:
+    question: Ik wil inloggen of mijn gegevens inzien bij een organisatie die IRMA gebruikt. Hoe doe ik dat?
+    answer: Volg de instructies op de website van de organisatie. Heb je hierover vragen, neem dan contact op met de organisatie.
+  item20:
+    question: Hoe scan ik de IRMA QR-code?
+    answer: Open de IRMA-app met uw pincode en druk op de &lsquo;Scan QR&rsquo;-knop rechts onderin de app. Begin met scannen door uw mobiel op de IRMA QR-code te richten. Soms is het nodig om toestemming te geven om de camera te gebruiken.
+  item21:
+    question: Waar vind ik een IRMA QR-code op de website van een organisatie?
+    answer: Je vindt de IRMA QR-code meestal via een knop of link &lsquo;Inloggen&rsquo; of &lsquo;Gegevens delen&rsquo;. Soms ondersteunt de organisatie IRMA (nog) niet. Heb je hierover nog vragen, neem dan contact op met de organisatie.
+  item22:
+    question: Wat betekent het &lsquo;Betrouwbaarheidsniveau&rsquo; in het &lsquo;Persoonsgegevens&rsquo;-kaartje?
+    answer: &lsquo;Midden&rsquo; geeft het betrouwbaarheidsniveau aan waarmee je met DigiD ingelogde om de gegevens in IRMA te laden. Wil je het betrouwbaarheidsniveau op &lsquo;Substantieel&rsquo; krijgen? Koppel dan de DigiD-app aan een identiteitsdocument. Meer informatie vind je op <a href="https://www.digid.nl/inlogmethodes/digid-app/#voeg-id-check-toe">www.digid.nl</a>. 
+  item23:
+    question: Hoe kan ik de gegevens in het &lsquo;Woonadres&rsquo;-kaartje veranderen? Of gegevens in een ander kaartje?
+    answer: De organisatie van wie je het kaartje krijgt, bepaalt wat erin staat. Als je gegevens veranderd zijn, kun je een nieuw kaartje ophalen. Daarin staan dan de juiste gegevens.
+  item24:
     question: Ik wil meer informatie over IRMA; waar kan ik terecht?
     answer: Het grotere verhaal achter IRMA staat beschreven in een
       <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a>.
@@ -239,7 +260,7 @@ faq:
       Mensen die de software van IRMA willen bekijken kunnen terecht op een technische
       <a href="https://irma.app/docs" target="_blank">documentatie</a> pagina en op
       <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
-  item18:
+  item25:
     question: Kan ik de IRMA app op Android installeren zonder de Google Play Store?
     answer: Ja, de app is hier te downloaden<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, of via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Als je hem op de laatste manier installeert wordt hij echter niet automatisch geüpdate. 
 
