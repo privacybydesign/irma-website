@@ -231,7 +231,7 @@ faq:
       alle software die gebruikt wordt in infrastructuur met een publieke rol open source moet zijn.
   item17:
     question: Ik wil graag IRMA en al mijn gegevens verwijderen.
-    answer: Via <a href="https://privacybydesign.foundation/mijnirma/">MijnIRMA</a> verwijder je zelf al uw gegevens. Verwijder daarna de IRMA-app van uw telefoon. Als je geen actie onderneemt en de IRMA-app een jaar lang niet gebruikt, verwijderen wij na dat jaar automatisch al uw gegevens.
+    answer: Via <a href="https://privacybydesign.foundation/mijnirma/">MijnIRMA</a> verwijder je zelf al je gegevens. Verwijder daarna de IRMA-app van je telefoon. Als je geen actie onderneemt en de IRMA-app een jaar lang niet gebruikt, verwijderen wij na dat jaar automatisch al je gegevens.
   item18:
     question: Ik wil mij afmelden bij een organisatie waarop ik inlog met IRMA.
     answer: Neem hiervoor contact op met de organisatie waar je je bij wilt afmelden.
@@ -240,7 +240,7 @@ faq:
     answer: Volg de instructies op de website van de organisatie. Heb je hierover vragen, neem dan contact op met de organisatie.
   item20:
     question: Hoe scan ik de IRMA QR-code?
-    answer: Open de IRMA-app met uw pincode en druk op de &lsquo;Scan QR&rsquo;-knop rechts onderin de app. Begin met scannen door uw mobiel op de IRMA QR-code te richten. Soms is het nodig om toestemming te geven om de camera te gebruiken.
+    answer: Open de IRMA-app met je pincode en druk op de &lsquo;Scan QR&rsquo;-knop rechts onderin de app. Begin met scannen door je mobiel op de IRMA QR-code te richten. Soms is het nodig om toestemming te geven om de camera te gebruiken.
   item21:
     question: Waar vind ik een IRMA QR-code op de website van een organisatie?
     answer: Je vindt de IRMA QR-code meestal via een knop of link &lsquo;Inloggen&rsquo; of &lsquo;Gegevens delen&rsquo;. Soms ondersteunt de organisatie IRMA (nog) niet. Heb je hierover nog vragen, neem dan contact op met de organisatie.
