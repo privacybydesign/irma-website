@@ -107,9 +107,30 @@ faq:
     question: IRMA is <em>open source</em>; what does that mean?
     answer: The IRMA software is deliberately open source. This means that the way that IRMA works can be inspected by anyone<span>:</span> the software is available online, see <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. This also means that people outside the foundation can contribute. Indeed, several other organisations are contributing software and designs to the IRMA ecosystem. Of course, you do have to know a bit about computer programs in order to really understand IRMA's software, but the principle is important<span>:</span> IRMA has no secrets and works in a transparent manner. This contributes to trust in IRMA. There are no uneasy discussions about hidden backdoors in IRMA, like for instance in 5G telecommunications. The Privacy by Design foundation is of the opinion that all software in infrastructure with a public role should be open source.
   item17:
+    question: I would like to remove IRMA and all my data.
+    answer: At <a href="https://privacybydesign.foundation/myirma/">MijnIRMA</a> you can remove your data. Then, delete the IRMA app from your phone. If you don't use IRMA for a year, we automatically delete all your data.
+  item18:
+    question: I want to unsubscribe at an organization I log in at with IRMA.
+    answer: Please contact the organization you wish to unsubscribe from.
+  item19:
+    question: I want to log in or view my data at an organization that uses IRMA. How do I do that?
+    answer: Follow the instructions on the organization's website. If you have any questions about this, please contact the organisation.
+  item20:
+    question: How do I scan the IRMA QR code?
+    answer: Open the IRMA app with your PIN code and press the &lsquo;Scan QR&rsquo; button at the bottom right of the app. Scan the QR code by pointing your mobile at the IRMA QR code. Sometimes it is necessary to give permission to use the camera.
+  item21:
+    question: Where can I find an IRMA QR code on an organization's website?
+    answer: You can usually find the IRMA QR code via a button or link &lsquo;Login&rsquo; or &lsquo;Share data&rsquo;. Sometimes the organization does not support IRMA (yet). If you have any questions about this, please contact the organisation.
+  item22:
+    question: What does the &lsquo;Assurance level&rsquo; in the &lsquo;Personal data&rsquo; card mean?
+    answer: This is the assurance level with which you logged in with DigiD to load the data into IRMA. Do you want to get the assurance level at &lsquo;Substantial&rsquo;? Then link the DigiD app to an identity document. More information can be found on <a href="https://www.digid.nl/en/login-methods/digid-app#voeg-id-check-toe">www.digid.nl</a>.
+  item23:
+    question: How can I change the data in the &lsquo;Home address&rsquo; card? Or data in another card?
+    answer: The organization from which you get the card determines its contents. If your data have changed, you can pick up a new card. It will contain the correct data. 
+  item24:
     question: I like to know more about IRMA; where can I go?
     answer: Extensive background information about how IRMA works is described by the Privacy by Design foundation at this <a href="https://privacybydesign.foundation/irma-explanation/" target="_blank">page</a>. People who wish to understand the real technicalities can check out IRMA's <a href="https://irma.app/docs" target="_blank">documentation</a> page and <a href="https://github.com/privacybydesign" target="_blank">GitHub</a> repository.<br><br>The big picture behind IRMA is described in a <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a> which is available only in Dutch, so far.
-  item18:
+  item25:
     question: Can I install IRMA on Android without Google Play Store?
     answer: Yes, you can download the IRMA app here<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, or via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. If you install IRMA this latter way, the app will not recieve updates automatically.
 
