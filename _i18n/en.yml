@@ -123,7 +123,7 @@ faq:
     answer: You can usually find the IRMA QR code via a button or link &lsquo;Login&rsquo; or &lsquo;Share data&rsquo;. Sometimes the organization does not support IRMA (yet). If you have any questions about this, please contact the organization.
   item22:
     question: What does the &lsquo;Assurance level&rsquo; in the &lsquo;Personal data&rsquo; card mean?
-    answer: This is the assurance level with which you logged in with DigiD to load the data into IRMA. Do you want to get the assurance level at &lsquo;Substantial&rsquo;? Then link the DigiD app to an identity document. More information can be found on <a href="https://www.digid.nl/en/login-methods/digid-app#voeg-id-check-toe">www.digid.nl</a>.
+    answer: This is the assurance level with which you logged in with DigiD to load the data into IRMA. Do you want to get the assurance level at &lsquo;Substantial&rsquo;? Then link the DigiD app to an identity document. After that, reload the data into IRMA. More information can be found on <a href="https://www.digid.nl/en/login-methods/digid-app#voeg-id-check-toe">www.digid.nl</a>.
   item23:
     question: How can I change the data in the &lsquo;Home address&rsquo; card? Or data in another card?
     answer: The organization from which you get the card determines its contents. If your data have changed, you can pick up a new card. It will contain the correct data. 

@@ -246,7 +246,7 @@ faq:
     answer: Je vindt de IRMA QR-code meestal via een knop of link &lsquo;Inloggen&rsquo; of &lsquo;Gegevens delen&rsquo;. Soms ondersteunt de organisatie IRMA (nog) niet. Heb je hierover nog vragen, neem dan contact op met de organisatie.
   item22:
     question: Wat betekent het &lsquo;Betrouwbaarheidsniveau&rsquo; in het &lsquo;Persoonsgegevens&rsquo;-kaartje?
-    answer: &lsquo;Midden&rsquo; geeft het betrouwbaarheidsniveau aan waarmee je met DigiD inlogde om de gegevens in IRMA te laden. Wil je het betrouwbaarheidsniveau op &lsquo;Substantieel&rsquo; krijgen? Koppel dan de DigiD-app aan een identiteitsdocument. Meer informatie vind je op <a href="https://www.digid.nl/inlogmethodes/digid-app/#voeg-id-check-toe">www.digid.nl</a>. 
+    answer: '&lsquo;Midden&rsquo; geeft het betrouwbaarheidsniveau aan waarmee je met DigiD inlogde om de gegevens in IRMA te laden. Wil je het betrouwbaarheidsniveau op &lsquo;Substantieel&rsquo; krijgen? Koppel dan de DigiD-app aan een identiteitsdocument. Haal daarna de gegevens opnieuw in IRMA op. Meer informatie vind je op <a href="https://www.digid.nl/inlogmethodes/digid-app/#voeg-id-check-toe">www.digid.nl</a>.'
   item23:
     question: Hoe kan ik de gegevens in het &lsquo;Woonadres&rsquo;-kaartje veranderen? Of gegevens in een ander kaartje?
     answer: De organisatie van wie je het kaartje krijgt, bepaalt wat erin staat. Als je gegevens veranderd zijn, kun je een nieuw kaartje ophalen. Daarin staan dan de juiste gegevens.
