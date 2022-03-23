@@ -129,6 +129,24 @@ page_sections:
     answer: faq.item15.answer
   - question: faq.item16.question
     answer: faq.item16.answer
+  - question: faq.item17.question
+    answer: faq.item17.answer
+  - question: faq.item18.question
+    answer: faq.item18.answer
+  - question: faq.item19.question
+    answer: faq.item19.answer
+  - question: faq.item20.question
+    answer: faq.item20.answer
+  - question: faq.item21.question
+    answer: faq.item21.answer
+  - question: faq.item22.question
+    answer: faq.item22.answer
+  - question: faq.item23.question
+    answer: faq.item23.answer
+  - question: faq.item24.question
+    answer: faq.item24.answer
+  - question: faq.item25.question
+    answer: faq.item25.answer
 
 - template: irma-footer
   block: irma-footer
