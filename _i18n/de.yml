@@ -113,7 +113,7 @@ faq:
       <a href="https://github.com/privacybydesign" target="_blank">GitHub Repository</a> besuchen.
   item17:
     question: Ich möchte IRMA und alle meinen persönlichen Daten löschen.
-    answer: Du kannst alle deine Daten über die <a href="https://privacybydesign.foundation/myirma/">MijnIRMA</a> Webseite löschen. Lösche danach auch die IRMA-App auf deinem Handy. Wenn dein IRMA Account ein Jahr inaktiv ist, löschen wir deinen Zugang automatisch.
+    answer: Du kannst alle deine Daten über die <a href="https://privacybydesign.foundation/myirma/">MijnIRMA</a> Webseite löschen. Lösche danach auch die IRMA-App auf deinem Handy. Wenn dein IRMA Account ein Jahr inaktiv ist, löschen wir deine Daten aus unserer Infrastruktur automatisch.
   item18:
     question: Ich möchte mich bei der Organisation, bei der ich IRMA benutze, abmelden.
     answer: Kontaktiere hierfür direkt die Organisation, bei der du dich abmelden möchtest.

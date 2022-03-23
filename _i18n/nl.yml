@@ -231,7 +231,7 @@ faq:
       alle software die gebruikt wordt in infrastructuur met een publieke rol open source moet zijn.
   item17:
     question: Ik wil graag IRMA en al mijn gegevens verwijderen.
-    answer: Via <a href="https://privacybydesign.foundation/mijnirma/">MijnIRMA</a> verwijder je zelf al je gegevens. Verwijder daarna de IRMA-app van je telefoon. Als je geen actie onderneemt en de IRMA-app een jaar lang niet gebruikt, verwijderen wij na dat jaar automatisch al je gegevens.
+    answer: Via <a href="https://privacybydesign.foundation/mijnirma/">MijnIRMA</a> verwijder je zelf al je gegevens. Verwijder daarna de IRMA-app van je telefoon. Als je geen actie onderneemt en de IRMA-app een jaar lang niet gebruikt, verwijderen wij na dat jaar automatisch al je gegevens van onze infrastructuur.
   item18:
     question: Ik wil mij afmelden bij een organisatie waarop ik inlog met IRMA.
     answer: Neem hiervoor contact op met de organisatie waar je je bij wilt afmelden.

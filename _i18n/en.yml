@@ -108,7 +108,7 @@ faq:
     answer: The IRMA software is deliberately open source. This means that the way that IRMA works can be inspected by anyone<span>:</span> the software is available online, see <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. This also means that people outside the foundation can contribute. Indeed, several other organisations are contributing software and designs to the IRMA ecosystem. Of course, you do have to know a bit about computer programs in order to really understand IRMA's software, but the principle is important<span>:</span> IRMA has no secrets and works in a transparent manner. This contributes to trust in IRMA. There are no uneasy discussions about hidden backdoors in IRMA, like for instance in 5G telecommunications. The Privacy by Design foundation is of the opinion that all software in infrastructure with a public role should be open source.
   item17:
     question: I would like to remove IRMA and all my data.
-    answer: At <a href="https://privacybydesign.foundation/myirma/">MijnIRMA</a> you can remove your data. Then, delete the IRMA app from your phone. If you don't use IRMA for a year, we automatically delete all your data.
+    answer: At <a href="https://privacybydesign.foundation/myirma/">MijnIRMA</a> you can remove your data. Then, delete the IRMA app from your phone. If you don't use IRMA for a year, we automatically delete all your data from our server.
   item18:
     question: I want to unsubscribe at an organization I log in at with IRMA.
     answer: Please contact the organization you wish to unsubscribe from.
