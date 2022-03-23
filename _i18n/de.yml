@@ -127,8 +127,8 @@ faq:
     question: Wo finde ich den IRMA QR-code auf der Webseite einer Organisation?
     answer: Meistens steckt der IRMA QR-code hinter der &lsquo;Einloggen&rsquo; oder &lsquo;Daten teilen&rsquo;-Funktion. Manchmal unterstützt die Organisation IRMA (noch) nicht. Bei Fragen kannst du die Organisation direkt kontaktieren.
   item22:
-    question: Was bedeutet das &lsquo;Vertrauensniveau&rsquo; auf der &lsquo;Personendaten&rsquo;-Karte?
-    answer: &lsquo;Mittel&rsquo; ist das Vertrauensniveau, das du beim Einloggen mit DigiD benutzt hast, um deine Daten in IRMA zu laden. Brauchst du das Vertrauensniveau &lsquo;Hoch&rsquo;? Füge dann ein Personaldokument an deine DigiD-App hinzu. Mehr Informationen findest du auf <a href="https://www.digid.nl/inlogmethodes/digid-app/#voeg-id-check-toe">www.digid.nl</a>. 
+    question: Was bedeutet das &lsquo;Assurance level&rsquo; auf der &lsquo;Personal data&rsquo;-Karte?
+    answer: Das &lsquo;Assurance level&rsquo; ist das Vertrauensniveau, das du beim Einloggen mit DigiD benutzt hast, um deine Daten in IRMA zu laden. Hast du &lsquo;Midden&rsquo; und brauchst du den Wert &lsquo;Substantieel&rsquo; als Vertrauensniveau? Füge dann ein Personaldokument an deine DigiD-App hinzu. Danach kannst du eine neue Karte mit dem Vertrauensniveau &lsquo;Substantieel&rsquo; in IRMA laden. Mehr Informationen findest du auf <a href="https://www.digid.nl/inlogmethodes/digid-app/#voeg-id-check-toe">www.digid.nl</a>.
   item23:
     question: Wie kann ich Daten auf einer Karte, wie zum Beispiel meiner &lsquo;Adresse&rsquo;-Karte, ändern?
     answer: Die Organisation, die die Karte ausgibt, bestimmt, was auf der Karte steht. Wenn sich deine Daten geändert haben, musst du eine neue Karte mit den richtigen Daten hinzufügen.
