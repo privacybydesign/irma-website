@@ -139,29 +139,29 @@ faq:
 vacancies:
   id: vacancies
   headline: Stage lopen bij IRMA
-  content: "<div>We zijn op zoek naar een stagiair die ons een stapje verder gaat helpen om <b>IRMA met andere wallets interoperabel</b> te maken. De stageplek is <b>vanaf september</b> voor <b>3-6 maanden</b> en een maandelijkse stagevergoeding van <b>1000 euro</b> (bij een 40-uur werkweek). </div>
+  content: "<p>We zijn op zoek naar een stagiair die ons een stapje verder gaat helpen om <b>IRMA met andere wallets interoperabel</b> te maken. De stageplek is <b>vanaf september</b> voor <b>3-6 maanden</b> en een maandelijkse stagevergoeding van <b>1000 euro</b> (bij een 40-uur werkweek). </p><br>
 
-<div>IRMA is een privacy-vriendelijk authenticatiemiddel waarmee je jouw gegevens in de vorm van credentials in de IRMA app op je telefoon beheert, en gegevens selectief aan een verifier vrij kan geven. IRMA heeft hiervoor een eigen protocol, maar sinds een aantal jaar bestaat hiervoor ook de Verifiable Credentials standaard die IRMA nog niet ondersteunt. </div><br>
+<p>IRMA is een privacy-vriendelijk authenticatiemiddel waarmee je jouw gegevens in de vorm van credentials in de IRMA app op je telefoon beheert, en gegevens selectief aan een verifier vrij kan geven. IRMA heeft hiervoor een eigen protocol, maar sinds een aantal jaar bestaat hiervoor ook de Verifiable Credentials standaard die IRMA nog niet ondersteunt. </p><br>
 
-<div>Het doel van je stage is ondersteuning voor de <a href=\"https://www.w3.org/TR/vc-data-model/\" target=\"_blank\">Verifiable Credentials standaard</a> aan IRMA toe te voegen. Hiervoor ga je je eerst inwerken in de IRMA protocollen en de W3C Verifiable Credentials standaard. Hiervoor bestaat al een kant-en-klare master's thesis zodat je goed van start kunt. Met deze basis ga je de architectuur bedenken voor het scenario dat een externe verifier een IRMA credential kan verifiëren. Vervolgens ga je de architectuur in de huidige IRMA project implementeren. Je wordt hierbij door het IRMA team in regelmatige sessies begeleid. Idealiter heb je aan het einde van je stage een werkend voorbeeld van een bestaande niet-IRMA verifier die gegevens vanuit IRMA kan verifiëren.  </div>
+<p>Het doel van je stage is ondersteuning voor de <a href=\"https://www.w3.org/TR/vc-data-model/\" target=\"_blank\">Verifiable Credentials standaard</a> aan IRMA toe te voegen. Hiervoor ga je je eerst inwerken in de IRMA protocollen en de W3C Verifiable Credentials standaard. Hiervoor bestaat al een kant-en-klare master's thesis zodat je goed van start kunt. Met deze basis ga je de architectuur bedenken voor het scenario dat een externe verifier een IRMA credential kan verifiëren. Vervolgens ga je de architectuur in de huidige IRMA project implementeren. Je wordt hierbij door het IRMA team in regelmatige sessies begeleid. Idealiter heb je aan het einde van je stage een werkend voorbeeld van een bestaande niet-IRMA verifier die gegevens vanuit IRMA kan verifiëren.  </p><br>
 
-<div>Naast dat je natuurlijk een leuke persoonlijkheid bent, hebben we je snuggere brein nodig met ongeveer deze achtergrond:  </div>
+<p>Naast dat je natuurlijk een leuke persoonlijkheid bent, hebben we je snuggere brein nodig met ongeveer deze achtergrond:  </p>
 
 <ul>
   <li>Je hebt een universitair denkniveau (liefst master's maar bachelorstudent mag ook)</li>
   <li>Je werkt nauwkeurig en zelfstandig</li>
   <li>Je beheerst de Nederlandse en de Engelse taal</li>
 </ul> 
-
-<div>Verder is het een <b>pré</b> als je ergens ervaring hebt in het volgende:  </div>
+<br>
+<p>Verder is het een <b>pré</b> als je ergens ervaring hebt in het volgende:  </p>
 <ul>
   <li>Je hebt ervaring met de programmeertaal Go </li>
   <li>Je bent bekend met REST endpoint design </li>
   <li>Je kent de W3C standaard van Verifiable Credentials </li>
   <li>Je hebt ervaring met het IRMA protocol of de <a href=\"https://github.com/privacybydesign/irmago\" target=\"_blank\">irmago code</a></li>
 </ul> 
-
- <div>Kun je niet alles van deze lijst afvinken maar heb je wel ervaring met IRMA of de Verifiable Credentials standaard en wil je gewoon heel graag bij ons komen werken? Dan willen we je wel graag spreken! ;) Je kunt ons via <a href=\"mailto:irma-beheer@sidn.nl\">irma-beheer@sidn.nl</a> bereiken.</div>"
+<br>
+ <p>Kun je niet alles van deze lijst afvinken maar heb je wel ervaring met IRMA of de Verifiable Credentials standaard en wil je gewoon heel graag bij ons komen werken? Dan willen we je wel graag spreken! ;) Je kunt ons via <a href=\"mailto:irma-beheer@sidn.nl\">irma-beheer@sidn.nl</a> bereiken.</p>"
 
 
 footer:
