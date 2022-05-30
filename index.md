@@ -22,6 +22,8 @@ page_sections:
     link_text: nav.explanation_text
   - link: nav.faq_link
     link_text: nav.faq_text
+  - link: nav.vacancies_link
+    link_text: nav.vacancies_text
   - link: nav.start_link
     link_text: nav.start_text
   - link: nav.links_link
@@ -147,6 +149,11 @@ page_sections:
     answer: faq.item24.answer
   - question: faq.item25.question
     answer: faq.item25.answer
+- template: vacancies
+  block: irma-vacancies
+  id: vacancies.id
+  headline: vacancies.headline
+  content: vacancies.content
 
 - template: irma-footer
   block: irma-footer
