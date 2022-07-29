@@ -138,30 +138,171 @@ faq:
 
 vacancies:
   id: vacancies
-  headline: Stage lopen bij IRMA
-  content: "<p>We zijn op zoek naar een stagiair die ons een stapje verder gaat helpen om <b>IRMA met andere wallets interoperabel</b> te maken. De stageplek is <b>vanaf september</b> voor <b>3-6 maanden</b> en een maandelijkse stagevergoeding van <b>1000 euro</b> (bij een 40-uur werkweek). </p><br>
+  headline: Vacancies
+  content: "<p>We mogen uitbreiden! Op dit moment hebben we binnen IRMA de volgende vacatures. Kun je niet alles van deze lijst afvinken maar heb je wel ontwikkelervaring met IRMA? Dit vinden we zo'n pré dat we je echt wel willen spreken! ;)
+Geïnteresseerd? Neem dan contact met ons op via <a href=\"mailto:recruitment@sidn.nl\">recruitment@sidn.nl</a>.
+</p>
 
-<p>IRMA is een privacy-vriendelijk authenticatiemiddel waarmee je jouw gegevens in de vorm van credentials in de IRMA app op je telefoon beheert, en gegevens selectief aan een verifier vrij kan geven. IRMA heeft hiervoor een eigen protocol, maar sinds een aantal jaar bestaat hiervoor ook de Verifiable Credentials standaard die IRMA nog niet ondersteunt. </p><br>
-
-<p>Het doel van je stage is ondersteuning voor de <a href=\"https://www.w3.org/TR/vc-data-model/\" target=\"_blank\">Verifiable Credentials standaard</a> aan IRMA toe te voegen. Hiervoor ga je je eerst inwerken in de IRMA protocollen en de W3C Verifiable Credentials standaard. Hiervoor bestaat al een kant-en-klare master's thesis zodat je goed van start kunt. Met deze basis ga je de architectuur bedenken voor het scenario dat een externe verifier een IRMA credential kan verifiëren. Vervolgens ga je de architectuur in de huidige IRMA project implementeren. Je wordt hierbij door het IRMA team in regelmatige sessies begeleid. Idealiter heb je aan het einde van je stage een werkend voorbeeld van een bestaande niet-IRMA verifier die gegevens vanuit IRMA kan verifiëren.  </p><br>
-
-<p>Naast dat je natuurlijk een leuke persoonlijkheid bent, hebben we je snuggere brein nodig met ongeveer deze achtergrond:  </p>
-
+<h2>Medior developer - focus product maturity</h2>
+<p>Wat jij met je meebrengt:
+</p>
 <ul>
-  <li>Je hebt een universitair denkniveau (liefst master's maar bachelorstudent mag ook)</li>
-  <li>Je werkt nauwkeurig en zelfstandig</li>
-  <li>Je beheerst de Nederlandse en de Engelse taal</li>
-</ul> 
+    <li>Je hebt HBO of universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
 <br>
-<p>Verder is het een <b>pré</b> als je ergens ervaring hebt in het volgende:  </p>
+
+<p>
+    Je hebt ervaring in: 
+</p>
 <ul>
-  <li>Je hebt ervaring met de programmeertaal Go </li>
-  <li>Je bent bekend met REST endpoint design </li>
-  <li>Je kent de W3C standaard van Verifiable Credentials </li>
-  <li>Je hebt ervaring met het IRMA protocol of de <a href=\"https://github.com/privacybydesign/irmago\" target=\"_blank\">irmago code</a></li>
-</ul> 
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+    <li>CI/CD en het opzetten hiervan</li>
+    <li>werken in een multidisciplinair Scrum DevOps Team</li>
+</ul>
 <br>
- <p>Kun je niet alles van deze lijst afvinken maar heb je wel ervaring met IRMA of de Verifiable Credentials standaard en wil je gewoon heel graag bij ons komen werken? Dan willen we je wel graag spreken! ;) Je kunt ons via <a href=\"mailto:irma-beheer@sidn.nl\">irma-beheer@sidn.nl</a> bereiken.</p>"
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+    <li>IRMA</li>
+    <li>Authenticatiesystemen</li>
+    <li>ISO certificeringen en de implementatie hiervan </li>
+    <li>Verifiable credentials of een soortgelijk standaard </li>
+    <li>security-gevoelige systemen of cryptografie</li>
+    <li>REST endpoint design</li>
+    <li>Mobile development, met name Dart/Flutter</li>
+    <li>Frontend development, met name JavaScript/React </li>
+    <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+    <li>Open-source development  </li>
+</ul>
+<br>
+
+<h2>Medior developer - focus authenticatiesystemen</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt HBO of universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+Je hebt ervaring in: 
+</p>
+<ul>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+    <li>Privacy&security (authenticatiesystemen)</li>
+    <li>werken in een multidisciplinair Scrum DevOps Team</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+    <li>IRMA</li>
+    <li>CI/CD en het opzetten hiervan</li>
+    <li>ISO certificeringen en de implementatie hiervan </li>
+    <li>Verifiable credentials of een soortgelijk standaard </li>
+    <li>security-gevoelige systemen of cryptografie</li>
+    <li>REST endpoint design</li>
+    <li>Mobile development, met name Dart/Flutter</li>
+    <li>Frontend development, met name JavaScript/React </li>
+    <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+    <li>Open-source development  </li>
+</ul>
+<br>
+
+<h2>Junior developer</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+Je hebt ervaring in: 
+</p>
+<ul>
+    <li>Software development in het algemeen</li>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+        <li>IRMA</li>
+        <li>CI/CD en het opzetten hiervan</li>
+        <li>authenticatiesystemen</li>
+        <li>Mobile development, met name Dart/Flutter</li>
+        <li>Frontend development, met name JavaScript/React </li>
+        <li>ISO certificeringen en de implementatie hiervan </li>
+        <li>Verifiable credentials of een soortgelijk standaard </li>
+        <li>werken in een multidisciplinair Scrum DevOps Team</li>
+        <li>security-gevoelige systemen of cryptografie</li>
+        <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+        <li>Open-source development  </li>
+    </ul>
+    <br>
+
+<h2>Senior developer</h2>
+
+<p>Wat jij met je meebrengt:
+</p>
+    <ul>
+        <li>Je hebt universitair denkniveau</li>
+        <li>Je werkt nauwkeurig en zelfstandig</li>
+        <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+        <li>Je voelt je thuis in een multidisciplinaire omgeving</li>
+        <li>Je beheerst de Nederlandse en de Engelse taal</li>
+    </ul>
+    <br>
+    
+    <p>
+    Je hebt ervaring in: 
+</p>
+    <ul>
+        <li>de Go programmeertaal</li>
+        <li>Privacy&security (authenticatiesystemen)</li>
+        <li>DevOps processen en technieken; CI/CD (GitLab, GitHub)</li>
+        <li>werken in een multidisciplinair Scrum DevOps Team</li>
+    </ul>
+    <br>
+    
+    <p>
+        Het is een pré als je ervaring hebt in: 
+    </p>
+    <ul>
+        <li>IRMA</li>
+        <li>ISO certificeringen en de implementatie hiervan </li>
+        <li>Verifiable credentials of een soortgelijk standaard </li>
+        <li>security-gevoelige systemen of cryptografie</li>
+        <li>REST endpoint design</li>
+        <li>Mobile development, met name Dart/Flutter</li>
+        <li>Frontend development, met name JavaScript/React </li>
+        <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+        <li>Open-source development  </li>
+    </ul>
+    <br>
+
+  <h2>Stage lopen</h2>
+  <p>Wil je bij ons stage komen lopen? Neem dan vooral contact met ons op. :)</p>
+"
 
 
 footer:
