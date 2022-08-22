@@ -513,6 +513,6 @@ start_issuers:
 start_footer:
   id: start_links
   contact_headline: Contactpersoon
-  contact_content: Wil je als organisatie aan de slag met IRMA en wil je misschien nog meer weten, neem dan contact op met Bob Kronenburg van SIDN, op&colon; <a href="Bob.kronenburg@sidn.nl">Bob.kronenburg@sidn.nl</a>. Met hem kun je zonodig een afspraak maken voor verdere informatie, consultancy, support, contracten etc.
+  contact_content: Wil je als organisatie aan de slag met IRMA en wil je misschien nog meer weten, neem dan contact op met Bob Kronenburg van SIDN, op&colon; <a href="Bob.kronenburg@sidn.nl">Bob.kronenburg@sidn.nl</a>. Met hem kun je zonodig een afspraak maken voor verdere informatie, consultancy, support, contracten etc. Voor responsible disclosure mail naar <a href="irma-responsibledisclosure@sidn.nl">irma-responsibledisclosure@sidn.nl</a>.
   join_headline: Actief aan de gang?
-  join_content: Voor praktische/technische vragen je terecht op het IRMA slack kanaal waar ook ervaringen uitgewisseld worden. Voor verdere informatie over de werking van IRMA is er uitgebreide <a href="https://irma.app/docs" target="_blank">documentatie</a>&semi; de IRMA software is open source en staat op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
+  join_content: Voor praktische/technische vragen je terecht op het IRMA slack kanaal waar ook ervaringen uitgewisseld worden. Mail naar <a href="support.irma@sidn.nl">support.irma@sidn.nl</a> om toegang tot het slack kanaal aan te vragen. Voor verdere informatie over de werking van IRMA is er uitgebreide <a href="https://irma.app/docs" target="_blank">documentatie</a>&semi; de IRMA software is open source en staat op <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
