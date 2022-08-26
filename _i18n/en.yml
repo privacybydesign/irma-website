@@ -7,6 +7,8 @@ nav:
   explanation_text: Explanation
   faq_link: "#faqs"
   faq_text: FAQs
+  vacancies_link: "#vacancies"
+  vacancies_text: "Vacancies"
   start_link: "/irma-start"
   start_text: Integrate IRMA
   links_link: "#links"
@@ -96,25 +98,214 @@ faq:
     answer: When you have a question about logging in with IRMA at webshop The Trendy Chicken, you can best address your question at The Trendy Chicken itself. Also when that website asks you to install the IRMA app and that fails, you can best talk to them. Often such pages contain additional info and allow you to ask questions.<br><br>If, in the end, you have a question about IRMA itself, you can send an email to the address <a href="mailto:app@privacybydesign.foundation">app@privacybydesign.foundation</a>. Please explain clearly what your point is, and provide your phone's model and supply screen shots if possible when something goes wrong.
   item13:
     question: What happens to my data when I log in with IRMA?
-    answer: When you log in with IRMA at a website your phone talks directly to that website. No-one is in between, monitoring that exchange. The IRMA organisation cannot see your attributes — because they are exclusively on your phone — and can also not see which attributes you disclose to which website.
+    answer: When you log in with IRMA at a website your phone talks directly to that website. No-one is in between, monitoring that exchange. The IRMA organization cannot see your attributes — because they are exclusively on your phone — and can also not see which attributes you disclose to which website.
   item14:
     question: Who is behind IRMA?
     answer: IRMA is produced and run by the <a href="https://privacybydesign.foundation/en" target="_blank">Privacy by Design</a> Foundation. In 2016 this foundation grew out of the Digital Security research group from Radboud University at Nijmegen, The Netherlands. It is an independent non-profit foundation. Since 2019 it has a strategic cooperation with (<a href="https://www.sidn.nl/en" target="_blank">SIDN</a>), the foundation that runs the .nl domain. This cooperation contributes to IRMA's stability and continuity.
   item15:
     question: How can IRMA be free?
-    answer: IRMA is free for users and also free for websites that use IRMA for login<span>:</span> everyone can request attributes from the IRMA app, and will receive them after the user has given consent. But it is <em>not free</em> to issue attributes. Not everyone can put attributes in other people's phones, since that would quickly become a mess.<br><br>Issuing involves a fee and also a contract, in which the issuer commits itself to put only accurate (authentic) data in the IRMA app of the right person.<br><br>Additionally, a contract is available, both for verifiers and issuers, that gives availability guarantees (an "SLA") via SIDN. Since IRMA is a decentralised system, in which attributes are stored only on user's phones, the organisation behind IRMA has a relatively light task. Because, in addition, this organisation has no profit goals, IRMA as a whole is a cheap system.
+    answer: IRMA is free for users and also free for websites that use IRMA for login<span>:</span> everyone can request attributes from the IRMA app, and will receive them after the user has given consent. But it is <em>not free</em> to issue attributes. Not everyone can put attributes in other people's phones, since that would quickly become a mess.<br><br>Issuing involves a fee and also a contract, in which the issuer commits itself to put only accurate (authentic) data in the IRMA app of the right person.<br><br>Additionally, a contract is available, both for verifiers and issuers, that gives availability guarantees (an "SLA") via SIDN. Since IRMA is a decentralised system, in which attributes are stored only on user's phones, the organization behind IRMA has a relatively light task. Because, in addition, this organization has no profit goals, IRMA as a whole is a cheap system.
   item16:
     question: IRMA is <em>open source</em>; what does that mean?
-    answer: The IRMA software is deliberately open source. This means that the way that IRMA works can be inspected by anyone<span>:</span> the software is available online, see <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. This also means that people outside the foundation can contribute. Indeed, several other organisations are contributing software and designs to the IRMA ecosystem. Of course, you do have to know a bit about computer programs in order to really understand IRMA's software, but the principle is important<span>:</span> IRMA has no secrets and works in a transparent manner. This contributes to trust in IRMA. There are no uneasy discussions about hidden backdoors in IRMA, like for instance in 5G telecommunications. The Privacy by Design foundation is of the opinion that all software in infrastructure with a public role should be open source.
+    answer: The IRMA software is deliberately open source. This means that the way that IRMA works can be inspected by anyone<span>:</span> the software is available online, see <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>. This also means that people outside the foundation can contribute. Indeed, several other organizations are contributing software and designs to the IRMA ecosystem. Of course, you do have to know a bit about computer programs in order to really understand IRMA's software, but the principle is important<span>:</span> IRMA has no secrets and works in a transparent manner. This contributes to trust in IRMA. There are no uneasy discussions about hidden backdoors in IRMA, like for instance in 5G telecommunications. The Privacy by Design foundation is of the opinion that all software in infrastructure with a public role should be open source.
   item17:
+    question: I would like to remove IRMA and all my data.
+    answer: At <a href="https://privacybydesign.foundation/myirma/">MyIRMA</a> you can remove your data. Then, delete the IRMA app from your phone. If you don't use IRMA for a year, we automatically delete all your data from our server.
+  item18:
+    question: I want to unsubscribe at an organization I log in at with IRMA.
+    answer: Please contact the organization you wish to unsubscribe from.
+  item19:
+    question: I want to log in or view my data at an organization that uses IRMA. How do I do that?
+    answer: Follow the instructions on the organization's website. If you have any questions about this, please contact the organization.
+  item20:
+    question: How do I scan the IRMA QR code?
+    answer: Open the IRMA app with your PIN code and press the &lsquo;Scan QR&rsquo; button at the bottom right of the app. Scan the QR code by pointing your mobile at the IRMA QR code. Sometimes it is necessary to give permission to use the camera.
+  item21:
+    question: Where can I find an IRMA QR code on an organization's website?
+    answer: You can usually find the IRMA QR code via a button or link &lsquo;Login&rsquo; or &lsquo;Share data&rsquo;. Sometimes the organization does not support IRMA (yet). If you have any questions about this, please contact the organization.
+  item22:
+    question: What does the &lsquo;Assurance level&rsquo; in the &lsquo;Personal data&rsquo; card mean?
+    answer: This is the assurance level with which you logged in with DigiD to load the data into IRMA. Do you want to get the assurance level at &lsquo;Substantial&rsquo;? Then link the DigiD app to an identity document. After that, reload the data into IRMA. More information can be found on <a href="https://www.digid.nl/en/login-methods/digid-app#voeg-id-check-toe">www.digid.nl</a>.
+  item23:
+    question: How can I change the data in the &lsquo;Home address&rsquo; card? Or data in another card?
+    answer: The organization from which you get the card determines its contents. If your data have changed, you can pick up a new card. It will contain the correct data. 
+  item24:
     question: I like to know more about IRMA; where can I go?
     answer: Extensive background information about how IRMA works is described by the Privacy by Design foundation at this <a href="https://privacybydesign.foundation/irma-explanation/" target="_blank">page</a>. People who wish to understand the real technicalities can check out IRMA's <a href="https://irma.app/docs" target="_blank">documentation</a> page and <a href="https://github.com/privacybydesign" target="_blank">GitHub</a> repository.<br><br>The big picture behind IRMA is described in a <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a> which is available only in Dutch, so far.
-  item18:
+  item25:
     question: Can I install IRMA on Android without Google Play Store?
     answer: Yes, you can download the IRMA app here<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, or via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. If you install IRMA this latter way, the app will not recieve updates automatically.
-  item19:
+  item26:
     question: What is my IRMA app ID?
-    answer: The IRMA app ID is an identifier for your app installation. You can find your app ID by logging in on <a href="https://privacybydesign.foundation/myirma/" target="_blank">MyIRMA</a>. After logging in you can find the IRMA app ID on the top of the page. If you have several IRMA apps, each installation has its own app ID.
+    answer: The IRMA app ID is an identifier for your app installation. You can find your app ID by logging in on <a href="https://my.irma.app" target="_blank">MyIRMA</a>. After logging in you can find the IRMA app ID on the top of the page. If you have several IRMA apps, each installation has its own app ID.
+
+vacancies:
+  id: vacancies
+  headline: Vacancies
+  content: "<p>We mogen uitbreiden! Op dit moment hebben we binnen IRMA de volgende vacatures. Kun je niet alles van deze lijst afvinken maar heb je wel ontwikkelervaring met IRMA? Dit vinden we zo'n pré dat we je echt wel willen spreken! ;)
+Geïnteresseerd? Neem dan contact met ons op via <a href=\"mailto:recruitment@sidn.nl\">recruitment@sidn.nl</a>.
+</p>
+
+<h2>Medior developer - focus product maturity</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt HBO of universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+    Je hebt ervaring in: 
+</p>
+<ul>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+    <li>CI/CD en het opzetten hiervan</li>
+    <li>werken in een multidisciplinair Scrum DevOps Team</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+    <li>IRMA</li>
+    <li>Authenticatiesystemen</li>
+    <li>ISO certificeringen en de implementatie hiervan </li>
+    <li>Verifiable credentials of een soortgelijk standaard </li>
+    <li>security-gevoelige systemen of cryptografie</li>
+    <li>REST endpoint design</li>
+    <li>Mobile development, met name Dart/Flutter</li>
+    <li>Frontend development, met name JavaScript/React </li>
+    <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+    <li>Open-source development  </li>
+</ul>
+<br>
+
+<h2>Medior developer - focus authenticatiesystemen</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt HBO of universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+Je hebt ervaring in: 
+</p>
+<ul>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+    <li>Privacy&security (authenticatiesystemen)</li>
+    <li>werken in een multidisciplinair Scrum DevOps Team</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+    <li>IRMA</li>
+    <li>CI/CD en het opzetten hiervan</li>
+    <li>ISO certificeringen en de implementatie hiervan </li>
+    <li>Verifiable credentials of een soortgelijk standaard </li>
+    <li>security-gevoelige systemen of cryptografie</li>
+    <li>REST endpoint design</li>
+    <li>Mobile development, met name Dart/Flutter</li>
+    <li>Frontend development, met name JavaScript/React </li>
+    <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+    <li>Open-source development  </li>
+</ul>
+<br>
+
+<h2>Junior developer</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+Je hebt ervaring in: 
+</p>
+<ul>
+    <li>Software development in het algemeen</li>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+        <li>IRMA</li>
+        <li>CI/CD en het opzetten hiervan</li>
+        <li>authenticatiesystemen</li>
+        <li>Mobile development, met name Dart/Flutter</li>
+        <li>Frontend development, met name JavaScript/React </li>
+        <li>ISO certificeringen en de implementatie hiervan </li>
+        <li>Verifiable credentials of een soortgelijk standaard </li>
+        <li>werken in een multidisciplinair Scrum DevOps Team</li>
+        <li>security-gevoelige systemen of cryptografie</li>
+        <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+        <li>Open-source development  </li>
+    </ul>
+    <br>
+
+<h2>Senior developer</h2>
+
+<p>Wat jij met je meebrengt:
+</p>
+    <ul>
+        <li>Je hebt universitair denkniveau</li>
+        <li>Je werkt nauwkeurig en zelfstandig</li>
+        <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+        <li>Je voelt je thuis in een multidisciplinaire omgeving</li>
+        <li>Je beheerst de Nederlandse en de Engelse taal</li>
+    </ul>
+    <br>
+    
+    <p>
+    Je hebt ervaring in: 
+</p>
+    <ul>
+        <li>de Go programmeertaal</li>
+        <li>Privacy&security (authenticatiesystemen)</li>
+        <li>DevOps processen en technieken; CI/CD (GitLab, GitHub)</li>
+        <li>werken in een multidisciplinair Scrum DevOps Team</li>
+    </ul>
+    <br>
+    
+    <p>
+        Het is een pré als je ervaring hebt in: 
+    </p>
+    <ul>
+        <li>IRMA</li>
+        <li>ISO certificeringen en de implementatie hiervan </li>
+        <li>Verifiable credentials of een soortgelijk standaard </li>
+        <li>security-gevoelige systemen of cryptografie</li>
+        <li>REST endpoint design</li>
+        <li>Mobile development, met name Dart/Flutter</li>
+        <li>Frontend development, met name JavaScript/React </li>
+        <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+        <li>Open-source development  </li>
+    </ul>
+    <br>
+
+  <h2>Stage lopen</h2>
+  <p>Wil je bij ons stage komen lopen? Neem dan vooral contact met ons op. :)</p>
+"
 
 footer:
   id: links

@@ -7,6 +7,8 @@ nav:
   explanation_text: Uitleg
   faq_link: "#faqs"
   faq_text: FAQs
+  vacancies_link: "#vacancies"
+  vacancies_text: "Vacatures"
   start_link: "/irma-start"
   start_text: Integreer IRMA
   links_link: "#links"
@@ -230,6 +232,27 @@ faq:
       leveranciers met een eigen agenda, zoals bijvoorbeeld met 5G telecommunicatie. De stichting Privacy by Design achter IRMA vindt dat
       alle software die gebruikt wordt in infrastructuur met een publieke rol open source moet zijn.
   item17:
+    question: Ik wil graag IRMA en al mijn gegevens verwijderen.
+    answer: Via <a href="https://privacybydesign.foundation/mijnirma/">MijnIRMA</a> verwijder je zelf al je gegevens. Verwijder daarna de IRMA-app van je telefoon. Als je geen actie onderneemt en de IRMA-app een jaar lang niet gebruikt, verwijderen wij na dat jaar automatisch al je gegevens van onze infrastructuur.
+  item18:
+    question: Ik wil mij afmelden bij een organisatie waarop ik inlog met IRMA.
+    answer: Neem hiervoor contact op met de organisatie waar je je bij wilt afmelden.
+  item19:
+    question: Ik wil inloggen of mijn gegevens inzien bij een organisatie die IRMA gebruikt. Hoe doe ik dat?
+    answer: Volg de instructies op de website van de organisatie. Heb je hierover vragen, neem dan contact op met de organisatie.
+  item20:
+    question: Hoe scan ik de IRMA QR-code?
+    answer: Open de IRMA-app met je pincode en druk op de &lsquo;Scan QR&rsquo;-knop rechts onderin de app. Begin met scannen door je mobiel op de IRMA QR-code te richten. Soms is het nodig om toestemming te geven om de camera te gebruiken.
+  item21:
+    question: Waar vind ik een IRMA QR-code op de website van een organisatie?
+    answer: Je vindt de IRMA QR-code meestal via een knop of link &lsquo;Inloggen&rsquo; of &lsquo;Gegevens delen&rsquo;. Soms ondersteunt de organisatie IRMA (nog) niet. Heb je hierover nog vragen, neem dan contact op met de organisatie.
+  item22:
+    question: Wat betekent het &lsquo;Betrouwbaarheidsniveau&rsquo; in het &lsquo;Persoonsgegevens&rsquo;-kaartje?
+    answer: '&lsquo;Midden&rsquo; geeft het betrouwbaarheidsniveau aan waarmee je met DigiD inlogde om de gegevens in IRMA te laden. Wil je het betrouwbaarheidsniveau op &lsquo;Substantieel&rsquo; krijgen? Koppel dan de DigiD-app aan een identiteitsdocument. Haal daarna de gegevens opnieuw in IRMA op. Meer informatie vind je op <a href="https://www.digid.nl/inlogmethodes/digid-app/#voeg-id-check-toe">www.digid.nl</a>.'
+  item23:
+    question: Hoe kan ik de gegevens in het &lsquo;Woonadres&rsquo;-kaartje veranderen? Of gegevens in een ander kaartje?
+    answer: De organisatie van wie je het kaartje krijgt, bepaalt wat erin staat. Als je gegevens veranderd zijn, kun je een nieuw kaartje ophalen. Daarin staan dan de juiste gegevens.
+  item24:
     question: Ik wil meer informatie over IRMA; waar kan ik terecht?
     answer: Het grotere verhaal achter IRMA staat beschreven in een
       <a href="https://privacybydesign.foundation/pdf/IRMA-manifest-2019.pdf" target="_blank">IRMA Manifest</a>.
@@ -239,12 +262,181 @@ faq:
       Mensen die de software van IRMA willen bekijken kunnen terecht op een technische
       <a href="https://irma.app/docs" target="_blank">documentatie</a> pagina en op
       <a href="https://github.com/privacybydesign" target="_blank">GitHub</a>.
-  item18:
-    question: Kan ik de IRMA-app op Android installeren zonder de Google Play Store?
+  item25:
+    question: Kan ik de IRMA app op Android installeren zonder de Google Play Store?
     answer: Ja, de app is hier te downloaden<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, of via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Als je hem op de laatste manier installeert wordt hij echter niet automatisch geüpdate. 
-  item19:
+  item26:
     question: Wat is mijn IRMA app-ID?
-    answer: De IRMA app-ID is een identifier voor je app installatie. Je kunt deze app-ID vinden als je inlogt op <a href="https://privacybydesign.foundation/mijnirma/" target="_blank">MijnIRMA</a>. Na het inloggen staat bovenaan de pagina je app-ID. Als je meerdere IRMA-apps hebt geïnstalleerd, dan heeft iedere installatie een eigen app-ID. 
+    answer: De IRMA app-ID is een identifier voor je app installatie. Je kunt deze app-ID vinden als je inlogt op <a href="https://my.irma.app/nl" target="_blank">MijnIRMA</a>. Na het inloggen staat bovenaan de pagina je app-ID. Als je meerdere IRMA-apps hebt geïnstalleerd, dan heeft iedere installatie een eigen app-ID. 
+
+vacancies:
+  id: vacancies
+  headline: Vacatures
+  content: "<p>We mogen uitbreiden! Op dit moment hebben we binnen IRMA de volgende vacatures. Kun je niet alles van deze lijst afvinken maar heb je wel ontwikkelervaring met IRMA? Dit vinden we zo'n pré dat we je echt wel willen spreken! ;)
+Geïnteresseerd? Neem dan contact met ons op via <a href=\"mailto:recruitment@sidn.nl\">recruitment@sidn.nl</a>.
+</p>
+
+<h2>Medior developer - focus product maturity</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt HBO of universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+    Je hebt ervaring in: 
+</p>
+<ul>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+    <li>CI/CD en het opzetten hiervan</li>
+    <li>werken in een multidisciplinair Scrum DevOps Team</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+    <li>IRMA</li>
+    <li>Authenticatiesystemen</li>
+    <li>ISO certificeringen en de implementatie hiervan </li>
+    <li>Verifiable credentials of een soortgelijk standaard </li>
+    <li>security-gevoelige systemen of cryptografie</li>
+    <li>REST endpoint design</li>
+    <li>Mobile development, met name Dart/Flutter</li>
+    <li>Frontend development, met name JavaScript/React </li>
+    <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+    <li>Open-source development  </li>
+</ul>
+<br>
+
+<h2>Medior developer - focus authenticatiesystemen</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt HBO of universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+Je hebt ervaring in: 
+</p>
+<ul>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+    <li>Privacy&security (authenticatiesystemen)</li>
+    <li>werken in een multidisciplinair Scrum DevOps Team</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+    <li>IRMA</li>
+    <li>CI/CD en het opzetten hiervan</li>
+    <li>ISO certificeringen en de implementatie hiervan </li>
+    <li>Verifiable credentials of een soortgelijk standaard </li>
+    <li>security-gevoelige systemen of cryptografie</li>
+    <li>REST endpoint design</li>
+    <li>Mobile development, met name Dart/Flutter</li>
+    <li>Frontend development, met name JavaScript/React </li>
+    <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+    <li>Open-source development  </li>
+</ul>
+<br>
+
+<h2>Junior developer</h2>
+<p>Wat jij met je meebrengt:
+</p>
+<ul>
+    <li>Je hebt universitair denkniveau</li>
+    <li>Je werkt nauwkeurig en zelfstandig</li>
+    <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+    <li>Je beheerst de Nederlandse en de Engelse taal</li>
+</ul>
+<br>
+
+<p>
+Je hebt ervaring in: 
+</p>
+<ul>
+    <li>Software development in het algemeen</li>
+    <li>de Go programmeertaal</li>
+    <li>Git</li>
+</ul>
+<br>
+
+<p>
+    Het is een pré als je ervaring hebt in: 
+</p>
+<ul>
+        <li>IRMA</li>
+        <li>CI/CD en het opzetten hiervan</li>
+        <li>authenticatiesystemen</li>
+        <li>Mobile development, met name Dart/Flutter</li>
+        <li>Frontend development, met name JavaScript/React </li>
+        <li>ISO certificeringen en de implementatie hiervan </li>
+        <li>Verifiable credentials of een soortgelijk standaard </li>
+        <li>werken in een multidisciplinair Scrum DevOps Team</li>
+        <li>security-gevoelige systemen of cryptografie</li>
+        <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+        <li>Open-source development  </li>
+    </ul>
+    <br>
+
+<h2>Senior developer</h2>
+
+<p>Wat jij met je meebrengt:
+</p>
+    <ul>
+        <li>Je hebt universitair denkniveau</li>
+        <li>Je werkt nauwkeurig en zelfstandig</li>
+        <li>Je bent nieuwsgierig en vindt het leuk om nieuwe dingen te leren</li>
+        <li>Je voelt je thuis in een multidisciplinaire omgeving</li>
+        <li>Je beheerst de Nederlandse en de Engelse taal</li>
+    </ul>
+    <br>
+    
+    <p>
+    Je hebt ervaring in: 
+</p>
+    <ul>
+        <li>de Go programmeertaal</li>
+        <li>Privacy&security (authenticatiesystemen)</li>
+        <li>DevOps processen en technieken; CI/CD (GitLab, GitHub)</li>
+        <li>werken in een multidisciplinair Scrum DevOps Team</li>
+    </ul>
+    <br>
+    
+    <p>
+        Het is een pré als je ervaring hebt in: 
+    </p>
+    <ul>
+        <li>IRMA</li>
+        <li>ISO certificeringen en de implementatie hiervan </li>
+        <li>Verifiable credentials of een soortgelijk standaard </li>
+        <li>security-gevoelige systemen of cryptografie</li>
+        <li>REST endpoint design</li>
+        <li>Mobile development, met name Dart/Flutter</li>
+        <li>Frontend development, met name JavaScript/React </li>
+        <li>Docker, Hashicorp stack (Nomad/Consul/Terraform)</li>
+        <li>Open-source development  </li>
+    </ul>
+    <br>
+
+  <h2>Stage lopen</h2>
+  <p>Wil je bij ons stage komen lopen? Neem dan vooral contact met ons op. :)</p>
+"
+
 
 footer:
   id: links

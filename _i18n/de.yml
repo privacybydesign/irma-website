@@ -112,9 +112,29 @@ faq:
       <a href="https://irma.app/docs" target="_blank">IRMAs Dokumentationsseite</a> und das 
       <a href="https://github.com/privacybydesign" target="_blank">GitHub Repository</a> besuchen.
   item17:
+    question: Ich möchte IRMA und alle meinen persönlichen Daten löschen.
+    answer: Du kannst alle deine Daten über die <a href="https://privacybydesign.foundation/myirma/">MijnIRMA</a> Webseite löschen. Lösche danach auch die IRMA-App auf deinem Handy. Wenn dein IRMA Account ein Jahr inaktiv ist, löschen wir deine Daten aus unserer Infrastruktur automatisch.
+  item18:
+    question: Ich möchte mich bei der Organisation, bei der ich IRMA benutze, abmelden.
+    answer: Kontaktiere hierfür direkt die Organisation, bei der du dich abmelden möchtest.
+  item19:
+    question: Ich möchte mich bei einer Organisation, die IRMA benutzt, einloggen oder dort meine Daten einsehen. Wie mache ich das?
+    answer: Folge den Anweisungen auf der Webseite der Organisation. Bei Fragen kannst du die Organisation direkt kontaktieren.
+  item20:
+    question: Wie scanne ich den IRMA QR-code?
+    answer: Öffne die IRMA-App mit deiner IRMA-Pin und drücke den &lsquo;Scan QR&rsquo;-Knopf rechts unten in der App. Richte die Handykamera auf den IRMA QR-code. Möglicherweise musst du davor den Zugriff von der App auf die Kamera aktivieren.
+  item21:
+    question: Wo finde ich den IRMA QR-code auf der Webseite einer Organisation?
+    answer: Meistens steckt der IRMA QR-code hinter der &lsquo;Einloggen&rsquo; oder &lsquo;Daten teilen&rsquo;-Funktion. Manchmal unterstützt die Organisation IRMA (noch) nicht. Bei Fragen kannst du die Organisation direkt kontaktieren.
+  item22:
+    question: Was bedeutet das &lsquo;Assurance level&rsquo; auf der &lsquo;Personal data&rsquo;-Karte?
+    answer: Das &lsquo;Assurance level&rsquo; ist das Vertrauensniveau, das du beim Einloggen mit DigiD benutzt hast, um deine Daten in IRMA zu laden. Hast du &lsquo;Midden&rsquo; und brauchst du den Wert &lsquo;Substantieel&rsquo; als Vertrauensniveau? Füge dann ein Personaldokument an deine DigiD-App hinzu. Danach kannst du eine neue Karte mit dem Vertrauensniveau &lsquo;Substantieel&rsquo; in IRMA laden. Mehr Informationen findest du auf <a href="https://www.digid.nl/inlogmethodes/digid-app/#voeg-id-check-toe">www.digid.nl</a>.
+  item23:
+    question: Wie kann ich Daten auf einer Karte, wie zum Beispiel meiner &lsquo;Adresse&rsquo;-Karte, ändern?
+    answer: Die Organisation, die die Karte ausgibt, bestimmt, was auf der Karte steht. Wenn sich deine Daten geändert haben, musst du eine neue Karte mit den richtigen Daten hinzufügen.
+  item24:
     question: Kann ich IRMA ohne Google Play Store installieren?
     answer: Ja, du kannst IRMA hier heruntergeladen<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a> oder via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Wenn du IRMA auf diese letzte Weise installierst, empfängst du keine automatischen Updates für die App.
-
 
 footer:
   id: links
