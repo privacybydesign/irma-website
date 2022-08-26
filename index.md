@@ -149,6 +149,8 @@ page_sections:
     answer: faq.item24.answer
   - question: faq.item25.question
     answer: faq.item25.answer
+  - question: faq.item26.question
+    answer: faq.item26.answer
 - template: vacancies
   block: irma-vacancies
   id: vacancies.id
