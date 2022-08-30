@@ -161,7 +161,7 @@ faq:
       Bijvoorbeeld, na je 18e verjaardag kun je opnieuw je gegevens bij je gemeente
       ophalen en heb je als nieuw kenmerk dat je ouder dan 18 bent.
   item8:
-    question: Een link naar de IRMA app op een webpagina wordt niet geopend, bij het ophalen of vrijgeven van een kaartje.  Wat nu?
+    question: Een link naar de IRMA-app op een webpagina wordt niet geopend, bij het ophalen of vrijgeven van een kaartje.  Wat nu?
     answer: Dit kan gebeuren met de Firefox browser op Android telefoons. Firefox opent standaard geen links naar andere apps, zoals IRMA. Dit kun je oplossen door de instellingen van Firefox aan te passen. Onder "Instellingen" kijk onder "Geavanceerd" en sta "Openen van koppelingen in apps" toe.
   item9:
     question: Ik heb een nieuwe mobiele telefoon en nu?
@@ -265,6 +265,9 @@ faq:
   item25:
     question: Kan ik de IRMA app op Android installeren zonder de Google Play Store?
     answer: Ja, de app is hier te downloaden<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a>, of via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Als je hem op de laatste manier installeert wordt hij echter niet automatisch geüpdate. 
+  item26:
+    question: Wat is mijn IRMA app-ID?
+    answer: De IRMA app-ID is een identifier voor je app installatie. Je kunt deze app-ID vinden als je inlogt op <a href="https://my.irma.app/nl" target="_blank">MijnIRMA</a>. Na het inloggen staat bovenaan de pagina je app-ID. Als je meerdere IRMA-apps hebt geïnstalleerd, dan heeft iedere installatie een eigen app-ID. 
 
 vacancies:
   id: vacancies
