@@ -135,6 +135,18 @@ faq:
   item24:
     question: Kann ich IRMA ohne Google Play Store installieren?
     answer: Ja, du kannst IRMA hier heruntergeladen<span>:</span> <a href="https://f-droid.org/en/packages/org.irmacard.cardemu/">F-droid</a> oder via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Wenn du IRMA auf diese letzte Weise installierst, empfängst du keine automatischen Updates für die App.
+  item25:
+    question: Bekommt IRMA einen neuen Namen?
+    answer: IRMA wird ab dem 4. April 2023 zu Yivi. IRMA wird einen neuen Namen und ein neues Design erhalten. Wir werden auch die Benutzerfreundlichkeit der App verbessern und unsere Sicherheit weiter stärken. Yivi steht für "Dein digitales Leben". Besuchen Sie die <a href="https://yivi.app/en/" target="_blank">Yivi-website</a>.
+  item26:
+    question: Warum bekommt IRMA einen neuen Namen?
+    answer: IRMA wird unter der neuen Marke Yivi weitergeführt, damit wir uns die Markenrechte sichern können.
+  item27:
+    question: "-"
+    answer: "-"
+  item28:
+    question: "-"
+    answer: "-"
 
 footer:
   id: links

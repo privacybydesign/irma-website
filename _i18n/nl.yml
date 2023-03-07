@@ -268,6 +268,12 @@ faq:
   item26:
     question: Wat is mijn IRMA app-ID?
     answer: De IRMA app-ID is een identifier voor je app installatie. Je kunt deze app-ID vinden als je inlogt op <a href="https://my.irma.app/nl" target="_blank">MijnIRMA</a>. Na het inloggen staat bovenaan de pagina je app-ID. Als je meerdere IRMA-apps hebt geïnstalleerd, dan heeft iedere installatie een eigen app-ID. 
+  item27:
+    question: Krijgt IRMA een nieuwe naam?
+    answer: IRMA wordt vanaf 4 april 2023 Yivi. IRMA krijgt een nieuwe naam en vormgeving. Ook verbeteren we de gebruiksvriendelijkheid van de app en verstevigen we verder onze security. Yivi staat voor ‘Jouw digitale leven’. Ga naar de <a href="https://yivi.app" target="_blank">Yivi-website</a>.
+  item28:
+    question: Waarom krijgt IRMA een nieuwe naam?
+    answer: IRMA gaat verder onder het nieuwe merk Yivi, zodat we de merkrechten kunnen borgen.
 
 vacancies:
   id: vacancies

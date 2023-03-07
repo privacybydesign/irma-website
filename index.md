@@ -11,6 +11,7 @@ page_sections:
 - template: navigation-header
   block: irma-header
   logo: "/uploads/non-free/irma_logo@1x.png"
+  logo_2: "/uploads/non-free/yivi_logo.png"
   menu: "/uploads/non-free/navigation-menu.png"
   url: "/"
   navigation:
@@ -151,6 +152,10 @@ page_sections:
     answer: faq.item25.answer
   - question: faq.item26.question
     answer: faq.item26.answer
+  - question: faq.item27.question
+    answer: faq.item27.answer
+  - question: faq.item28.question
+    answer: faq.item28.answer
 - template: vacancies
   block: irma-vacancies
   id: vacancies.id
