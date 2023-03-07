@@ -13,14 +13,14 @@ nav:
   links_text: Liens
 
 banner:
-  headline: Choisissez IRMA.<br><strong>Un passeport numérique dans votre téléphone mobile.<strong>
+  headline: IRMA devient Yivi <br><strong>Votre identité numérique<strong> <br>A partir du 4-4-2023
   ios: IRMA pour iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA pour Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   fdroid: IRMA via F-droid
   fdroid_url: https://f-droid.org/fr/packages/org.irmacard.cardemu/
-  product_shot_src: "/uploads/non-free/screenshot-en.png"
+  product_shot_src: "/uploads/non-free/screenshot.png"
   product_shot_alt: Product Shot
 
 usage:

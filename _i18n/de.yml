@@ -13,14 +13,14 @@ nav:
   links_text: Links
 
 banner:
-  headline: Wähle IRMA. <br><strong>Lade einen digitalen Personalausweis auf Dein eigenes Smartphone.</strong>
+  headline: IRMA wird Yivi <br><strong>Ihr digitaler Identitätsnachweis</strong> <br> Ab 4-4-2023
   ios: IRMA für iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA für Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   fdroid: IRMA via F-droid
   fdroid_url: https://f-droid.org/de/packages/org.irmacard.cardemu/
-  product_shot_src: "/uploads/non-free/screenshot-en.png"
+  product_shot_src: "/uploads/non-free/screenshot.png"
   product_shot_alt: Screenshot
 
 usage:

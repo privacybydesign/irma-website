@@ -15,14 +15,14 @@ nav:
   links_text: Links
 
 banner:
-  headline: Choose IRMA <br><strong>Put a digital passport on your own mobile</strong>
+  headline: IRMA becomes Yivi <br><strong>The Identity Wallet</strong> <br>From 4 April 2023
   ios: IRMA for iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA for Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   fdroid: IRMA via F-droid
   fdroid_url: https://f-droid.org/en/packages/org.irmacard.cardemu/
-  product_shot_src: "/uploads/non-free/screenshot-en.png"
+  product_shot_src: "/uploads/non-free/screenshot.png"
   product_shot_alt: Product Shot
 
 usage:

@@ -25,14 +25,14 @@ nav:
 
 
 banner:
-  headline: Kies IRMA <br><strong>Zet een digitaal paspoort op je eigen mobiel</strong>
+  headline: IRMA wordt Yivi <br><strong>The Identity Wallet</strong> <br>Vanaf 4-4-2023
   ios: IRMA voor iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA voor Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   fdroid: IRMA via F-droid
   fdroid_url: https://f-droid.org/en/packages/org.irmacard.cardemu/
-  product_shot_src: "/uploads/non-free/screenshot-nl.png"
+  product_shot_src: "/uploads/non-free/screenshot.png"
   product_shot_alt: Product Shot
 
 
