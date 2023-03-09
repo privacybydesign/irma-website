@@ -15,14 +15,14 @@ nav:
   links_text: Links
 
 banner:
-  headline: Choose IRMA <br><strong>Put a digital passport on your own mobile</strong>
+  headline: IRMA becomes Yivi <br><strong>The Identity Wallet</strong> <br>From 4 April 2023
   ios: IRMA for iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA for Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   fdroid: IRMA via F-droid
   fdroid_url: https://f-droid.org/en/packages/org.irmacard.cardemu/
-  product_shot_src: "/uploads/non-free/screenshot-en.png"
+  product_shot_src: "/uploads/non-free/screenshot.png"
   product_shot_alt: Product Shot
 
 usage:
@@ -138,6 +138,12 @@ faq:
   item26:
     question: What is my IRMA app ID?
     answer: The IRMA app ID is an identifier for your app installation. You can find your app ID by logging in on <a href="https://my.irma.app" target="_blank">MyIRMA</a>. After logging in you can find the IRMA app ID on the top of the page. If you have several IRMA apps, each installation has its own app ID.
+  item27:
+    question: Will IRMA get a new name?
+    answer: IRMA will become Yivi from 4 April 2023. IRMA will get a new name and design. We will also improve the user-friendliness of the app and further strengthen our security. Yivi stands for 'Your digital life'. Visit the <a href="https://yivi.app/en/" target="_blank">Yivi website</a>.
+  item28:
+    question: Why is IRMA getting a new name?
+    answer: IRMA will continue under the new Yivi brand so that we can secure trademark rights.
 
 vacancies:
   id: vacancies

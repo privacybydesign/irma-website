@@ -13,14 +13,14 @@ nav:
   links_text: Liens
 
 banner:
-  headline: Choisissez IRMA.<br><strong>Un passeport numérique dans votre téléphone mobile.<strong>
+  headline: IRMA devient Yivi <br><strong>Votre identité numérique</strong> <br>A partir du 4-4-2023
   ios: IRMA pour iOS
   ios_url: https://apps.apple.com/nl/app/irma-authenticatie/id1294092994
   android: IRMA pour Android
   android_url: https://play.google.com/store/apps/details?id=org.irmacard.cardemu
   fdroid: IRMA via F-droid
   fdroid_url: https://f-droid.org/fr/packages/org.irmacard.cardemu/
-  product_shot_src: "/uploads/non-free/screenshot-en.png"
+  product_shot_src: "/uploads/non-free/screenshot.png"
   product_shot_alt: Product Shot
 
 usage:
@@ -131,7 +131,15 @@ faq:
   item25:
     question: Puis-je installer IRMA sans le Google Play Store?
     answer: Oui, vous pouvez télécharger l'application IRMA ici<span>:</span> <a href="https://f-droid.org/fr/packages/org.irmacard.cardemu/">F-droid</a> oú directement via <a href="https://irma.app/irma.apk" target="_blank">https://irma.app/irma.apk</a>. Si vous installez IRMA de cette dernière manière, l'application ne recevra pas automatiquement les mises à jour.
-
+  item26:
+    question: IRMA aura-t-elle un nouveau nom?
+    answer: IRMA deviendra Yivi à partir du 4 avril 2023. IRMA aura un nouveau nom et un nouveau design. Nous allons également améliorer la convivialité de l'application et renforcer notre sécurité. Yivi signifie "Votre vie numérique". Visitez le <a href="https://yivi.app/en/" target="_blank">site web de Yivi</a>.
+  item27:
+    question: Pourquoi IRMA change-t-il de nom?
+    answer: IRMA continuera sous la nouvelle marque Yivi afin que nous puissions garantir les droits de marque.
+  item28:
+    question: "-"
+    answer: "-"
 
 footer:
   id: links
